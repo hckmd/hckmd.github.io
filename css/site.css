@@ -35,6 +35,10 @@ body {
     font-weight: 300;
     margin: 25px 0 20px;
 }
+#main {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 50px;
+}
 @media (min-width: 48em) {
     .header, .content {
         padding-left: 2em;
