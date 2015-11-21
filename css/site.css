@@ -9,7 +9,6 @@ body {
 .content {
     line-height: 1.6em;
     margin: 0 auto 50px;
-    max-width: 1000px;
     padding: 0 2em;
 }
 .header {
@@ -48,10 +47,16 @@ body {
         left: 0;
         padding-left: 150px;
     }
+    .content {
+        max-width: 60%;
+    }
 }
 @media (max-width: 48em) {
     #layout.active {
         left: 150px;
         position: relative;
+    }
+    .content {
+        max-width: 95%;
     }
 }
