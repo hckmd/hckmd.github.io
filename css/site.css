@@ -1,6 +1,7 @@
 
 body {
     color: #777;
+    font-size: 1.4em;
 }
 #layout {
     padding-left: 0;
@@ -8,8 +9,7 @@ body {
 }
 .content {
     line-height: 1.6em;
-    margin: 0 auto 50px;
-    padding: 0 2em;
+    margin: 0 auto 0px;
 }
 .header {
     border-bottom: 1px solid #eee;
@@ -42,21 +42,17 @@ body {
     .header, .content {
         padding-left: 2em;
         padding-right: 2em;
-    }
-    #layout {
-        left: 0;
-        padding-left: 150px;
+
     }
     .content {
         max-width: 60%;
     }
 }
 @media (max-width: 48em) {
-    #layout.active {
-        left: 150px;
-        position: relative;
-    }
-    .content {
+    .content, .header {
+        padding-left: 0.1em;
+        padding-right: 0.1em;
         max-width: 95%;
+        
     }
 }
