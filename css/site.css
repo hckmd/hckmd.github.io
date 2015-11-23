@@ -1,7 +1,7 @@
 
 body {
     color: #777;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 #layout {
     padding-left: 0;
@@ -42,7 +42,6 @@ body {
     .header, .content {
         padding-left: 2em;
         padding-right: 2em;
-
     }
     .content {
         max-width: 60%;
