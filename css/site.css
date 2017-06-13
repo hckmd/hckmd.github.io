@@ -1,6 +1,6 @@
 
 body {
-    color: #777;
+    color: #333;
     font-size: 1.2em;
 }
 #layout {
@@ -13,7 +13,7 @@ body {
 }
 .header {
     border-bottom: 1px solid #eee;
-    color: #333;
+    color: #222;
     margin: 0;
     padding: 2.5em 2em 0;
     text-align: center;
@@ -24,7 +24,7 @@ body {
     margin: 0.2em 0;
 }
 .header h2 {
-    color: #ccc;
+    color: #222;
     font-weight: 300;
     margin-top: 0;
     padding: 0;
@@ -36,11 +36,11 @@ body {
 }
 
 .header-links a {
-    color: #888;
+    color: #222;
 
 }
 .content-subhead {
-    color: #888;
+    color: #222;
     font-weight: 300;
     margin: 25px 0 20px;
 }
