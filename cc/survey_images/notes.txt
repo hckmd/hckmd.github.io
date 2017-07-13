@@ -1,2 +1,5 @@
-CAS Project Quantum -> scq_what_shape, scq_which_variable, scq_describe_movement
+CAS Project Quantum -> scq_what_shape, scq_which_variable, scq_describe_movement, sst_code_in_smaller_units, 
 Code Club -> scq_which_number, scq_move_parrot
+Bebras 2015 Australian solutions guide -> ctq_abacus_example, ctq_abacus_question, ctq_drawbot_instructions, ctq_drawbot_sequence, ctq_drawbot_question, charging mobile question, ctq_logart_example, ctq_logart_question, ctq_logart_answers, ctq_beaver_run_example, ctq_beaver_run_question
+
+
