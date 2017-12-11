@@ -44,6 +44,25 @@ body {
     font-weight: 300;
     margin: 25px 0 20px;
 }
+.portrait-img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 10%;
+    border: 1px solid #eee;
+}
+.content-img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 2%;
+    border: 1px solid #eee;
+}
+
+.highlight {
+    border-bottom: 1px solid #eee;
+}
+
 #main {
     border-bottom: 1px solid #eee;
     margin-bottom: 50px;
