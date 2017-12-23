@@ -30,6 +30,14 @@ body {
     padding: 0;
 }
 
+.header h3 {
+    color: #222;
+    font-weight: 300;
+    margin-top: 0;
+    padding: 0;
+}
+
+
 .header-links  {
     color: #ccc;
     margin-bottom: 0.5em;
