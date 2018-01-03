@@ -18,25 +18,30 @@ body {
     padding: 2.5em 2em 0;
     text-align: center;
 }
-.header h1 {
+h1 {
     font-size: 3em;
     font-weight: 300;
     margin: 0.2em 0;
 }
-.header h2 {
+h2 {
     color: #222;
     font-weight: 300;
     margin-top: 0;
     padding: 0;
 }
 
-.header h3 {
+h3 {
     color: #222;
     font-weight: 300;
     margin-top: 0;
     padding: 0;
 }
 
+.content-subhead {
+    color: #222;
+    font-weight: 300;
+    margin: 25px 0 20px;
+}
 
 .header-links  {
     color: #ccc;
@@ -44,14 +49,17 @@ body {
 }
 
 .header-links a {
-    color: #222;
+    color: #19668a;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 4px;
 
 }
-.content-subhead {
-    color: #222;
-    font-weight: 300;
-    margin: 25px 0 20px;
+
+.header-links a:hover {
+    text-decoration: underline;
 }
+
 .portrait-img {
     max-width: 75%;
     height: auto;
@@ -64,6 +72,13 @@ body {
     height: auto;
     display: block;
     margin: 2%;
+    border: 1px solid #eee;
+}
+.tutoring-img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 10%;
     border: 1px solid #eee;
 }
 
