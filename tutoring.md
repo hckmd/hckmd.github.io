@@ -14,7 +14,7 @@ title: Daniel Hickmott
   - Interested in learning to code?
   - Need some help learning programming concepts in courses like [SENG1110](https://www.newcastle.edu.au/course/SENG1110) or [COMP1010](https://www.newcastle.edu.au/course/COMP1010)?
 
-  [I can help!](https://goo.gl/forms/uNP7xOhK2VA8fygF2)
+  [I can help!](https://goo.gl/forms/ypOpe9vz606dhEgL2)
 
   </div>
 </div>
@@ -26,7 +26,7 @@ I work at the University of Newcastle's Callaghan campus (Monday to Friday, 9am 
 
 Let me know what particular subjects/concepts you would like help with by completing the form linked below and I will be in contact to organise tutoring sessions and discuss rates as soon as possible.
 
-[Complete the Expression of Interest Form](https://goo.gl/forms/uNP7xOhK2VA8fygF2){: .pure-button .pure-button-primary }
+[Complete the Expression of Interest Form](https://goo.gl/forms/ypOpe9vz606dhEgL2){: .pure-button .pure-button-primary }
 
 ## Tutoring Experience
 {: .content-subhead }
