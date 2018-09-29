@@ -26,15 +26,15 @@ title: Daniel Hickmott
 ## Projects
 {: .content-subhead }
 
-There are 2 main projects that I have been involved in at the University of Newcastle: *Computer Science 4 Schools* and *Literacy Apps*.
+There are 2 main projects that I have been involved in at the University of Newcastle: *Coding & STEM 4 Schools* and *Literacy Apps*.
 
-### Computer Science 4 Schools
+### Coding & STEM 4 Schools
 {: .content-subhead }
 
 <img class="content-img" src="images/cs4s_scratch.png" alt="Scratch Example" />
 
 Since 2013, I have worked with academics from the School of Education and the School of Electrical Engineering and Computer 
-Science to organise and run Computer Science Professional Development workshops for teachers, titled *Computer Science 4 Schools*.
+Science to organise and run Coding Professional Development workshops for teachers, titled *Coding & STEM 4 Schools*.
 The purpose of these workshops, which are developed in partnership with Google, is to help prepare teachers for the recently endorsed Digital Technologies Curriculum, and to give them the knowledge and tools to help them inspire the next generation of *Computational Thinkers*. 
 During these workshops I have prepared and presented tutorials, organised scheduling and catering, and worked with my supervisor to design surveys to collect workshop feedback.
 
