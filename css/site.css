@@ -1,109 +1,70 @@
-
-body {
-    color: #333;
-    font-size: 1.2em;
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
-#layout {
-    padding-left: 0;
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+#profile {
+    text-align: center;
+    padding: 30px 10px;
     position: relative;
 }
-.content {
-    line-height: 1.6em;
-    margin: 0 auto 0px;
+
+#profile .portrait {
+    background-image: url('http://hckmd.com/me.jpeg');
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-size: cover;
 }
-.header {
-    border-bottom: 1px solid #eee;
-    color: #222;
-    margin: 0;
-    padding: 2.5em 2em 0;
-    text-align: center;
-}
-h1 {
-    font-size: 3em;
-    font-weight: 300;
-    margin: 0.2em 0;
-}
-h2 {
-    color: #222;
-    font-weight: 300;
-    margin-top: 0;
+
+#profile ul.network-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
     padding: 0;
+    margin-top: 30px;
 }
 
-h3 {
-    color: #222;
+#profile .portrait-title h2 {
+
+    font-size: 1.75em;
     font-weight: 300;
-    margin-top: 0;
-    padding: 0;
+    color: #000000;
+    margin: 20px 0 10px 0;
 }
 
-.content-subhead {
-    color: #222;
+#profile .portrait-title h3 {
+    font-size: 1rem;
     font-weight: 300;
-    margin: 25px 0 20px;
+    color: rgba(0,0,0, 0.54);
+    margin: 0px 0 10px 0;
 }
 
-.header-links  {
-    color: #ccc;
-    margin-bottom: 0.5em;
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
 }
 
-.header-links a {
-    color: #19668a;
-    text-decoration: none;
-    font-size: 1.1em;
-    padding: 4px;
-
+.showcase h2 {
+    margin-top: 5px;
 }
 
-.header-links a:hover {
-    text-decoration: underline;
+.big-icon {
+    font-size: 2rem;
+    margin: 0 0.1em;
+    color: black;
 }
 
-.portrait-img {
-    max-width: 75%;
-    height: auto;
-    display: block;
-    margin: 10%;
-    border: 1px solid #eee;
-}
-.content-img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin: 2%;
-    border: 1px solid #eee;
-}
-.tutoring-img {
-    max-width: 70%;
-    height: auto;
-    display: block;
-    margin: 10%;
-    border: 1px solid #eee;
-}
-
-.highlight {
-    border-bottom: 1px solid #eee;
-}
-
-#main {
-    border-bottom: 1px solid #eee;
-    margin-bottom: 50px;
-}
-@media (min-width: 48em) {
-    .header, .content {
-        padding-left: 2em;
-        padding-right: 2em;
-    }
-    .content {
-        max-width: 60%;
-    }
-}
-@media (max-width: 48em) {
-    .content, .header {
-        padding-left: 0.1em;
-        padding-right: 0.1em;
-        max-width: 95%;
-        
-    }
+.researcher-name {
+    text-transform: none;
 }
