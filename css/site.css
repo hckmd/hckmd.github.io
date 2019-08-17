@@ -68,3 +68,35 @@ footer p {
 .researcher-name {
     text-transform: none;
 }
+
+ul, ol, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul.ul-edu {
+    list-style: none;
+}
+
+ul.ul-edu li .description p.course {
+    font-size: 0.95rem;
+}
+
+ul.ul-edu li .description p.dates {
+    font-size: 0.8rem;
+    color: rgba(0,0,0,0.8);
+}
+
+ul.ul-edu li .description p.institution {
+    font-size: 0.75rem;
+    color: rgba(0,0,0,0.6);
+}
+
+ul.ul-edu li .description p {
+    margin: 0;
+}
+
+.project-img {
+    padding: 10px;
+    border-radius: 5%;
+}
