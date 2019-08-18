@@ -131,7 +131,7 @@ title: Daniel Hickmott
             <h2>Resources and Media</h2>
             <p>
                 I have included some different resources and media (videos and presentations) on this website.
-                I have highlighted my favourite resources and media below but you can see more on the <a href="{{ site.baseurl | append: '/media' }}" class="text-info">Media page</a> and <a href="{{ site.baseurl | append: '/resources' }}" class="text-info">Resources page</a>.
+                I have highlighted my favourite resources and media below but you can see more on the <a href="{{ site.baseurl | append: '/media' }}" class="text-info">Media page</a> and the <a href="{{ site.baseurl | append: '/resources' }}" class="text-info">Resources page</a>.
             </p>
             <div class="row">
             {% for resource in site.data.highlights %}
@@ -143,7 +143,7 @@ title: Daniel Hickmott
                             <h4>{{ resource.title }}</h4>
                             <p><b>{{ resource.type }}</b></p>
                             <p class="card-text">{{ resource.description }}</p>
-                            <a href="{{ resource.linkLocation }}" target="_blank"
+                            <a href="{{ resource.linkLocation }}" {% if resource.newTab == 'true' %} target="_blank" {% endif %}
                                 class="btn btn-sm btn-info float-right">
                                 {{ resource.linkLabel }}
                                 <i class="fa {{ resource.linkIcon }} media-icon"></i>
