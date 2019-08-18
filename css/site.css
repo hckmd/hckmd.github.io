@@ -97,8 +97,11 @@ ul.ul-edu li .description p {
 }
 
 .project-img {
-    padding: 10px;
-    border-radius: 5%;
+    margin: 10px;
+}
+
+.project-list-img {
+    border-radius: calc(0.25rem - 1px);
 }
 
 #main {
@@ -110,6 +113,14 @@ ul.ul-edu li .description p {
     color: rgba(0,0,0,0.8);
 }
 
-.media-icon {
+.media-icon, .project-icon {
     margin: 5px;
+}
+
+.project-summary {
+    padding: 2rem;
+}
+
+.project-description h2 {
+    margin-bottom: 20px;
 }

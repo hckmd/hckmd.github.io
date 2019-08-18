@@ -18,7 +18,7 @@ title: Daniel Hickmott
                         <div class ="col-md-8">
                             <div class="card-body">
                                 <h4>{{ project.title }}</h4>
-                                <p class="venue-text">{{project.period }}</strong>
+                                <strong>{{project.period }}</strong>
                                 <p class="card-text">{{ project.description }}</p>
                                 <button type="button" class="btn btn-sm btn-info float-right">More information</button>
                             </div>
