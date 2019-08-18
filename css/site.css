@@ -113,7 +113,7 @@ ul.ul-edu li .description p {
     color: rgba(0,0,0,0.8);
 }
 
-.media-icon, .project-icon {
+.media-icon, .project-icon, .publication-icon {
     margin: 5px;
 }
 
@@ -124,3 +124,31 @@ ul.ul-edu li .description p {
 .project-description h2 {
     margin-bottom: 20px;
 }
+
+.pub-abstract {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.publication-details p {
+    margin-bottom: 2px;
+}
+
+.publication-authors {
+    font-size: 1.15rem;
+}
+
+.publication-dates {
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.publication-buttons {
+    margin: 2rem 0rem;
+}
+
+[data-toggle="collapse"].collapsed .if-not-collapsed {
+    display: none;
+  }
+  [data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+    display: none;
+  }
