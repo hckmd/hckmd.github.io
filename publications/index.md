@@ -31,7 +31,7 @@ title: Daniel Hickmott
                                 <p class="publication-journal">In {{ pub.journal }}, Volume {{ pub.volume }}, Issue {{ pub.issue }}</p>
                                 <p class="publication-dates">Published {{ pub.publicationDate }}</p>
                             </div>
-                            <div class="publication-buttons">
+                            <div class="list-item-buttons">
                                 <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2"
                                     target="_blank">
                                     View at {{ pub.locationLabel }}
@@ -70,20 +70,22 @@ title: Daniel Hickmott
                                 <p class="publication-conference">Presented at the {{ pub.conference }} conference</p>
                                 <p class="publication-dates">In {{ pub.location }} during {{ pub.conferenceDate }}</p>
                             </div>
-                            <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2"
-                                target="_blank">
-                                View at {{ pub.locationLabel }}
-                                <i class="fa fa-external-link publication-icon"></i>
-                            </a>
-                            <button type="button" class="btn btn-sm btn-info float-right collapsed"
-                                data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}">
-                                <span class="if-collapsed">
-                                    Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
-                                </span>
-                                <span class="if-not-collapsed">
-                                    Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
-                                </span>
-                            </button>
+                            <div class="list-item-buttons">
+                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2"
+                                    target="_blank">
+                                    View at {{ pub.locationLabel }}
+                                    <i class="fa fa-external-link publication-icon"></i>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-info float-right collapsed"
+                                    data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}">
+                                    <span class="if-collapsed">
+                                        Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
+                                    </span>
+                                    <span class="if-not-collapsed">
+                                        Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
+                                    </span>
+                                </button>
+                            </div>
                             <div class="collapse my-2 py-2" id="collapse-abstract-{{ pub.id }}">
                                 <div class="row pub-abstract bg-light border border-secondary rounded ">
                                     <h5>Abstract</h5>
@@ -108,20 +110,22 @@ title: Daniel Hickmott
                                 <p class="publication-conference">Presented at the {{ pub.conference }} conference</p>
                                 <p class="publication-dates">In {{ pub.location }} during {{ pub.conferenceDate }}</p>
                             </div>
-                            <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2"
-                                target="_blank">
-                                View at {{ pub.locationLabel }}
-                                <i class="fa fa-external-link publication-icon"></i>
-                            </a>
-                            <button type="button" class="btn btn-sm btn-info float-right collapsed"
-                                data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}">
-                                <span class="if-collapsed">
-                                    Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
-                                </span>
-                                <span class="if-not-collapsed">
-                                    Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
-                                </span>
-                            </button>
+                            <div class="list-item-buttons">
+                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2"
+                                    target="_blank">
+                                    View at {{ pub.locationLabel }}
+                                    <i class="fa fa-external-link publication-icon"></i>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-info float-right collapsed"
+                                    data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}">
+                                    <span class="if-collapsed">
+                                        Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
+                                    </span>
+                                    <span class="if-not-collapsed">
+                                        Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
+                                    </span>
+                                </button>
+                            </div>
                             <div class="collapse my-2 py-2" id="collapse-abstract-{{ pub.id }}">
                                 <div class="row pub-abstract bg-light border border-secondary rounded ">
                                     <h5>Abstract</h5>

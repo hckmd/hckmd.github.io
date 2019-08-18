@@ -16,7 +16,7 @@ title: Daniel Hickmott
                 <div class="card md-2 box-shadow py-3 my-2 mx-2">
                     <div class="row">
                         <div class ="col-md-4">
-                            <img class="card-img-top project-img project-list-img border border-secondary" 
+                            <img class="card-img-top list-img border border-secondary" 
                                 src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
                         </div>
                         <div class ="col-md-8">
@@ -24,10 +24,12 @@ title: Daniel Hickmott
                                 <h4>{{ project.title }}</h4>
                                 <strong>{{project.period }}</strong>
                                 <p class="card-text">{{ project.description }}</p>
-                                <a href="{{ project.pageName }}" class="btn btn-sm btn-info float-right">
-                                Project Details
-                                <i class="fa fa-info-circle project-icon"></i>
-                                </a>
+                                <div class="list-item-buttons">
+                                    <a href="{{ project.pageName }}" class="btn btn-sm btn-info float-right">
+                                        Project Details
+                                        <i class="fa fa-info-circle project-icon"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>                  

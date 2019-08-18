@@ -78,18 +78,22 @@ title: Daniel Hickmott
             <h2>Projects</h2>
             <p>
                 There are three main projects that I have been involved in while working at the University of Newcastle. 
-                You can find out more about each of these by clicking the <i>More information </i> button.
+                You can find out more about each of these by clicking the <i>Project Details</i> button on each item below.
             </p>
             <div class="row">
             {% for project in site.data.projects %}
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="{{ project.filePath }}">
+                        <img class="card-img-top" src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
                         <div class="card-body">
                             <h4>{{ project.title }}</h4>
                             <strong>{{project.period }}</strong>
                             <p class="card-text">{{ project.description }}</p>
-                            <button type="button" class="btn btn-sm btn-info float-right">More information</button>
+                            <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" 
+                                class="btn btn-sm btn-info float-right">
+                                Project Details
+                                <i class="fa fa-info project-icon"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -100,19 +104,24 @@ title: Daniel Hickmott
     <div class="showcase">
         <div class="container">
             <h2>Selected Publications</h2>
-            <p>I have highlighted three of my favourite publications below that I have been an author on. You can see the rest of my publications from the <a href="pubs">Publications page</a>.</p>
+            <p>I have highlighted three of my favourite publications below that I have been an author on. You can see the rest of my publications from the <a href="pubs" class="text-info">Publications page</a>.</p>
             <div class="row">
             {% for publication in site.data.publications.selected %}
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="{{ publication.filePath }}">
-                        <div class="card-body">
-                            <h4>{{ publication.title }}</h4>
-                            <p class="card-text">{{ publication.venue }}</p>
-                            <button type="button" class="btn btn-sm btn-info float-right">More information</button>
-                        </div>
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" 
+                        src="{{ site.baseurl | append: '/publications/images/' | append: publication.imageFilePath }}">
+                    <div class="card-body">
+                        <h4>{{ publication.title }}</h4>
+                        <p class="card-text">{{ publication.venue }}</p>
+                        <a href="{{ site.baseurl | append: '/publications/' | append: publication.pageName }}" 
+                            class="btn btn-sm btn-info float-right">
+                            More details
+                            <i class="fa fa-chevron-circle-right publication-icon"></i>
+                        </a>
                     </div>
                 </div>
+            </div>
             {% endfor %}
             </div>
         </div>
@@ -122,19 +131,23 @@ title: Daniel Hickmott
             <h2>Resources and Media</h2>
             <p>
                 I have included some different resources and media (videos and presentations) on this website.
-                I have highlighted my favourite resources and media below but you can see more on the <a href>Media page</a> and <a href>Resources page</a>.
+                I have highlighted my favourite resources and media below but you can see more on the <a href="{{ site.baseurl | append: '/media' }}" class="text-info">Media page</a> and <a href="{{ site.baseurl | append: '/resources' }}" class="text-info">Resources page</a>.
             </p>
             <div class="row">
             {% for resource in site.data.highlights %}
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="http://pinegrow.com/placeholders/img14.jpg">
+                        <img class="card-img-top" 
+                            src="{{ site.baseurl | append: resource.imageFilePath }}">
                         <div class="card-body">
-                            <h4>Coding for Teachers</h4>
-                            <b>List of Resources</b>
-                            <br>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <button type="button" class="btn btn-sm btn-info float-right">More information</button>
+                            <h4>{{ resource.title }}</h4>
+                            <p><b>{{ resource.type }}</b></p>
+                            <p class="card-text">{{ resource.description }}</p>
+                            <a href="{{ resource.linkLocation }}" target="_blank"
+                                class="btn btn-sm btn-info float-right">
+                                {{ resource.linkLabel }}
+                                <i class="fa {{ resource.linkIcon }} media-icon"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
