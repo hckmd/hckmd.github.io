@@ -104,3 +104,12 @@ ul.ul-edu li .description p {
 #main {
     margin-top: 50px;
 }
+
+.context-text {
+    font-size: 1.05rem;
+    color: rgba(0,0,0,0.8);
+}
+
+.media-icon {
+    margin: 5px;
+}
