@@ -7,25 +7,29 @@ title: Daniel Hickmott
     <div class="project-description">
         <h2>{{ site.data.projects[2].title }}</h2>
         <div class="row">
-            <div class="col-xs-12 col-md-4">
+            <div class="col-md-4 offset-md-4">
                 <img class = "img-fluid project-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: site.data.projects[2].imageFilePath }}">
-            </div>
-            <div class="col-xs-12 col-md-8 project-summary">
-                <p class="context-text">{{ site.data.projects[2].period }}</p>
-                <p>{{ site.data.projects[2].description }}</p>
             </div>
         </div>
         <h3>About</h3>
         <p>
-            Since 2013, I have worked with academics from the School of Education and the School of Electrical Engineering and Computer Science,at the University of Newcastle, to organise and run Computer Science Professional De`velopment workshops for teachers, titled Coding & STEM 4 Schools.
-            The purpose of these program, which are developed in partnership with Google, is to help prepare teachers for the recently endorsed Digital Technologies Curriculum, and to give them the knowledge and tools to help them inspire the next generation of Computational Thinkers. 
-            During these workshops I have prepared and presented tutorials, organised scheduling and catering, and worked with my supervisor to design surveys to collect workshop feedback.
+            <i>LearnWebVR</i> is a project that I started working on in late 2018.
+            The goal of this project is to develop online educational courses and face-to-face workshops for anyone that wants to learn how to create with Virtual Reality (VR).
+            Currently, the focus of the project is on WebVR technologies, specifically  the <a href="https://aframe.io/" target="_blank" class="text-info">A-Frame</a> framework.
+            I am most interested in creating resources for teachers and students that can be used for subjects that include VR in their content, such as Computing courses in senior high school.
+            However, in the future, I would like to develop resources for learners that are interested in using VR technologies outside of schools (for example, graphic designers and marketing professionals).
         </p>
         <p>
-            Most of the activities that I have developed for these workshops are licenced under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence. For example, this activity introduces fundamental Coding concepts in Scratch.
-            You can access all of the resources I have created for the recent workshops from the UON CS4S website.
-        </p>
+            The project began with a startup pitch video competition ran by the <a href="https://www.newcastle.edu.au/research-and-innovation/centre/centre-for-21st-century-humanities/about-us" target="_blank" class="text-info">University of Newcastle&#39;s Centre for 21st Century Humanities</a>. 
+            <a href="https://www.youtube.com/watch?v=vrOSYXcfdL8&amp;feature=youtu.be" target="_blank" class="text-info">In this video</a>, which was the winning entry of the competition, I briefly describe the ideas behind the <i>LearnWebVR</i> project. 
+            I am planning to run some workshops to develop these ideas further in late 2019 and 2020. 
+            If you are interested in finding out more about these workshops, please complete the mailing list registration form on the <a href="https://www.learnwebvr.com/" target="_blank" class="text-info">LearnWebVR homepage</a> and I will be in contact.</p>
         <h3>Links</h3>
+        <ul>
+            <li>
+                <a href="https://www.learnwebvr.com/" target="_blank" class="text-info">LearnWebVR Homepage</a>
+            </li>
+        </ul>
         <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
             View My Other Projects
             <i class="fa fa-list project-icon"></i>
