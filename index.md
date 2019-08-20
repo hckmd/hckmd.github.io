@@ -32,11 +32,13 @@ title: Daniel Hickmott
         <div class="col-xs-12 col-md-8">
             <h3>About Me</h3> 
             <p>
-                I am a PhD Candidate at the School of Education at the University of Newcastle, Australia. 
-                My main research interest is Teacher Professional Development for Coding and Computational Thinking. 
-                My PhD project explores how K-6 teachers learn and teach Coding and Computational Thinking, and how these skills can be integrated across all of the K-12 subject areas. 
+                I am a PhD Candidate at the School of Education at the University of Newcastle, Australia.
+                I am mainly interested in finding out about how Computer Coding can be taught effectively to learners of all ages, whether they're in K-12 education, university or in the workforce.
+            </p>
+            <p>
+                The focus of my PhD research is the exploration of K-6 school teachers learning and teaching computer coding. 
+                The purpose of the research is to gain a better understanding of how teachers can be best supported to learn Coding and the challenges they encounter when integrating Coding into existing subjects.
                 My other research interests include: the design, development and evaluation of Serious Games, and the analysis of learners' pathways with Serious Game Analytics. 
-                I am currently collecting and analysing data for my PhD project, and am planning to complete the PhD by mid-2019.
             </p>
             <div class="row">
                 <div class="col-md-5">
