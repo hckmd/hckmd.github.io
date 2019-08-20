@@ -8,7 +8,8 @@ title: Daniel Hickmott
         <div class="container">
             <h1>Resources</h1>
             <p>
-                Collections of resources that I have...
+                On this page, I have included resources that I have found useful when running professional programs or in my PhD studies. 
+                These resources will be most useful to people with similar interests to me (for example, Computing Education and Teacher Professional Learning).
             </p>            
             {% for resource in site.data.resources %}
             <div class="row">

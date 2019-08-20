@@ -6,33 +6,21 @@ title: Daniel Hickmott
 <div class="container">
     <div class="showcase">
         <div class="container">
-            <h1>Resources</h1>
-            <p>
-                Collections of resources that I have...
-            </p>            
-            {% for project in site.data.projects %}
+            <h2>{{ site.data.resources[0].title }}</h2>
             <div class="row">
-                <div class="card md-2 box-shadow py-3 my-2 mx-2">
-                    <div class="row">
-                        <div class ="col-md-4">
-                            <img class="card-img-top project-img project-list-img border border-secondary" 
-                                src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
-                        </div>
-                        <div class ="col-md-8">
-                            <div class="card-body">
-                                <h4>{{ project.title }}</h4>
-                                <strong>{{project.period }}</strong>
-                                <p class="card-text">{{ project.description }}</p>
-                                <a href="{{ project.pageName }}" class="btn btn-sm btn-info float-right">
-                                Project Details
-                                <i class="fa fa-info-circle project-icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>                  
+                <div class="col-md-4 offset-md-4">
+                    <img class = "img-fluid project-img border border-secondary" src = "{{ site.baseurl | append: '/resources/images/' | append: site.data.resources[0].imageFilePath }}">
                 </div>
             </div>
-            {% endfor %}
+            <h3>About</h3>   
+            <p>{{ site.data.resources[0].description }}</p>
+            <h3>Resources</h3>
+            {% capture links_websites %}{% include_relative coding-resource-list/links_websites.md %}{% endcapture %}
+            {{ links_websites | markdownify }}
+            {% capture links_online_courses %}{% include_relative coding-resource-list/links_online_courses.md %}{% endcapture %}
+            {{ links_online_courses| markdownify }}
+            {% capture links_lessons %}{% include_relative coding-resource-list/links_lessons.md %}{% endcapture %}
+            {{ links_lessons | markdownify }}
         </div>
     </div>
 </div>

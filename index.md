@@ -7,7 +7,7 @@ title: Daniel Hickmott
     <div class="row">
         <div class="col-xs-12 col-md-4">
             <div id="profile">
-                <div class="portrait" style="background-image: url('me.jpeg');"></div>
+                <div class="portrait" style="background-image: url('me.jpg');"></div>
                 <div class="portrait-title">
                     <h2>Daniel Hickmott</h2>
                     <h3>PhD Candidate</h3>
