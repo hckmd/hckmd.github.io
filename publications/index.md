@@ -111,7 +111,7 @@ title: Daniel Hickmott
                                 <p class="publication-dates">In {{ pub.location }} during {{ pub.conferenceDate }}</p>
                             </div>
                             <div class="list-item-buttons">
-                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right my-2"
+                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right"
                                     target="_blank">
                                     View at {{ pub.locationLabel }}
                                     <i class="fa fa-external-link publication-icon"></i>
