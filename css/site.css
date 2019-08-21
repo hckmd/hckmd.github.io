@@ -97,9 +97,25 @@ ul.ul-edu li .description p {
     margin: 0;
 }
 
+.highlight-img {
+    margin: 1rem;
+}
+
+@media (max-width: 600px) {
+    .highlight-img {
+        margin: 0px;
+    }
+}
+
 .list-img {
-    margin: 10px;
+    margin: 20px;
     border-radius: calc(0.25rem - 1px);
+}
+
+@media (max-width: 600px) {
+    .list-img {
+        margin: 0px;
+    }
 }
 
 #main {
@@ -123,9 +139,8 @@ ul.ul-edu li .description p {
     margin-bottom: 20px;
 }
 
-.pub-abstract {
-    margin: 2rem;
-    padding: 1rem;
+.pub-abstract h5 {
+    margin-top: 4rem;
 }
 
 .publication-details p {
@@ -144,9 +159,19 @@ ul.ul-edu li .description p {
     margin: 2rem 0rem;
 }
 
+.list-item-buttons a {
+    margin-left: 0.5rem;
+}
+
 [data-toggle="collapse"].collapsed .if-not-collapsed {
     display: none;
   }
   [data-toggle="collapse"]:not(.collapsed) .if-collapsed {
     display: none;
   }
+
+@media (max-width: 600px) {
+    .list-item-buttons a {
+        margin-bottom: 1rem;
+    }
+}

@@ -32,7 +32,7 @@ title: Daniel Hickmott
                                 <p class="publication-dates">Published {{ pub.publicationDate }}</p>
                             </div>
                             <div class="list-item-buttons">
-                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2"
+                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right"
                                     target="_blank">
                                     View at {{ pub.locationLabel }}
                                     <i class="fa fa-external-link publication-icon"></i>
@@ -48,7 +48,7 @@ title: Daniel Hickmott
                                 </button>
                             </div>
                             <div class="collapse my-2 py-2" id="collapse-abstract-{{ pub.id }}">
-                                <div class="row pub-abstract bg-light border border-secondary rounded ">
+                                <div class="pub-abstract">
                                     <h5>Abstract</h5>
                                     <p>{{ pub.abstract }}</p>
                                 </div>
@@ -71,7 +71,7 @@ title: Daniel Hickmott
                                 <p class="publication-dates">In {{ pub.location }} during {{ pub.conferenceDate }}</p>
                             </div>
                             <div class="list-item-buttons">
-                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2"
+                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right"
                                     target="_blank">
                                     View at {{ pub.locationLabel }}
                                     <i class="fa fa-external-link publication-icon"></i>
@@ -87,7 +87,7 @@ title: Daniel Hickmott
                                 </button>
                             </div>
                             <div class="collapse my-2 py-2" id="collapse-abstract-{{ pub.id }}">
-                                <div class="row pub-abstract bg-light border border-secondary rounded ">
+                                <div class="pub-abstract">
                                     <h5>Abstract</h5>
                                     <p>{{ pub.abstract }}</p>
                                 </div>
@@ -111,7 +111,7 @@ title: Daniel Hickmott
                                 <p class="publication-dates">In {{ pub.location }} during {{ pub.conferenceDate }}</p>
                             </div>
                             <div class="list-item-buttons">
-                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2"
+                                <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right my-2"
                                     target="_blank">
                                     View at {{ pub.locationLabel }}
                                     <i class="fa fa-external-link publication-icon"></i>
@@ -127,7 +127,7 @@ title: Daniel Hickmott
                                 </button>
                             </div>
                             <div class="collapse my-2 py-2" id="collapse-abstract-{{ pub.id }}">
-                                <div class="row pub-abstract bg-light border border-secondary rounded ">
+                                <div class="pub-abstract">
                                     <h5>Abstract</h5>
                                     <p>{{ pub.abstract }}</p>
                                 </div>

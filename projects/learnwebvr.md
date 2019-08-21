@@ -8,7 +8,7 @@ title: Daniel Hickmott
         <h2>{{ site.data.projects[2].title }}</h2>
         <div class="row">
             <div class="col-md-4 offset-md-4">
-                <img class = "img-fluid project-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: site.data.projects[2].imageFilePath }}">
+                <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: site.data.projects[2].imageFilePath }}">
             </div>
         </div>
         <h3>About</h3>

@@ -56,7 +56,7 @@ title: Daniel Hickmott
                                         <i class="fa fa-youtube media-icon"></i>
                                     </a>
                                     <a href="{{ video.findOutMoreLink }}"
-                                        class="btn btn-sm btn-info float-right mx-2"
+                                        class="btn btn-sm btn-info float-right"
                                         target="_blank">
                                         {{ video.findOutMoreLabel }}
                                         <i class="fa fa-external-link media-icon"></i>

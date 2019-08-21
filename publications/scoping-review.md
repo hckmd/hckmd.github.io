@@ -8,7 +8,7 @@ title: Daniel Hickmott
         <h1>{{ site.data.publications.journal.first[1].title }}</h1>
         <div class="row">
             <div class="col-md-4 offset-md-4">
-                <img class = "img-fluid project-img border border-secondary my-3" 
+                <img class = "img-fluid highlight-img border border-secondary my-3" 
                     src = "{{ site.baseurl | append: '/publications/images/' | append: site.data.publications.journal.first[1].imageFilePath }}">
             </div>
         </div>

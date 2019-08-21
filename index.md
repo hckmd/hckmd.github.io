@@ -106,7 +106,7 @@ title: Daniel Hickmott
     <div class="showcase">
         <div class="container">
             <h2>Selected Publications</h2>
-            <p>I have highlighted three of my favourite publications below that I have been an author on. You can see the rest of my publications from the <a href="pubs" class="text-info">Publications page</a>.</p>
+            <p>I have highlighted three of my favourite publications below that I have been an author on. You can see the rest of my publications from the <a href="{{ site.baseurl | append: '/publications/' }}" class="text-info">Publications page</a>.</p>
             <div class="row">
             {% for publication in site.data.publications.selected %}
             <div class="col-md-4">
