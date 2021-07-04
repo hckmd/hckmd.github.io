@@ -183,3 +183,7 @@ a.site-page-link {
 .profile-heading {
     margin-bottom: 0.75rem;
 }
+
+.menu-item-link {
+    font-weight: 500;
+}
