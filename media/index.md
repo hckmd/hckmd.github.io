@@ -53,12 +53,6 @@ title: Daniel Hickmott
                                 Watch Video on YouTube
                                 <i class="fa fa-youtube media-icon"></i>
                             </a>
-                            <a href="{{ video.findOutMoreLink }}"
-                                class="btn btn-sm btn-info float-right"
-                                target="_blank">
-                                {{ video.findOutMoreLabel }}
-                                <i class="fa fa-external-link media-icon"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
