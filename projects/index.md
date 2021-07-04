@@ -19,7 +19,11 @@ title: Daniel Hickmott
                 </div>
                 <div class ="col-md-8">
                     <div class="card-body">
-                        <h4>{{ project.title }}</h4>
+                        <h4>
+                            <a href="{{ project.pageName }}" class="site-page-link">
+                                {{ project.title }}
+                            </a>
+                        </h4>
                         <strong>{{project.period }}</strong>
                         <p class="card-text">{{ project.description }}</p>
                         <div class="list-item-buttons">

@@ -175,3 +175,11 @@ ul.ul-edu li .description p {
         margin-bottom: 1rem;
     }
 }
+
+a.site-page-link {
+    color: #29537c;
+}
+
+.profile-heading {
+    margin-bottom: 0.75rem;
+}

@@ -9,8 +9,8 @@ title: Daniel Hickmott
             <div class="portrait" style="background-image: url('me.jpg');"></div>
             <div class="portrait-title">
                 <h2>Daniel Hickmott</h2>
-                <h3>PhD Candidate</h3>
-                <h3>University of Newcastle, Australia</h3>
+                <h3>Associate Lecturer</h3>
+                <h3>University of Sydney, Australia</h3>
             </div>
             <ul class="network-icon" aria-hidden="true">
                 <li>
@@ -29,35 +29,35 @@ title: Daniel Hickmott
         </div>
     </div>
     <div class="col-xs-12 col-md-8">
-        <h3>About Me</h3> 
+        <h3 class="profile-heading">About Me</h3> 
         <p>
-            I am a PhD Candidate at the School of Education at the University of Newcastle, Australia.
-            I am mainly interested in finding out about how Computer Coding can be taught effectively to learners of all ages, whether they're in K-12 education, university or in the workforce.
+            I am an Associate Lecturer (Teaching and Research) at the University of Sydney, Australia.
+            Since early 2020, I have been focused on designing and teaching units for teachers who are upskilling to teach computing, as part of the Digital Technologies curriculum.
+            However, I am interested in finding out about how computing can be taught effectively to learners of all ages, whether they're in K-12 education, university or in the workforce.
         </p>
         <p>
-            The focus of my PhD research is the exploration of K-6 school teachers learning and teaching computer coding. 
-            The purpose of the research is to gain a better understanding of how teachers can be best supported to learn Coding and the challenges they encounter when integrating Coding into existing subjects.
-            My other research interests include: the design, development and evaluation of Serious Games, and the analysis of learners' pathways with Serious Game Analytics. 
+            I completed my PhD in Education at the University of Newcastle, Australia in 2020.
+            The focus of my PhD research was on the design and evaluation of professional learning for K-6 school teachers learning and teaching computer coding. 
+            The purpose of the research was to gain a better understanding of how teachers can be best supported to learn coding and the challenges they encounter when integrating Coding into existing subjects (such as Mathematics and English).
         </p>
         <div class="row">
             <div class="col-md-5">
-                <h3>Research Interests</h3> 
+                <h3 class="profile-heading">Research Interests</h3> 
                 <ul class="ul-interests">
                     <li>Computing Education</li>
-                    <li>Teacher Professional Learning</li>          
-                    <li>Software Engineering</li>   
-                    <li>Serious Games</li>
-                    <li>Learning Analytics</li>                            
+                    <li>Teacher Professional Learning</li>
+                    <li>Online Learning</li>     
+                    <li>Serious Games</li>             
                 </ul>
             </div>
             <div class="col-md-7">
-                <h3>Education</h3> 
+                <h3 class="profile-heading">Education</h3> 
                 <ul class="ul-edu fa-ul">
                     <li>
                         <i class="fa-li fa fa-graduation-cap"></i>
                         <div class="description">
                             <p class="course">Doctor of Philosophy (Education)</p>
-                            <p class="dates">Due to submit in October 2019</p>
+                            <p class="dates">2016 - 2020</p>
                             <p class="institution">University of Newcastle, Australia</p>
                         </div>
                     </li>
@@ -74,19 +74,28 @@ title: Daniel Hickmott
         </div>
     </div>
 </div>
+<div class="row">
+    <p>
+
+    </p>
+</div>
 <div class="showcase">
     <h2>Projects</h2>
     <p>
-        There are three main projects that I have been involved in while working at the University of Newcastle. 
+        Prior to working at the University of Sydney, there were three main projects that I was involved in.
         You can find out more about each of these by clicking the <i>Project Details</i> button on each item below.
     </p>
     <div class="row">
-    {% for project in site.data.projects %}
+        {% for project in site.data.projects %}
         <div class="col-md-4">
             <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
                 <div class="card-body">
-                    <h4>{{ project.title }}</h4>
+                    <h4>
+                        <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" class="site-page-link">
+                            {{ project.title }}
+                        </a>
+                    </h4>
                     <strong>{{project.period }}</strong>
                     <p class="card-text">{{ project.description }}</p>
                     <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" 
@@ -97,30 +106,34 @@ title: Daniel Hickmott
                 </div>
             </div>
         </div>
-    {% endfor %}
+        {% endfor %}
     </div>
 </div>
 <div class="showcase">
     <h2>Selected Publications</h2>
     <p>I have highlighted three of my favourite publications below that I have been an author on. You can see the rest of my publications from the <a href="{{ site.baseurl | append: '/publications/' }}" class="text-info">Publications page</a>.</p>
     <div class="row">
-    {% for publication in site.data.publications.selected %}
-    <div class="col-md-4">
-        <div class="card mb-4 box-shadow">
-            <img class="card-img-top" 
-                src="{{ site.baseurl | append: '/publications/images/' | append: publication.imageFilePath }}">
-            <div class="card-body">
-                <h4>{{ publication.title }}</h4>
-                <p class="card-text">{{ publication.venue }}</p>
-                <a href="{{ site.baseurl | append: '/publications/' | append: publication.pageName }}" 
-                    class="btn btn-sm btn-info float-right">
-                    More details
-                    <i class="fa fa-chevron-circle-right publication-icon"></i>
-                </a>
+        {% for publication in site.data.publications.selected %}
+        <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                <img class="card-img-top" 
+                    src="{{ site.baseurl | append: '/publications/images/' | append: publication.imageFilePath }}">
+                <div class="card-body">
+                    <h4>
+                        <a href="{{ site.baseurl | append: '/publications/' | append: publication.pageName }}" class="site-page-link">
+                            {{ publication.title }}
+                        </a>
+                    </h4>
+                    <p class="card-text">{{ publication.venue }}</p>
+                    <a href="{{ site.baseurl | append: '/publications/' | append: publication.pageName }}" 
+                        class="btn btn-sm btn-info float-right">
+                        More details
+                        <i class="fa fa-chevron-circle-right publication-icon"></i>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    {% endfor %}
+        {% endfor %}
     </div>
 </div>
 <div class="showcase">
@@ -130,13 +143,18 @@ title: Daniel Hickmott
         I have highlighted my favourite resources and media below but you can see more on the <a href="{{ site.baseurl | append: '/media' }}" class="text-info">Media page</a> and the <a href="{{ site.baseurl | append: '/resources' }}" class="text-info">Resources page</a>.
     </p>
     <div class="row">
-    {% for resource in site.data.highlights %}
+        {% for resource in site.data.highlights %}
         <div class="col-md-4">
             <div class="card mb-4 box-shadow">
                 <img class="card-img-top" 
                     src="{{ site.baseurl | append: resource.imageFilePath }}">
                 <div class="card-body">
-                    <h4>{{ resource.title }}</h4>
+                    <h4>
+                        <a href="{{ resource.linkLocation }}" {% if resource.newTab == 'true' %} target="_blank" {% endif %}
+                            class="site-page-link">
+                            {{ resource.title }}
+                        </a>
+                    </h4>
                     <p><b>{{ resource.type }}</b></p>
                     <p class="card-text">{{ resource.description }}</p>
                     <a href="{{ resource.linkLocation }}" {% if resource.newTab == 'true' %} target="_blank" {% endif %}
@@ -147,6 +165,6 @@ title: Daniel Hickmott
                 </div>
             </div>
         </div>
-    {% endfor %}
+        {% endfor %}
     </div>
 </div>
