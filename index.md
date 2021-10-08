@@ -77,7 +77,7 @@ title: Daniel Hickmott
 </div>
 <div class="showcase my-2">
     <p>
-        Since 2020, I have been teaching in units that are part of the Master of Education (Digital Technologies) program at the University of Sydney, which is for teachers who are upskilling in teaching Digital Technologies and are aiming to become leaders in the implementation of the curriculum. I designed and taught these units in collaboration with colleagues from the Australian Computing Academy and the School of Education and Social Work. The units have been designined to cover the content, pedagogical and technical knowledge needed to teach Digital Technologies across all years of schooling.
+        Since 2020, I have been teaching in units that are part of the Master of Education (Digital Technologies) program at the University of Sydney, which is for teachers who are upskilling in teaching Digital Technologies and are aiming to become leaders in the implementation of the curriculum. I designed and taught these units in collaboration with colleagues from the Australian Computing Academy and the School of Education and Social Work. The units have been designed to cover the content, pedagogical and technical knowledge needed to teach Digital Technologies across all years of schooling.
     </p>
     <p>
         I am currently looking for teaching and research opportunities for 2022 (and beyond), that are related to my research interests and experience listed above.
