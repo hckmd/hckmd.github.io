@@ -6,9 +6,9 @@ title: Daniel Hickmott
 <div class="showcase">
     <h2>Projects</h2>
     <p>
-        There are three main projects that I have been involved in while working at the University of Newcastle. 
-        You can find out more about each of these by clicking the <i>Project Details</i> button on each of the items below.
-    </p>            
+        Prior to working at Grok Academy, I worked on a variety of projects.
+        You can find out more about these projects by clicking the <b>Project Details</b> buttons below.
+    </p>         
     {% for project in site.data.projects %}
     <div class="row">
         <div class="card md-2 box-shadow py-3 my-2 mx-2">

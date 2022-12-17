@@ -9,8 +9,7 @@ title: Daniel Hickmott
             <div class="portrait" style="background-image: url('me.jpg');"></div>
             <div class="portrait-title">
                 <h2>Daniel Hickmott</h2>
-                <h3>Associate Lecturer</h3>
-                <h3>University of Sydney, Australia</h3>
+                <h3>Senior Educator, <a href="https://grokacademy.org" class="text-info" target="_blank" rel="noopener">Grok Academy</a></h3>
             </div>
             <ul class="network-icon" aria-hidden="true">
                 <li>
@@ -31,15 +30,11 @@ title: Daniel Hickmott
     <div class="col-xs-12 col-md-8">
         <h3 class="profile-heading">About Me</h3> 
         <p>
-            I am an Associate Lecturer (Teaching and Research) at the University of Sydney, Australia.
-            Since early 2020, I have been focused on designing and teaching units for teachers who are upskilling to teach computing, as part of the Digital Technologies curriculum.
-            However, I am interested in finding out about how computing can be taught effectively to learners of all ages, whether they're in K-12 education, university or in the workforce.
+            I am a Senior Educator at <a href="https://grokacademy.org" class="text-info" target="_blank" rel="noopener">Grok Academy</a>, a not-for-profit organisation whose mission is: "to educate all learners in transformative computing skills, knowledge and dispositions, empowering them to meet the challenges and seize the opportunities of the future."
         </p>
         <p>
             I completed my PhD in Education at the University of Newcastle, Australia in 2020.
-            The focus of my PhD research was on the design and evaluation of professional learning for K-6 school teachers learning and teaching computer coding. 
-            The purpose of the research was to gain a better understanding of how teachers can be best supported to learn coding and the challenges they encounter when integrating Coding into existing subjects (such as Mathematics and English).
-            My thesis, titled <i>"A study of a professional learning program for primary school teachers implementing the New South Wales science and technology syllabus"</i> is available to <a class="text-info" href="https://hdl.handle.net/1959.13/1417667" target="_blank">view and download from the NOVA repository.</a>
+            The focus of my PhD research was on the design and evaluation of a professional learning program for K-6 school teachers learning and teaching computer coding. You can read more about the program I ran on <a href="{{ site.baseurl | append: '/projects/coding-in-stage-3' }}" class="text-info">this page</a> and you can also download my thesis <a class="text-info" href="https://hdl.handle.net/1959.13/1417667" target="_blank"> from the NOVA repository.</a>
         </p>
         <div class="row">
             <div class="col-md-5">
@@ -75,18 +70,11 @@ title: Daniel Hickmott
         </div>
     </div>
 </div>
-<div class="showcase my-2">
-    <p>
-        Since 2020, I have been teaching in units that are part of the Master of Education (Digital Technologies) program at the University of Sydney, which is for teachers who are upskilling in teaching Digital Technologies and are aiming to become leaders in the implementation of the curriculum. I designed and taught these units in collaboration with colleagues from the Australian Computing Academy and the School of Education and Social Work. The units have been designed to cover the content, pedagogical and technical knowledge needed to teach Digital Technologies across all years of schooling.
-    </p>
-    <p>
-        I am currently looking for teaching and research opportunities for 2022 (and beyond), that are related to my research interests and experience listed above.
-        If you know of any opportunities in these areas or would like to collaborate, please get in contact <a href="mailto:daniel.hickmott@gmail.com" class="text-info">via email</a>.
-    </p>    
+<div class="showcase my-2"> 
     <h2>Projects</h2>
     <p>
-        Prior to working at the University of Sydney, there were three main projects that I was involved in.
-        You can find out more about each of these by clicking the <i>Project Details</i> button on each item below.
+        Prior to working at Grok Academy, I worked on a variety of projects.
+        You can find out more about these projects by clicking the <b>Project Details</b> buttons below.
     </p>
     <div class="row">
         {% for project in site.data.projects %}
@@ -114,7 +102,7 @@ title: Daniel Hickmott
 </div>
 <div class="showcase">
     <h2>Selected Publications</h2>
-    <p>I have highlighted three of my favourite publications below that I have been an author on. You can see the rest of my publications from the <a href="{{ site.baseurl | append: '/publications/' }}" class="text-info">Publications page</a>.</p>
+    <p>I have highlighted three of my favourite publications below but you can see the rest of my publications from the <a href="{{ site.baseurl | append: '/publications/' }}" class="text-info">Publications page</a>.</p>
     <div class="row">
         {% for publication in site.data.publications.selected %}
         <div class="col-md-4">
