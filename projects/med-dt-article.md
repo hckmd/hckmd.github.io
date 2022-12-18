@@ -15,15 +15,13 @@ title: Daniel Hickmott
     </p>
     <p>
         After teaching the MEd:DT for a year, we wrote a technical report about the background and design of the program, which we submitted to a Computing Education conference.
-        The report was written when the current version of the Australian curriculum was v8.4.
-        At the time this page was created, the current version of the curriculum was v9 and one of the major changes to the DT content was the changing of the 10 <i>key</i> concepts to 9 <i>core</i> concepts.
-    </p>
-    <p>
         This report was intended to be presented at a conference, as a way to share our experiences teaching the units and to encourage discussion with educators running similar teacher education programs.
         The report was also intended to signpost future research work that we would conduct as we continued teaching the program and the enrolments in the program grew.
         Unfortunately, due to the program being discontinued and the report not quite fitting the requirements of the conference we submitted it to, we did not publish the report.
         Consequently, as I was not aware of a suitable venue to publish it in, I decided to make it available on this website.
-        I think it was important to document the background and design of the program and to make hese details publicly available to others who are interested in, or are already, running similar programs.
+    </p>
+    <p>
+        I think that it was important to document the background and design of the program and to make these details publicly available to others who are interested in, or are already, running similar programs.
         If you have any questions, feedback or would like to know more about the content of the report, feel free to get in touch.
     </p>
     <h2 id="toc" class="my-4">Table of Contents</h2>
