@@ -73,30 +73,32 @@ title: Daniel Hickmott
 <div class="showcase my-2"> 
     <h2>Projects</h2>
     <p>
-        Prior to working at Grok Academy, I worked on a variety of projects.
+        Prior to joining Grok Academy, I worked on a variety of projects.
         You can find out more about these projects by clicking the <b>Project Details</b> buttons below.
     </p>
     <div class="row">
         {% for project in site.data.projects %}
-        <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
-                <div class="card-body">
-                    <h4>
-                        <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" class="site-page-link">
-                            {{ project.title }}
+            {% if forloop.index != 2 %}
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
+                    <div class="card-body">
+                        <h4>
+                            <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" class="site-page-link">
+                                {{ project.title }}
+                            </a>
+                        </h4>
+                        <strong>{{project.period }}</strong>
+                        <p class="card-text">{{ project.description }}</p>
+                        <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" 
+                            class="btn btn-sm btn-info float-right">
+                            Project Details
+                            <i class="fa fa-info project-icon"></i>
                         </a>
-                    </h4>
-                    <strong>{{project.period }}</strong>
-                    <p class="card-text">{{ project.description }}</p>
-                    <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" 
-                        class="btn btn-sm btn-info float-right">
-                        Project Details
-                        <i class="fa fa-info project-icon"></i>
-                    </a>
+                    </div>
                 </div>
             </div>
-        </div>
+            {% endif %}
         {% endfor %}
     </div>
 </div>

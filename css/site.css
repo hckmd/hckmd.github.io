@@ -187,3 +187,7 @@ a.site-page-link {
 .menu-item-link {
     font-weight: 500;
 }
+
+.table-caption {
+    text-align: center;
+}
