@@ -76,10 +76,9 @@ title: Daniel Hickmott
         Prior to joining Grok Academy, I worked on a variety of projects.
         You can find out more about these projects by clicking the <b>Project Details</b> buttons below.
     </p>
-    <div class="row">
         {% for project in site.data.projects %}
-            {% if forloop.index != 2 %}
-            <div class="col-md-4">
+        {% cycle '<div class="row justify-content-md-center">', '' %}
+            <div class="col-md-5">
                 <div class="card mb-4 box-shadow">
                     <img class="card-img-top" src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
                     <div class="card-body">
@@ -98,9 +97,8 @@ title: Daniel Hickmott
                     </div>
                 </div>
             </div>
-            {% endif %}
+        {% cycle '', '</div><!-- /.row -->' %}
         {% endfor %}
-    </div>
 </div>
 <div class="showcase">
     <h2>Selected Publications</h2>
