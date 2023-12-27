@@ -50,7 +50,7 @@ We caught the train back to Asukasa and did another quick shop at a Don Quixoite
     <figcaption>Having a beer in Nikko, with the old City Hall in the background.</figcaption>
 </figure>
 
-https://www.youtube.com/embed/UM-eP5iro-s
+<iframe width="420" height="345" src="https://www.youtube.com/embed/UM-eP5iro-s"></iframe>
 A procession in Nikko, heading up to the shrines and temples.
 
 ## Day 6
@@ -83,13 +83,13 @@ Ben met up with Toby in Harajuku, which is a district with a lot of vintage clot
     <figcaption>The "Inventor Shop" in Sumida City.</figcaption>
 </figure>
 
-https://www.youtube.com/embed/lhUqwYqMeAY
-Bobblehads on a letterbox, near our AirBnB in Sumida City
+<iframe width="420" height="345" src="https://www.youtube.com/embed/lhUqwYqMeAY"></iframe>
+Bobbleheads on a letterbox, near our AirBnB in Sumida City
 
 ### Evening
 
 Ben, Toby and I met up again in the evening in Chuo city, to see a gig at [Nanahari](https://www.tokyogigguide.com/en/gigs/venue/102).
-Before the gig, we went to an Italian restaraunt near the venue and had some pizza (which was really good!).
+Before the gig, we went to an Italian restaurant near the venue and had some pizza (which was really good!).
 
 There were three artists performing at the show:
 - Gargle (a post-rock band from Japan)
@@ -111,8 +111,9 @@ We headed home, for our last night staying at the AirBnB in Sumida City.
     <figcaption>Demont's drawings after tAk and Demont's set at Nanahari.</figcaption>
 </figure>
 
+<iframe width="420" height="345" src="https://www.youtube.com/embed/jvUYDrJCCFo"></iframe>
 Gargle playing at Nanahari
 
-https://www.youtube.com/embed/S2mrBDqWjMQ
+<iframe width="420" height="345" src="https://www.youtube.com/embed/S2mrBDqWjMQ"></iframe>
 tAk and Demont playing at Nanahari
 
