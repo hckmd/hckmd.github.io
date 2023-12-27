@@ -53,7 +53,7 @@ We caught the train back to Asukasa and did another quick shop at a Don Quixoite
 https://www.youtube.com/embed/UM-eP5iro-s
 A procession in Nikko, heading up to the shrines and temples.
 
-## Day 5
+## Day 6
 
 ### Saturday 4th November (Asakusa, Akiharbara, Chuo City)
 
@@ -111,7 +111,6 @@ We headed home, for our last night staying at the AirBnB in Sumida City.
     <figcaption>Demont's drawings after tAk and Demont's set at Nanahari.</figcaption>
 </figure>
 
-https://www.youtube.com/embed/jvUYDrJCCFo
 Gargle playing at Nanahari
 
 https://www.youtube.com/embed/S2mrBDqWjMQ
