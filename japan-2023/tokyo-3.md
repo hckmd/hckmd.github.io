@@ -1,3 +1,8 @@
+---
+layout: travel-log
+title: Japan 2023 - Daniel Hickmott
+---
+
 ## Day 5
 
 ### Friday 3rd November (Nikko)
@@ -117,3 +122,4 @@ Gargle playing at Nanahari
 <iframe width="420" height="345" src="https://www.youtube.com/embed/S2mrBDqWjMQ"></iframe>
 tAk and Demont playing at Nanahari
 
+a

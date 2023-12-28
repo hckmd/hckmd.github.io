@@ -1,3 +1,8 @@
+---
+layout: travel-log
+title: Japan 2023 - Daniel Hickmott
+---
+
 ## Day 7
 
 ### Sunday 5th November (Sumida City and Shibuya)
@@ -95,6 +100,7 @@ We saw three bands that night, who were all excellent:
 - ノラ一味 (translates as Nora Gang): a punk band based in Tokyo
 
 The night was a lot of fun, the performances were so high energy, and I would recommend anyone interested in seeing Japanese alternative music check out Hakoge in Osaka.
+Their website is a mix of English and Japanese but is fairly straightforward to navigate and translate.
 
 はう
 https://www.youtube.com/embed/PsYLyRQxaEo

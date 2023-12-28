@@ -1,3 +1,8 @@
+---
+layout: travel-log
+title: Japan 2023 - Daniel Hickmott
+---
+
 ## Day 1 
 
 ### Monday 30th October (Tokyo - mainly Sumida City)

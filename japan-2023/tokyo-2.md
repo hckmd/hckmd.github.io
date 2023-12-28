@@ -1,3 +1,8 @@
+---
+layout: travel-log
+title: Japan 2023 - Daniel Hickmott
+---
+
 ## Day 3
 
 ### Wednesday 1st November (Tokyo - mainly Mitaka and Shibuya)
