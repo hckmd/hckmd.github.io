@@ -43,7 +43,7 @@ We did see a some keen birdwatchers and had a pleasant walk around the park thou
         {% include log-image.html caption='Ben with Hina Fujiyoshi, from Norrari Kurari.' img-src='ben_and_hina.jpg' %}
     </div>
     <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
-        {% include log-video.html video-src='https://www.youtube.com/embed/3KjN03CmyMs' img-src='norari_kurari_video.jpg' caption='The "Norari Kurari performing at Tower Records in Shibuya.' %}
+        {% include log-video.html video-src='https://www.youtube.com/embed/3KjN03CmyMs' img-src='norari_kurari_video.jpg' caption='Norari Kurari performing at Tower Records in Shibuya.' %}
     </div>
     <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
         {% include log-video.html video-src='https://www.youtube.com/embed/H-qPJGWSmZM' img-src='church_bar_video.jpg' caption='"The Church" bar in Shibuya' %}
