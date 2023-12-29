@@ -5,17 +5,30 @@ title: Japan 2023 - Daniel Hickmott
 
 ## Day 7
 
-### Sunday 5th November (Sumida City and Shibuya)
+<span class="day-details">Sunday 5th November</span><br>
+<span class="day-details">Where: Sumida City and Shibuya</span>
+
+<div class="row my-3">
+    <div class="col-md-4 d-flex justify-content-center text-center align-top">
+        {% include log-image.html caption='The view from the roof of the Japanese Sword Museum in Sumida City.' img-src='sword_museum_roof.jpg' %}
+    </div>
+    <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
+        {% include log-video.html video-src='https://www.youtube.com/embed/divu1QilzFY' img-src='ryogoku_esports_video.jpg' caption='A quick video from the e-sports tournament at the Ryōgoku Kokugikan.' %}
+    </div>
+    <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
+        {% include log-image.html caption='Ben and I outside the Valorant tournament at the Ryōgoku Kokugikan in Sumida City.' img-src='ryogoku_esports_poster.jpg' %}
+    </div>
+</div>
 
 We were heading to Kyoto the next day (the 6th November) but we accidentally didn't book enough nights at the AirBnB in Sumida City, so we checked out of that AirBnB.
 Ben found a nice AirBnB in Shinagawa for this night, which was fairly close to the train station.
 We'd go from that train station to get to Kyto the next day (via a Shinkansen bullet train).
 
 This day, we decided to have more of a look around Sumida City for our last day there, before heading to the next AirBnB in Shinagawa.
-Sumida City is where the [Ryōgoku Kokugikan](https://g.co/kgs/vZ3LAi) (a Sumo arena where national events are held) is and there is a lot of rich history in the area (especially related to Sumo wrestling).
-We hadn't had the chance to see much about sumo wrestling while in Japan and so we decided to walk towards the Sumo museum and check that out.
+Sumida City is where the [Ryōgoku Kokugikan](https://g.co/kgs/vZ3LAi){:target="_blank"} (a Sumo arena where national events are held) is and there is a lot of rich history in the area (especially related to Sumo wrestling).
+We hadn't had the chance to see much about Sumo wrestling while in Japan and so we decided to walk towards the Sumo museum and check that out.
 
-On the way, we went to the [Japanese Sword Museum](https://maps.app.goo.gl/ijzbVoKchbEahLce8), which had an exhibit with "Decorative sword mountings and excellent swords". 
+On the way, we went to the [Japanese Sword Museum](https://maps.app.goo.gl/ijzbVoKchbEahLce8){:target="_blank"}, which had an exhibit with "Decorative sword mountings and excellent swords". 
 The exhibit and museum were excellent and definitely worth checking out.
 The view from the roof, shown above, was quite nice too.
 Ben and I thoguht about making an offer to buy a couple of the swords - but we thought better of it and Ben bought a book on the traditional sword-making process instead.
@@ -30,24 +43,26 @@ We took a break at one point to get some lunch and watched the event till late a
 We checked into our Shinagawa AirBnB and reserved our Shinkansen tickets to Kyoto for the next day.
 We had dinner at a conveyor belt restaurant in Shibuya (which was the first time Ben had sushi from a conveyor!) and called it a night.
 
-<figure>
-    <img src="images/sword_museum_roof.jpg" style="max-width: 200px">
-    <figcaption>The view from the roof of the Japanese Sword Museum in Sumida City.</figcaption>
-</figure>
-
-https://www.youtube.com/embed/divu1QilzFY
-A quick video from the e-sports tournament at the Ryōgoku Kokugikan.
-
-<figure>
-    <img src="images/ryogoku_esports_poster.jpg" style="max-width: 200px">
-    <figcaption>Ben and I outside the Valorant tournament at the Ryōgoku Kokugikan in Sumida City.</figcaption>
-</figure>
-
 ## Day 8
 
-### Monday 6th November (Tokyo, Kyoto and Osaka)
+<span class="day-details">Monday 6th November</span><br>
+<span class="day-details">Where: Tokyo, Kyoto and Osaka</span>
 
 #### Day
+
+<div class="row my-3">
+    <div class="col-md-4 d-flex justify-content-center text-center align-top">
+        {% include log-image.html caption='A sign near an entrance to the Tokyo University of Marine Science and Technology.' img-src='tokyo_university_marine.jpg' %}
+    </div>
+
+    <div class="col-md-4 d-flex justify-content-center text-center align-top">
+        {% include log-image.html caption='People fishing in a swimming pool that was filled with fish, at the University.' img-src='tokyo_university_pool.jpg' %}
+    </div>
+
+    <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
+        {% include log-image.html img-src='tokyo_university_sardines.jpg' caption='The sardines and coconut slices snacks I ate on the way back to Shinagawa station.' %}
+    </div>
+</div>
 
 We took the Skinkansen (bullet train) to Kyoto this day and headed towards Shinagawa station after checking out of the AirBnB.
 We had a couple of hours before the train left, so we had a wander near the station.
@@ -62,33 +77,29 @@ I bought some sardines she was selling, which were mixed with coconut slices.
 
 We walked through the stalls and came to a swimming pool, where people were fishing with fishing rods.
 Surprisngly, there were real fish in the pool, although the people fishing weren't using bait.
-The pool seemed to be nomrally used for practicing diving and, from what we could tell, the fishes were just there as part of the festival.
+The pool seemed to be normally used for practicing diving and, from what we could tell, the fishes were just there as part of the festival.
 
 We headed back to the station and took our first Shinkansen trip to Kyoto.
 
-<figure>
-    <img src="images/tokyo_university_marine.jpg" style="max-width: 200px">
-    <figcaption>A sign near an entrance to the Tokyo University of Marine Science and Technology.</figcaption>
-</figure>
-
-<figure>
-    <img src="images/tokyo_university_pool.jpg" style="max-width: 200px">
-    <figcaption>People fishing in a swimming pool that was filled with fish at the University.</figcaption>
-</figure>
-
-<figure>
-    <img src="images/tokyo_university_sardines.jpg" style="max-width: 200px">
-    <figcaption>The sardines and coconut slices snacks I ate on the way back to Shinagawa station.</figcaption>
-</figure>
-
-
 #### Evening
+
+<div class="row my-3">
+    <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
+        {% include log-video.html video-src='https://www.youtube.com/embed/PsYLyRQxaEo' img-src='はう_hokage_video.jpg' caption='はう playing at Hokage.' %}
+    </div>
+    <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
+        {% include log-video.html video-src='https://www.youtube.com/embed/_lwxtbXRh7o' img-src='vorzoi_hokage_video.jpg' caption='Vorzoi playing at Hokage.' %}
+    </div>
+    <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
+        {% include log-video.html video-src='https://www.youtube.com/embed/pBjTtZF7w9M' img-src='ノラ一味_hokage_video.jpg' caption='ノラ一味 (Nora gang) playing at Hokage.' %}
+    </div>
+</div>
 
 We arrived at Kyoto in the early afternoon, where it was raining pretty heavily.
 I underestimated how long the walk from Kyoto station to our AirBnB was and with the rain and carrying bags it felt like twice as long as it really was.
 But after about 30 minutes walking through the rain, we made it our AirBnB.
 
-We had planned to go into Osaka later in the week to see some music but I liked the look of bands that were playing at the [Hakoge Bar](http://musicbarhokage.net/) in Osaka that night and Ben agreed to head in there with me.
+We had planned to go into Osaka later in the week to see some music but I liked the look of bands that were playing at the [Hakoge Bar](http://musicbarhokage.net/){:target="_blank"} in Osaka that night and Ben agreed to head in there with me.
 
 The show at Hakoge that night was called "KEEP ON ROTTIN'" and the lineup was four Japanese punk and metal bands. 
 Unfortunately, we missed the first band (ザ・ハンコッツ) who I looked up later and who look like they would have been a lot of fun to see.
@@ -102,11 +113,5 @@ We saw three bands that night, who were all excellent:
 The night was a lot of fun, the performances were so high energy, and I would recommend anyone interested in seeing Japanese alternative music check out Hakoge in Osaka.
 Their website is a mix of English and Japanese but is fairly straightforward to navigate and translate.
 
-はう
-https://www.youtube.com/embed/PsYLyRQxaEo
-
-Vorzoi
-https://www.youtube.com/embed/_lwxtbXRh7o
-
-ノラ一味
-https://www.youtube.com/embed/pBjTtZF7w9M
+[< Days 5-6](tokyo-3){:class="float-start py-3 page-navigation"}
+[Days 9-10 >](kyoto-1){:class="float-end py-3 page-navigation"}

@@ -2,6 +2,13 @@ span.navigation-heading {
     font-size: 1.2em;
 }
 
+a.page-navigation {
+    font-size: 1.2em;
+}
+span.day-details {
+    color: darkslategray;
+}
+
 a.day-link {
     font-size: 1.2em;
     margin-right: 0.25em;
@@ -14,4 +21,12 @@ a.image-thumbnail-link, a.video-thumbnail-link {
 
 a.image-thumbnail-link:hover, a.video-thumbnail-link {
     cursor: pointer;   
+}
+
+[data-bs-toggle="collapse"].collapsed .if-not-collapsed {
+    display: none;
+}
+
+[data-bs-toggle="collapse"]:not(.collapsed) .if-collapsed {
+    display: none;
 }

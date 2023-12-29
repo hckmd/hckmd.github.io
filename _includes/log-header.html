@@ -3,12 +3,40 @@
     <p class="lead">Super Hickmott Bros.</p>
     <hr>
     <span class="navigation-heading">Days:</span>
+    {% if page.name == 'tokyo-1.md' %}
+    <span class="navigation-heading">1-2</span>
+    {% else %}
     <a class="day-link" href="tokyo-1">1-2</a>
+    {% endif %}
+    {% if page.name == 'tokyo-2.md' %}
+    <span class="navigation-heading">3-4</span>
+    {% else %}
     <a class="day-link" href="tokyo-2">3-4</a>
+    {% endif %}
+    {% if page.name == 'tokyo-3.md' %}
+    <span class="navigation-heading">5-6</span>
+    {% else %}
     <a class="day-link" href="tokyo-3">5-6</a>
+    {% endif %}
+    {% if page.name == 'tokyo-4.md' %}
+    <span class="navigation-heading">7-8</span>
+    {% else %}
     <a class="day-link" href="tokyo-4">7-8</a>
+    {% endif %}
+    {% if page.name == 'kyoto-1.md' %}
+    <span class="navigation-heading">9-10</span>
+    {% else %}
     <a class="day-link" href="kyoto-1">9-10</a>
+    {% endif %}
+    {% if page.name == 'kyoto-2.md' %}
+    <span class="navigation-heading">11-12</span>
+    {% else %}
     <a class="day-link" href="kyoto-2">11-12</a>
-    <a class="day-link" href="tokyo-5">13-14</a>
+    {% endif %}
+    {% if page.name == 'tokyo-5.md' %}
+    <span class="navigation-heading">13-15</span>
+    {% else %}
+    <a class="day-link" href="tokyo-5">13-15</a>
+    {% endif %}
     <hr>
 </div>
