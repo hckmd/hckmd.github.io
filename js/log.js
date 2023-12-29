@@ -23,7 +23,6 @@ $(function() {
             caption = $(this).find('figcaption').first().text();
             console.log(caption);
 
-            $("#video-popup-caption").text(caption);
             $("#video-popup-container").show();
             $("#video").attr('src', video_src + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
             $('#focus-popup').modal('show');
