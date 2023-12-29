@@ -1,0 +1,17 @@
+span.navigation-heading {
+    font-size: 1.2em;
+}
+
+a.day-link {
+    font-size: 1.2em;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    
+}
+a.image-thumbnail-link, a.video-thumbnail-link {
+    text-decoration: none;
+}
+
+a.image-thumbnail-link:hover, a.video-thumbnail-link {
+    cursor: pointer;   
+}

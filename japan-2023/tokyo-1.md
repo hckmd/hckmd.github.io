@@ -27,6 +27,20 @@ We had a cheap (but tasty) dinner at around 11pm at a Matsuya restaurant in Asuk
 
 #### Morning
 
+<div class="row">
+    <div class="col-md-4">
+        {% include log-image.html caption='A view of SkyTree Tower, close to our AirBnB' img-src='images/sumida_skytree.jpg' %}
+    </div>
+
+    <div class="col-md-4">
+        {% include log-image.html caption='A photo of Tim, Ben and me at one of the TeamLabs exhibits.' img-src='images/teamlab_trio.jpg' %}
+    </div>
+
+    <div class="col-md-4">
+        {% include log-video.html video-src='https://www.youtube.com/embed/pEwznZSrJ64' caption='The "Floating in the Falling Universe of Flowers" exhibit at TeamLabs' %}
+    </div>
+</div>
+
 This day was Ben's birthday (Happy birthday Ben!). 
 I had a wander around Sumida city first thing in the morning and picked up a rechargeable battery and some snacks for breakfast from a FamilyMart near the Tokyo SkyTree tower (about a 10 minute walk from our AirBnB).
 
@@ -34,27 +48,23 @@ We headed to the [TeamLabs Planets]() museum in Koto city, which Ben had (wisely
 The exhibits were so unique and immersive - this was a great place to visit on our first full day in Tokyo.
 My favourite exhibit was titled "Floating in the Falling Universe of Flowers" (described in the collapsible section below and captured briefly in a video below too).
 
-> Floating in the Falling Universe of Flowers (click to expand)
-> 
-> A seasonal year of flowers bloom and change with time, life spreads out into the universe.
-> Lie down or sit still in the space and eventually your body floats and you dissolve into the artwork world.
->
-> Flowers grow, bud, bloom, and in time, the petals fall and the flowers wither and die. 
-> The cycle of birth and death continues for perpetuity.
-> The artowk is not a pre-recorded image that is played back; It is created by a computer program that continously renders the artwork in real time. As a whole, it is continuously changing, and previous visual states are never replicated. The universe at this point can never be seen again.
 
-<figure>
-    <img src="images/sumida_skytree.jpg" style="max-width: 200px">
-    <figcaption>A view of SkyTree Tower, close to our AirBnB</figcaption>
-</figure>
+<div class="accordion my-3" id="teamlabs-details">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="floating-heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-floating" aria-expanded="false" aria-controls="collapse-floating">
+                <span>Floating in the Falling Universe of Flowers (click to expand)</span>
+            </button>
+        </h2>
+        <div id="collapse-floating" class="accordion-collapse collapse" aria-labelledby="floating-heading" data-bs-parent="#teamlabs-details">
+            <div class="accordion-body">
+                <p>A seasonal year of flowers bloom and change with time, life spreads out into the universe. Lie down or sit still in the space and eventually your body floats and you dissolve into the artwork world.</p>
+                <p>Flowers grow, bud, bloom, and in time, the petals fall and the flowers wither and die. The cycle of birth and death continues for perpetuity. The artwork is not a pre-recorded image that is played back; It is created by a computer program that continously renders the artwork in real time. As a whole, it is continuously changing, and previous visual states are never replicated. The universe at this point can never be seen again.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-<figure>
-    <img src="images/teamlab_trio.jpg" style="max-width: 200px">
-    <figcaption>A photo of Tim, Ben and me at one of the TeamLabs exhibits captured by a Instagrammer from Singapore.</figcaption>
-</figure>
-
-https://www.youtube.com/embed/pEwznZSrJ64
-The "Floating in the Falling Universe of Flowers" at TeamLabs
 
 #### Afternoon
 
