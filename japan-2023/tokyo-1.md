@@ -86,7 +86,7 @@ There was an area where there were lots of bars and restaraunts but it was very 
 We didn't come back to this spot at night or on a weekend but I imagine it would be very busy at those times.
 
 We walked north from Shinbashi towards the Imperial Castle, through Hibiya Park.
-We hadn't researched anything about the Imperial Castle before our trip and did not realise it's only really accessible to people who have booked organised tours ahead of time :unicode-sweat-smile:.
+We hadn't researched anything about the Imperial Castle before our trip and did not realise it's only really accessible to people who have booked organised tours ahead of time 😅.
 However, the [East Gardens of the Imperial Castle](https://www.google.com/maps/place/The+East+Gardens+of+the+Imperial+Palace/@35.6867824,139.7545696,17z/data=!3m1!4b1!4m6!3m5!1s0x60188c13425af13d:0xa31b000a35db03f9!8m2!3d35.6867824!4d139.7571445!16s%2Fm%2F0nbczmq?entry=ttu){:target="_blank"} were open to the public and free to enter.
 There were some interesting buildings in the Gardens (including old Guardhouses) and some nice views from the base of the Edo Castle keep.
 
