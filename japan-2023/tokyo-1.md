@@ -61,7 +61,7 @@ My favourite exhibit was titled "Floating in the Falling Universe of Flowers" (d
     <div class="collapse" id="collapse-team-labs">
         <div class="card card-body my-2">
             <p>A seasonal year of flowers bloom and change with time, life spreads out into the universe. Lie down or sit still in the space and eventually your body floats and you dissolve into the artwork world.</p>
-                <p>Flowers grow, bud, bloom, and in time, the petals fall and the flowers wither and die. The cycle of birth and death continues for perpetuity. The artwork is not a pre-recorded image that is played back; It is created by a computer program that continously renders the artwork in real time. As a whole, it is continuously changing, and previous visual states are never replicated. The universe at this point can never be seen again.</p>
+            <p>Flowers grow, bud, bloom, and in time, the petals fall and the flowers wither and die. The cycle of birth and death continues for perpetuity. The artwork is not a pre-recorded image that is played back; It is created by a computer program that continously renders the artwork in real time. As a whole, it is continuously changing, and previous visual states are never replicated. The universe at this point can never be seen again.</p>
         </div>
     </div>
 </div>

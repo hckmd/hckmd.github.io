@@ -31,7 +31,7 @@ We hadn't had the chance to see much about Sumo wrestling while in Japan and so 
 On the way, we went to the [Japanese Sword Museum](https://maps.app.goo.gl/ijzbVoKchbEahLce8){:target="_blank"}, which had an exhibit with "Decorative sword mountings and excellent swords". 
 The exhibit and museum were excellent and definitely worth checking out.
 The view from the roof, shown above, was quite nice too.
-Ben and I thoguht about making an offer to buy a couple of the swords - but we thought better of it and Ben bought a book on the traditional sword-making process instead.
+Ben and I thought about making an offer to buy a couple of the swords - but we thought better of it and Ben bought a book on the traditional sword-making process instead.
 
 We continued walking towards the Sumo Museum, which is just outside the Ryōgoku Kokugikan.
 As we got closer to the museum, we noticed there were lots of young people heading into the arena.
@@ -41,7 +41,7 @@ There were lot of people but the venue was huge and so it wasn't packed out - th
 We took a break at one point to get some lunch and watched the event till late afternoon - then we headed to Shinagawa.
 
 We checked into our Shinagawa AirBnB and reserved our Shinkansen tickets to Kyoto for the next day.
-We had dinner at a conveyor belt restaurant in Shibuya (which was the first time Ben had sushi from a conveyor!) and called it a night.
+We had dinner at a sushi conveyor belt restaurant in Shibuya (which was the first time Ben had sushi from a conveyor!) and called it a night.
 
 ## Day 8
 
@@ -64,11 +64,11 @@ We had dinner at a conveyor belt restaurant in Shibuya (which was the first time
     </div>
 </div>
 
-We took the Skinkansen (bullet train) to Kyoto this day and headed towards Shinagawa station after checking out of the AirBnB.
+We took the Skinkansen (bullet train) to Kyoto this day and headed towards Shinagawa station, after checking out of the AirBnB.
 We had a couple of hours before the train left, so we had a wander near the station.
 
 We decided to check out the nearby university (Tokyo University of Marine Science and Technology) campus.
-Fortunately, there was a festival on at the campus and there were a lot of students running stalls and a market with local artists and makers selling a variety of things.
+Fortunately, there was a festival on at the campus and there were a lot of students running stalls, as well as a market with local artists and makers selling a variety of things.
 We spoke to a grad student (who happened to be dressed in a dinosaur suit for some reason), who explained that the stalls were run by different social clubs at the uni who were raising funds to run different activities and events.
 
 We also chatted to a woman who worked in the fishing industry in south Japan, near Nagisaka.
@@ -76,8 +76,8 @@ She was there representing her company, who sourced seafood from the local area 
 I bought some sardines she was selling, which were mixed with coconut slices.
 
 We walked through the stalls and came to a swimming pool, where people were fishing with fishing rods.
-Surprisngly, there were real fish in the pool, although the people fishing weren't using bait.
-The pool seemed to be normally used for practicing diving and, from what we could tell, the fishes were just there as part of the festival.
+Surprisingly, there were real fish in the pool. However, the people fishing weren't using bait.
+The pool seemed to normally be used for practicing diving and, from what we could tell, the fishes were just there as part of the festival.
 
 We headed back to the station and took our first Shinkansen trip to Kyoto.
 

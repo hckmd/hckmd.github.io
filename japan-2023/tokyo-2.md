@@ -40,7 +40,7 @@ We did see a some keen birdwatchers and had a pleasant walk around the park thou
 
 <div class="row my-3">
     <div class="col-md-4 d-flex justify-content-center text-center align-top">
-        {% include log-image.html caption='Ben with Hina Fujiyoshi, from Norrari Kurari.' img-src='ben_and_hina.jpg' %}
+        {% include log-image.html caption='Ben with Hina Fujiyoshi,from Norrari Kurari.' img-src='ben_and_hina.jpg' %}
     </div>
     <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
         {% include log-video.html video-src='https://www.youtube.com/embed/3KjN03CmyMs' img-src='norari_kurari_video.jpg' caption='Norari Kurari performing at Tower Records in Shibuya.' %}
@@ -66,11 +66,10 @@ We then figured out this ticket entitled him to meet of the of the members of No
 
 After the show, we wandered around Shibuya some more and ended up in Hyakkendana.
 Hyakkendana is a district that has a lot of bars, restaurants and love hotels.
-We went to an excellent [standing bar](https://g.co/kgs/rxjDN7){:target="_blank"} that had a bunch of different craft beers called before heading back towards the train station.
+We went to an excellent [standing bar called Stand Umineko SiB100](https://g.co/kgs/rxjDN7){:target="_blank"} that had a bunch of different craft beers, before heading back towards the train station.
 On the way to the train station, we saw a bar called [The Church](https://www.google.com/maps/place/Dogenzaka+Church+-The+Church-/@35.6585972,139.6969009,15z/data=!4m6!3m5!1s0x60188d5811612fbf:0x8aa9b26f088ad26f!8m2!3d35.6585972!4d139.6969009!16s%2Fg%2F11spmnkz63?entry=ttu){:target="_blank"} and checked that out.
 It was an interesting place - the staff were dressed as nuns and the seats were arranged like pews in a church, with an altar at the front (see video above).
 We had a quick drink there and headed back to our AirBnB.
-
 
 ## Day 4
 
@@ -138,7 +137,7 @@ We wandered around Shinjuku for a bit more and went into [Tokyo Kabukicho Tower]
 There were some restaurants and a stage on the first floor and an arcade and bunch of gacha machines on the second floor.
 There was a DJ on the stage and people on the tables around the stage were singing along to the songs.
 This regular event was called the "Duke Box" and people were encouraged to come up on the stage and dance and sing along.
-We had a drink and snack and watched the "Duke Box" for a while and sang along to some of the songs we knew (there were a few Western songs played, including "I Want it that Way" by the Backstreet Boys.)
+We had a drink and snack, watched the "Duke Box" for a while and sang along to some of the songs we knew (there were a few Western songs played, including "I Want it that Way" by the Backstreet Boys.)
 We headed back to the AirBnB but we didn't get the timings of trains right and had to get a taxi via Uber (from a station not too far from Sumida) back because we missed the last train.
 
 [< Days 1-2](tokyo-1){:class="float-start py-3 page-navigation"}

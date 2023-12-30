@@ -22,13 +22,13 @@ title: Japan 2023 - Daniel Hickmott
     </div>
 </div>
 
-We did a day trip to Nikko on this day, which was about an hour train trip from a station nearby our AirBnB.
+We did a day trip to Nikko on this day, which was about an hour train trip from the Tokyo Skytree station.
 We had a bit of a late start and didn't get to Nikko until the early afternoon.
 
 Nikko was very busy but we were unsure about whether that was out of the ordinary, as it happened to be a cultural day in Japan that day. 
 We walked up the main street towards Shinkyo Bridge and an area with several temples and shrines.
 We spotted an old building that looked interesting (the former Nikko City Hall) and took a detour off the main street to check it out.
-There was a nice view of the main street of Nikko from the building site and some interesting Buddhist temples and shrines.
+There was a nice view of the main street of Nikko from the building site and some interesting Buddhist temples and shrines around it.
 
 After our detour, we saw the Shenkyo Bridge, which was so picturesuque that it seemed to be impossible to get a bad photo of it.
 We also saw a few different pagodas and temples, and then headed back towards the station in the early evening.
@@ -48,7 +48,8 @@ We also saw a few different pagodas and temples, and then headed back towards th
 </div>
 
 We were concerned that we would miss the train back to Tokyo, as Nikko was packed and we had booked one of the last trains available out of Nikko. 
-We decided to grab dinner somewhere near the station and headed back there but stopped into the [Murmur Biiru Stand](https://www.google.com/maps/place/Murmur+Biiru+Stand/@36.7525861,139.6060476,15z/data=!4m2!3m1!1s0x0:0x828327f22644940f?sa=X&ved=2ahUKEwjG-qOau_eCAxWJqFYBHWX3AT8Q_BJ6BAgNEAA){:target="_blank"} and bought some takeaway beers.
+We decided to grab dinner somewhere near the station and headed back there.
+On the way, we stopped into the [Murmur Biiru Stand](https://www.google.com/maps/place/Murmur+Biiru+Stand/@36.7525861,139.6060476,15z/data=!4m2!3m1!1s0x0:0x828327f22644940f?sa=X&ved=2ahUKEwjG-qOau_eCAxWJqFYBHWX3AT8Q_BJ6BAgNEAA){:target="_blank"} and bought some takeaway beers.
 There were less people on the streets at this time in the evening and I found it very peaceful, compared to earlier in the day, and enjoyed the novelty of (legally) drinking beer on the street.
 We had some dinner at a Ramen place close to the station, and Ben and Tim had a browse through a vintage clothing store.
 When I was waiting outside for them, a procession of people with drums and banners walked up the road towards the shrines and temples (see video above).
@@ -78,7 +79,8 @@ We caught the train back to Asukasa and did another quick shop at a Don Quixoite
 
 This day was Tim's last day of the trip and the last day we stayed in the AirBnB in Sumida city.
 In the morning, we wandered around Asakusa and ended up going to our first (and only) animal cafe in Japan.
-There were otters, hedgehogs and a prairie dog there and the staff were super friendly and helpful.
+There were otters, hedgehogs and a prairie dog there. 
+The staff were super friendly and helpful as well.
 
 We planned to go for lunch at a shop near our AirBnB before Tim had to head off. 
 On our way to the AirBnB, we ended up looking at an "Inventor Shop", which is run by [Jun Sekiba](https://www.amazon.com/s?i=digital-text&rh=p_27%3AJun+Sekiba&_encoding=UTF8&ref=dbs_m_mng_rwt_byln){:target="_blank"}.
@@ -117,7 +119,7 @@ TAk played guitar, with backing from a recording, while Demont drew along to the
 Demont drew using charcoal and his drawings were projected on a screen with blue light.
 The combination of the music and visuals was very moving and I hadn't seen a show like it ever before.
 
-After the show, I bought a TAk and Demont CD and Gargle shirt from Jun Minowa (guitarist in Gargle). 
+After the show, I bought a TAk and Demont CD and Gargle shirt from Jun Minowa (the guitarist in Gargle). 
 I spoke a bit to Jun, who is also the founder of the [Dewfall Records](https://www.dewfallrecords.com/){:target="_blank"} label, about his past travels to Australia and he gave us some recommendations for venues to check out in Osaka (because we were heading to Kyoto two days after).
 
 We headed home, for our last night staying at the AirBnB in Sumida City.
