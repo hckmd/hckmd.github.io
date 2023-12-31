@@ -1,6 +1,6 @@
 ---
 title: Japan 2023 Trip - Daniel Hickmott
+layout: redirect
 ---
-<head>
-  <meta http-equiv="refresh" content="0; url=tokyo-1" />
-</head>
+
+Redirecting...

@@ -48,7 +48,7 @@ I wish we had had more time (maybe an extra day) to ride more around Kyoto and s
     </div>
 </div>
 
-In the evening we went to Otsu, which is a coastal city about 20 minutes train out of Kyoto.
+In the evening we went to Otsu, which is a coastal city about 20 minutes train ride from Kyoto.
 Ben had found an event at a dance club called [Club Move](http://www.club-move.com/){:target="_blank"} called CLUB de JPOP, where there was a bunch of local DJs playing mostly J-Pop and J-Rock music.
 There was also someone making and selling hot pot, which we were (graciously) given for free.
 
