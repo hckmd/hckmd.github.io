@@ -39,7 +39,7 @@ We hopped on a train heading towards Nara at a local station and then realised w
 We ended up having to spend some time waiting at a train station (Tambabashi), after getting off the train and buying the right tickets.
 
 We had a wander around the area around the station, which was a fairly quiet and relaxed area.
-We stopped in at a cafe called [Libre](https://www.google.com/maps/place/Libre/@34.9386318,135.7644765,15z/data=!3m1!5s0x60010f9a7bac5887:0x582daff1fd79dc71!4m8!3m7!1s0x60010f9a7bafbe13:0xa3f53b9114b3d001!8m2!3d34.9386318!4d135.7644765!9m1!1b1!16s%2Fg%2F1tt8c4yl?entry=ttu){:target="_blank"}, which was run by very friendly elderly couple who spoke very little English.
+We stopped in at a cafe called [Libre](https://www.google.com/maps/place/Libre/@34.9386318,135.7644765,15z/data=!3m1!5s0x60010f9a7bac5887:0x582daff1fd79dc71!4m8!3m7!1s0x60010f9a7bafbe13:0xa3f53b9114b3d001!8m2!3d34.9386318!4d135.7644765!9m1!1b1!16s%2Fg%2F1tt8c4yl?entry=ttu){:target="_blank"}, which was run by a very friendly elderly couple who spoke very little English.
 The cafe had been there for a long time and it was a very charming place (see image above of the counter).
 There were large bookshelves full of manga - including Akira, Dragon Quest and Dragonball - near where we sat.
 We had a quick coffee there and then headed back to the station, to go to Nara.
@@ -95,7 +95,7 @@ We stuck around, bought tickets, had a couple of Highballs, and enjoyed the othe
 
 Both artists were excellent and the venue had a lot of character, I would definitely go back there.
 We stuck around for a bit after the show to buy one of Vincent's CDs and we had a bit of a chat with him.
-We had also talked to the tour manager for the Silver Rocket & Happy Pills tour, who worked for [Moorworks Travel](https://moorworks.com/){:target="_blank"}, about some of his recommendations for music venues in Osaka and Tokyo and his travels in Australia.
+We also talked to the tour manager for the Silver Rocket & Happy Pills tour, who worked for [Moorworks Travel](https://moorworks.com/){:target="_blank"}, about some of his recommendations for music venues in Osaka and Tokyo and his travels in Australia.
 We had to make sure we got a train back to Kyoto in time, so we said our goodbyes and headed to the train station.
 
 [< Days 7-8](tokyo-4){:class="float-start py-3 page-navigation"}

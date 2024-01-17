@@ -8,10 +8,12 @@ $(function() {
             caption = $(this).find('figcaption').first().text();
             console.log(caption);
             
-            $('#photo-popup-img').attr('src', img_src);
-            $('#photo-popup-caption').text(caption);
-            $('#photo-popup-figure').show();
-            $('#focus-popup').modal('show');
+            $('#photo-popup-img').on("load", function() {
+                $('#photo-popup-caption').text(caption);
+                $('#photo-popup-figure').show();
+                $('#focus-popup').modal('show');
+            }).attr('src', img_src);
+            
         });
     });
 

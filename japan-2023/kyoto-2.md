@@ -38,10 +38,10 @@ I wish we had had more time (maybe an extra day) to ride more around Kyoto and s
 
 <div class="row my-3">
     <div class="col-md-4 d-flex justify-content-center text-center align-top">
-        {% include log-image.html caption='A tree in the dark, on the coastal city of Otsu.' img-src='otsu_tree_dark.jpg' %}
+        {% include log-image.html caption='A tree in the dark, in the coastal city Otsu.' img-src='otsu_tree_dark.jpg' %}
     </div>
     <div class="col-md-4 d-flex justify-content-center text-center align-top">
-        {% include log-image.html caption='The hot pot being served up at the CLUB de JPOP show in Club Move, Otsu.' img-src='otsu_hot_pot.jpg' %}
+        {% include log-image.html caption='The hot pot being served up at the CLUB de JPOP show at Club Move, Otsu.' img-src='otsu_hot_pot.jpg' %}
     </div>
     <div class="col-md-4 col-md-4 d-flex justify-content-center text-center align-top">
         {% include log-video.html video-src='https://www.youtube.com/embed/0XyRxHsMVQA' img-src='club_move_video.jpg' caption='DJs Shammy and ZAC doing a set at Club Move.' %}
