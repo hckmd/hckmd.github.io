@@ -9,7 +9,6 @@ title: Daniel Hickmott
             <div class="portrait" style="background-image: url('me.jpg');"></div>
             <div class="portrait-title">
                 <h2>Daniel Hickmott</h2>
-                <h3>Senior Educator, <a href="https://grokacademy.org" class="text-info" target="_blank" rel="noopener">Grok Academy</a></h3>
             </div>
             <ul class="network-icon" aria-hidden="true">
                 <li>
@@ -30,7 +29,7 @@ title: Daniel Hickmott
     <div class="col-xs-12 col-md-8">
         <h3 class="profile-heading">About Me</h3> 
         <p>
-            I am a Senior Educator at <a href="https://grokacademy.org" class="text-info" target="_blank" rel="noopener">Grok Academy</a>, a not-for-profit organisation whose mission is: "to educate all learners in transformative computing skills, knowledge and dispositions, empowering them to meet the challenges and seize the opportunities of the future."
+            I am an educator with professional experience in digital technologies education, research and software engineering. I'm a versatile and adaptive problem solver who enjoys working with technology and people on projects that aim to have a positive impact.
         </p>
         <p>
             I completed my PhD in Education at the University of Newcastle, Australia in 2020.
@@ -73,8 +72,7 @@ title: Daniel Hickmott
 <div class="showcase my-2"> 
     <h2>Projects</h2>
     <p>
-        Prior to joining Grok Academy, I worked on a variety of projects.
-        You can find out more about these projects by clicking the <b>Project Details</b> buttons below.
+        You can find out more about some projects I've worked on by clicking the <b>Project Details</b> buttons below.
     </p>
         {% for project in site.data.projects %}
         {% cycle '<div class="row justify-content-md-center">', '' %}

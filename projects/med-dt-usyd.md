@@ -18,7 +18,7 @@ title: Daniel Hickmott
         At that time, the program was unique in that it was the only MEd program we were aware of that was focussed on content and pedagogy for the Australian DT curriculum.
     </p>
     <p>
-        My colleague Sujatha Gunja and I worked together on the design and teaching of the DT units in the Master of Education (Digital Technologies) program - or MEd (DT) for short - with support from colleagues working at the Australian Computing Academy (ACA). The ACA had staff with subject matter expertise in DT, experienced computing teachers and members of the original DT curriculum writing team. The ACA has since merged into the not-for-profit organisation <a href="https://grokacademy.org" class="text-info" target="_blank">Grok Academy</a>, where I work now.
+        My colleague Sujatha Gunja and I worked together on the design and teaching of the DT units in the Master of Education (Digital Technologies) program - or MEd (DT) for short - with support from colleagues working at the Australian Computing Academy (ACA). The ACA had staff with subject matter expertise in DT, experienced computing teachers and members of the original DT curriculum writing team.
     </p>
     <h4 class="my-3">The background and design of the MEd (DT)</h4>
     <p>

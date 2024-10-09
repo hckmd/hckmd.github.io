@@ -6,8 +6,7 @@ title: Daniel Hickmott
 <div class="showcase">
     <h2>Projects</h2>
     <p>
-        Prior to working at Grok Academy, I worked on a variety of projects.
-        You can find out more about these projects by clicking the <b>Project Details</b> buttons below.
+        Some projects I've worked on include:
     </p>         
     {% for project in site.data.projects %}
     <div class="row">
