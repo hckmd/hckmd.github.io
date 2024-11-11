@@ -29,7 +29,7 @@ title: Daniel Hickmott
     <div class="col-xs-12 col-md-8">
         <h3 class="profile-heading">About Me</h3> 
         <p>
-            I am an educator with professional experience in digital technologies education, research and software engineering. I'm a versatile and adaptive problem solver who enjoys working with technology and people on projects that aim to have a positive impact.
+            I am an educator with experience in digital technologies education, research and software engineering. I'm a versatile and adaptive problem solver who enjoys working with technology and people on projects that aim to have a positive impact.
         </p>
         <p>
             I completed my PhD in Education at the University of Newcastle, Australia in 2020.
@@ -75,8 +75,8 @@ title: Daniel Hickmott
         You can find out more about some projects I've worked on by clicking the <b>Project Details</b> buttons below.
     </p>
         {% for project in site.data.projects %}
-        {% cycle '<div class="row justify-content-md-center">', '' %}
-            <div class="col-md-5">
+        {% cycle '<div class="row justify-content-md-center">', '', '' %}
+            <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
                     <img class="card-img-top" src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
                     <div class="card-body">
@@ -95,7 +95,7 @@ title: Daniel Hickmott
                     </div>
                 </div>
             </div>
-        {% cycle '', '</div><!-- /.row -->' %}
+        {% cycle '', '', '</div><!-- /.row -->' %}
         {% endfor %}
 </div>
 <div class="showcase">
