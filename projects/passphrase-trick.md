@@ -108,7 +108,7 @@ title: Daniel Hickmott
     <div class="row border border-secondary rounded my-2 p-3">
         <h4>Visualise a passphrase</h4>
         <p>A fun approach to create a memorable password is to use a memory trick where you combine 4 random words into a passphrase. If you visualise four things connected together in an unusual way, it stands out and stays in your memory.</p>
-        <p>Choose four words from the dropdowns below or click the <strong>Randomise</strong> button to create a passphrase.</p>
+        <p>Choose four words from the dropdowns below or click the <strong>Random phrase</strong> button to create a passphrase.</p>
         <p>Click the <strong>Visualise</strong> button to see a generated image that visualises the passphrase.</p>
         <div class="col-6 mt-2">     
             <form class="form-inline">
