@@ -4,10 +4,10 @@ title: Daniel Hickmott
 ---
 
 <div class="project-description">
-    <h2>{{ site.data.projects[3].title }}</h2>
+    <h2>{{ site.data.projects[4].title }}</h2>
     <div class="row">
         <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: site.data.projects[3].imageFilePath }}">
+            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: site.data.projects[4].imageFilePath }}">
         </div>
     </div>
     <h3>About</h3>

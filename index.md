@@ -29,7 +29,7 @@ title: Daniel Hickmott
     <div class="col-xs-12 col-md-8">
         <h3 class="profile-heading">About Me</h3> 
         <p>
-            I am an educator with experience in digital technologies education, research and software engineering. I'm a versatile and adaptive problem solver who enjoys working with technology and people on projects that aim to have a positive impact.
+            I am an educator with experience in digital technologies education, research and software engineering. I am a versatile and adaptive problem solver who enjoys working with technology and people on projects that aim to have a positive impact.
         </p>
         <p>
             I completed my PhD in Education at the University of Newcastle, Australia in 2020.
