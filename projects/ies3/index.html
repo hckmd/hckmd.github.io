@@ -9,6 +9,13 @@
 </head>
 
 <body>
+    <script language="javascript">
+        
+        // The project won't run well on mobile devices, so redirect to a page that describes the project instead
+        if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/Blackberry/i) || navigator.userAgent.match(/WebOs/i)) { 
+            window.location.replace("https://hckmd.com/projects/inhibitors-and-enablers?mobile_redirect=true");
+        }
+      </script>
     <div id="app">
         <div id="game-container"></div>
     </div>
