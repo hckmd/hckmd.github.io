@@ -60,7 +60,7 @@ title: Daniel Hickmott
     </div>
     <p>
         The different inhibitors and enablers in that category will then appear. 
-        The inhibitors are prefixed with a '-' sign and inhibitors are prefixed with a '+' sign. 
+        The inhibitors are prefixed with a '-' sign and enablers are prefixed with a '+' sign. 
         You can click the inhibitor and enablers to see a description of it, as well as a quote relating to that inhibitor or enabler from the teacher interviews. 
     </p>
     <div class="row">
