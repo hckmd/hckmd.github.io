@@ -41,6 +41,7 @@ title: Daniel Hickmott
                 <ul class="ul-interests">
                     <li>Computing Education</li>
                     <li>Teacher Professional Learning</li>
+                    <li>Learning Analytics</li>
                     <li>Online Learning</li>     
                     <li>Serious Games</li>             
                 </ul>
@@ -62,6 +63,14 @@ title: Daniel Hickmott
                             <p class="course">Bachelor of Software Engineering, Honours Class 1</p>
                             <p class="dates">2010 - 2014</p>
                             <p class="institution">University of Newcastle, Australia</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-graduation-cap"></i>
+                        <div class="description">
+                            <p class="course">Certificate IV in Training and Assessment (TAE40122)</p>
+                            <p class="dates">2024 - 2025</p>
+                            <p class="institution">Forsythes Training</p>
                         </div>
                     </li>
                 </ul>
