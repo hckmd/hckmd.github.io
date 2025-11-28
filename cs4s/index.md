@@ -46,4 +46,9 @@ title: Daniel Hickmott
     <p>
         Prieto-Rodriguez, E., & Berretta, R. (2014). Digital technology teachers’ perceptions of computer science: It is not all about programming. <i>2014 IEEE Frontiers in Education Conference (FIE) Proceedings</i>, 1–5. <a href="https://doi.org/10.1109/FIE.2014.7044134" class="text-info">https://doi.org/10.1109/FIE.2014.7044134</a>
     </p>
+    <h3>Tools</h3>
+    <h4>Inhibitors and Enablers interactive tool</h4>
+    <p>
+      The <a class="text-info" href="https://hckmd.com/projects/inhibitors-and-enablers">Inhibitors and Enablers tool</a> is a project I developed that allows you to explore different inhibitors and enablers for K-6 teachers implementing coding lessons, which I adapted from results from my PhD project.
+    </p>
 </div>
