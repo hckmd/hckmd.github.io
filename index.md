@@ -15,13 +15,7 @@ title: Daniel Hickmott
                     <a href="mailto:daniel.hickmott@gmail.com" target="_blank" rel="noopener"> <i class="fa fa-envelope big-icon"></i> </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/dan_hickmott" target="_blank" rel="noopener"> <i class="fa fa-twitter big-icon"> </i></a>
-                </li>
-                <li>
                     <a href="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ" target="_blank" rel="noopener"> <i class="ai ai-google-scholar big-icon"> </i></a>
-                </li>
-                <li>
-                    <a href="https://www.researchgate.net/profile/Daniel_Hickmott" target="_blank" rel="noopener"> <i class="ai ai-researchgate big-icon"> </i></a>
                 </li>
             </ul>
         </div>
@@ -33,7 +27,7 @@ title: Daniel Hickmott
         </p>
         <p>
             I completed my PhD in Education at the University of Newcastle, Australia in 2020.
-            The focus of my PhD research was on the design and evaluation of a professional learning program for K-6 school teachers learning and teaching computer coding. You can read more about the program I ran on <a href="{{ site.baseurl | append: '/projects/coding-in-stage-3' }}" class="text-info">this page</a> and you can also download my thesis <a class="text-info" href="https://hdl.handle.net/1959.13/1417667" target="_blank"> from the NOVA repository.</a>
+            The focus of my PhD research was on the design and evaluation of a professional learning program for K-6 school teachers learning and teaching computer coding. You can read more about the program I ran on <a href="{{ site.baseurl | append: '/projects/coding-in-stage-3' }}" class="text-info">this page</a> and you can also download my thesis <a class="text-info" href="https://hdl.handle.net/1959.13/1417667" target="_blank"> from the university's OpenResearch website.</a>
         </p>
         <div class="row">
             <div class="col-md-5">
