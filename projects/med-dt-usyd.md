@@ -4,10 +4,11 @@ title: Daniel Hickmott
 ---
 
 <div class="project-description">
-    <h2>{{ site.data.projects[2].title }}</h2>
+    {% assign project = site.data.projects | where:"pageName", "med-dt-usyd" | first %}
+    <h2>{{ project.title }}</h2>
     <div class="row">
         <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: site.data.projects[2].imageFilePath }}">
+            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
         </div>
     </div>
     <h3>About</h3>

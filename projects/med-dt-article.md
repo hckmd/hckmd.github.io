@@ -4,7 +4,6 @@ title: Daniel Hickmott
 ---
 
 <div class="showcase">
-
     <h1 class="my-3">The Design of the MEd:DT</h1>
     <p>
         During 2020 and 2021, I worked as an Associate Lecturer at the University of Sydney, where I mainly lectured in units in the Master of Education (Digital Technologies) program (or MEd:DT for short).

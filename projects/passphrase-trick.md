@@ -13,7 +13,8 @@ title: Daniel Hickmott
     }
 </style>
 <div class="project-description">
-    <h2>{{ site.data.projects[1].title }}</h2>
+    {% assign project = site.data.projects | where:"pageName", "passphrase-trick" | first %}
+    <h2>{{ project.title }}</h2>
     <p>Sometimes recalling passwords can be tricky, given the mix of symbols, letters, and numbers involved.</p>
     <div class="my-3">
         <button class="btn btn-info collapsed mb-2" role="button" data-toggle="collapse" href="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background">
