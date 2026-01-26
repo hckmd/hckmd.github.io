@@ -10,7 +10,7 @@ title: Daniel Hickmott
     <p>
         During March 2025 to March 2026, I worked as a Postdoctoral Research Fellow on a project focused on the design of fair and equitable Learning Analytics Dashboards (or LADs for short).
         The project is being led by <a href="https://ericasouthgateonline.wordpress.com/" class="text-info" target="_blank">Associate Professor Erica Southgate</a>, who I worked with on the <a href="literacy-apps" class="text-info" target="_blank">Literacy Apps project</a> during 2016. 
-        The project team consists of researchers from Education and Law from the University of Newcastle, with a diverse range of expertise in their respective fields.
+        The project team consists of researchers from Education and Law from the University of Newcastle, with expertise in a diverse range of fields (including Educational Psychology, Inclusive Education and Privacy Law).
     </p>
     <p>
         The project has been funded through the <a href="https://www.acses.edu.au/" class="text-info" target="_blank">Australian Centre for Student Equity and Success' (ACSES)</a> Large grants program. 
