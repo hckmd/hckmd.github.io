@@ -132,7 +132,8 @@ title: Daniel Hickmott
         <li>Vite with the vite-plugin-singlefile plugin, which allowed me to bundle the prototypes into a single HTML file</li>
     </ul>
     <p>
-        Like the medium-fidelity prototypes I created in Balsamiq, I was able to share the high-fidelity prototypes I created with my teammates as a single HTML file, which they could then give feedback on.
+        Like the medium-fidelity prototypes I created in Balsamiq, I was able to share the high-fidelity prototypes I created with my teammates as a single file.
+        I used the <a href="https://www.npmjs.com/package/vite-plugin-singlefile" class="text-info">vite-plugin-singlefile plugin</a> to create a HTML file that contained the four prototypes, which they could open up and interact with from any web browser (without installing anything) and give their feedback on.
         There will be screenshots and more details of the dashboards in the report that is published by ACSES later this year. 
         However, I’ve included an example of one of the dashboard components in the animation below, which demonstrates some of the interactivity in the high-fidelity prototypes.
     </p>
