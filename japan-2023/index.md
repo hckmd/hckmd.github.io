@@ -1,6 +1,6 @@
 ---
 title: Japan 2023 Trip - Daniel Hickmott
-layout: redirect
+layout: redirect-japan
 ---
 
 Redirecting...
