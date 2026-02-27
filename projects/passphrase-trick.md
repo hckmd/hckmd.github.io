@@ -21,7 +21,7 @@ title: Memory Trick Widget
 </style>
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "passphrase-trick" | first %}
-    <h2>{{ project.title }}</h2>
+    <h1>{{ project.title }}</h1>
     <p>Sometimes recalling passwords can be tricky, given the mix of symbols, letters, and numbers involved.</p>
     <div class="my-3">
         <button class="btn btn-info collapsed mb-2" role="button" data-toggle="collapse" href="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background">
@@ -34,11 +34,12 @@ title: Memory Trick Widget
         </button>
         <div class="collapse" id="collapse-project-background">
             <div class="card card-body my-4">
+                <h2>Project Background</h2>
                 <p>This was a small project that came out of some discussions with colleagues about finding ways for students (especially primary school students) to experiment with Generative AI (GenAI) in a safe and secure way.</p>
-                <h4>Safely generating images</h4>
+                <h3>Safely generating images</h3>
                 <p>There are tools that allow students to generate images with GenAI, including image editing software and websites that anyone can access. Some of these tools have age limits that restrict younger students from using them and/or safeguards that restrict prompts that are likely to produce inappropriate images. However, students could find ways around these restrictions and safeguards (intentionally or unintentionally) or the results from GenAI may be inappropriate just because of the random nature of these tools.</p>
                 <p>One way to allow students to experiment with GenAI in a safe way is to limit the words that can be included in the prompt. For example, in the widget below there are four dropdowns that each have four options (words) to choose from. Even with a small number of dropdowns and words, we create many different combinations, and we can get a variety of interesting and appropriate results by passing that prompt onto a GenAI image generation tool.</p>
-                <h4>Passphrase prompts</h4>
+                <h3>Passphrase prompts</h3>
                 <p>I created a demo widget (similar to the passphrase one below) where students could choose different words for a GenAI image prompt and showed it to my colleagues. That demo would allow someone to select two different animals, e.g. a <i>"rabbit"</i> and a <i>"moose"</i>, and an activity e.g. <i>"having a picnic"</i> or <i>"ice skating"</i>. I planned to include a widget like this in an online course that introduced primary and early high school students to GenAI for generating different media. An example screenshot of this widget, with an image generated with the <code class="text-dark">playgroundai/playground-v2.5-1024px-aesthetic</code> model on the <a class="site-link" href="https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic">Hugging Face site</a>, is shown below:</p>
                 <div class="row justify-content-center">
                     <div class="col-md-10 my-2">
@@ -94,7 +95,7 @@ title: Memory Trick Widget
                 </div>   
             </div>
              <p>There’s four options for the first word, four options for the second, and so on - so there’s a possibility of 256 different passphrases (4 x 4 x 4 x 4). </p>
-            <h4>Generating widget images</h4>
+            <h3>Generating widget images</h3>
             <p>My original plan was that the prompts would be "passed to" a GenAI tool (e.g. DALL-E or Stable Diffusion) from the widget to generate a new image each time a student clicks the <i>Visualise</i> button ("on the fly"). Hypothetically, this is pretty straightforward to implement. However, in my situation at the time, it was not straightforward to do this. Consequently, I decided I would not generate images "on the fly" but instead try to pre-generate all the (256) images.</p>
             <p>I had also been interested in the idea of generating large amounts of images with GenAI tools for a while and this seemed liked a good opportunity to try that out. I had tried a variety of different GenAI image generation tools and was very surprised with the quality of the results and how quickly they can be generated. I should say that I do not think GenAI images are a replacement for (or at all equivalent to) images created by human artists. However, as someone with an interest in hobby game development (video and board games), I am interested in the possibility of using GenAI images for projects where there's no budget for designers or artists and these images are "good enough".</p>
             <p>There are lots of different ways to generate lots of images with GenAI tools, but I opted to use a Python script I wrote, which used the <code class="text-dark">segmind/SSD-1B</code> model (more info on the <a class="site-link" href="https://huggingface.co/segmind/SSD-1B">Hugging Face site here</a>), on a desktop computer. The desktop computer I used was not particularly powerful and the graphics card was definitely not the best for the task (an Nvidia GeForce GTX 1070), but it worked well enough. The Python script went through each of the possible passphrases (<i>"orange house sky tram"</i>, <i>"orange house sky boat"</i>, <i>"orange house sky lamp"</i> and so on) and generated three images for that passphrase. Each image took 1-2 minutes to generate but this would have been much quicker on a computer with a newer and more powerful graphics card. As I had written a Python script to generate the images, I could run the script and leave my computer for a few hours before coming back and reviewing the results multiple times, over a weekend.</p>
@@ -108,13 +109,13 @@ title: Memory Trick Widget
             </div>
             <p>The resulting images from the script varied in quality and all the resulting images definitely look AI generated. In some cases, I did not like the results for phrases and in those cases I generated new images from the prompt or made minor tweaks to the prompt to get images I was more happy with. Some phrases seem to have consistently better results, and images with some words in them were often strange looking. For example, images for phrases with <i>"tram"</i> in them often had trams with disjointed and illogical overhead wires in them.</p>
             <p>In total, I would have generated and reviewed about 1,000 generated images. After I was happy with the images that were generated and I had one image for each of the 256 phrases, I uploaded the images so that they could be loaded from the widget, which you can try out below.</p>
-            <h4>What’s next</h4>
+            <h3>What’s next</h3>
             <p>This project was a good opportunity to think about ways of letting students experiment with GenAI safely and to experiment with generating lots of images with GenAI myself. This could be a useful tool to refer to when teaching about passphrases and/or demonstrating what is possible with GenAI image generation, particularly for younger students who are restricted from using other GenAI tools themselves.</p>
             <p>There are lots of interesting applications for GenAI in Education and it’s going to be interesting to see what approaches are used to support students in their safe and responsible use of GenAI. If you’d like to know more about this widget or to have a chat about anything related to GenAI and Education, please reach out.</p>
         </div>
     </div>
     <div class="row border border-secondary rounded my-2 p-3">
-        <h4>Visualise a passphrase</h4>
+        <h2>Visualise a passphrase</h2>
         <p>A fun approach to create a memorable password is to use a memory trick where you combine 4 random words into a passphrase. If you visualise four things connected together in an unusual way, it stands out and stays in your memory.</p>
         <p>Choose four words from the dropdowns below or click the <strong>Random phrase</strong> button to create a passphrase.</p>
         <p>Click the <strong>Visualise</strong> button to see a generated image that visualises the passphrase.</p>

@@ -12,13 +12,13 @@ title: Inhibitors and Enablers
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "inhibitors-and-enablers" | first %}
-    <h2>{{ project.title }}</h2>
+    <h1>{{ project.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
             <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
         </div>
     </div>
-    <h3>About</h3>
+    <h2>About</h2>
     <div id="mobile-alert-box" class="alert alert-info my-3" style="display: none">
         It looks likes you have tried to access the Inhibitors and Enablers project on a mobile device. 
         The project can only be viewed on a desktop or laptop.
@@ -28,7 +28,7 @@ title: Inhibitors and Enablers
         <li><a href="ies3" class="site-link">Access the interactive project here</a> (Only for desktop and laptop devices)</li>
         <li><a href="https://youtu.be/Oi897X_Y9CI" class="site-link">Watch a video on YouTube that includes the project background and a demonstration.</a></li>
     </ul>
-    <h4>Project Background</h4>
+    <h3>Project Background</h3>
     <p>
         This project presents my results from an analysis of interviews I conducted with 15 Australian primary school (K-6) teachers in 2018. 
         The interviews took place after the teachers completed a 10 week professional learning program I ran, called <a class="site-link" href="coding-in-stage-3">Coding in Stage 3</a>. 
@@ -57,7 +57,7 @@ title: Inhibitors and Enablers
         The project is set up as a fixed size canvas that will not work well on mobile devices and should only be viewed on a desktop or laptop.
         If you would like to see what the project looks like and can only use a mobile device, you can watch <a href="https://youtu.be/Oi897X_Y9CI" class="site-link">a video about it on YouTube here</a>.
     </p>
-    <h4>How to Use It</h4>
+    <h3>How to Use It</h3>
     <p>
         In the project, you can see each of the different categories up the top and down the bottom. You can click each of the categories and you will see a description of that category, like you can see below.
     </p>
@@ -116,7 +116,6 @@ title: Inhibitors and Enablers
         if (value == "true") {
             const mobileAlertBox = document.getElementById("mobile-alert-box");
             mobileAlertBox.style.display = 'block';
-        
         }
     }
 
