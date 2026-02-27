@@ -197,9 +197,6 @@ a.site-page-link {
     margin-bottom: 0.75rem;
 }
 
-.menu-item-link {
-    font-weight: 500;
-}
 
 .table-caption {
     text-align: center;
@@ -222,4 +219,12 @@ a.site-link {
 
 .skip-link:focus {
     top: 0;
+}
+
+.active-menu-item {
+    font-weight: 700;
+}
+
+.inactive-menu-item {
+    font-weight: 500;
 }
