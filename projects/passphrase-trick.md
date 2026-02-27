@@ -5,7 +5,7 @@ title: Memory Trick Widget
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb bg-transparent px-0 mb-1">
     <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Memory Trick Widget</li>
+    <li class="breadcrumb-item active text-dark" aria-current="page">Memory Trick Widget</li>
   </ol>
 </nav>
 
@@ -45,7 +45,7 @@ title: Memory Trick Widget
                     <div class="col-md-10 my-2">
                         <figure id="example-widget">
                             <img src="images/memory-trick-widget-example.png" class="img-fluid" alt="An example of an image generated with the prompt 'Draw a moose and rabbit ice skating'">
-                            <figcaption class="text-center text-secondary">An example of an image generated with the prompt 'Draw a moose and rabbit ice skating'</figcaption>
+                            <figcaption class="figure-caption text-center text-dark">An example of an image generated with the prompt 'Draw a moose and rabbit ice skating'</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ title: Memory Trick Widget
                 <div class="col-md-6 my-2">
                     <figure id="selecting-images">
                         <img src="images/selecting-images.png" class="img-fluid border border-secondary" alt="An example of three generated images for the passphrase 'red tiger corn lamp'. The selected image for the widget has a blue border.">
-                        <figcaption class="text-center text-secondary">An example of three generated images for the passphrase 'red tiger corn lamp'. The selected image for the  widget has a blue border.</figcaption>
+                        <figcaption class="figure-caption text-center text-dark">An example of three generated images for the passphrase 'red tiger corn lamp'. The selected image for the  widget has a blue border.</figcaption>
                     </figure>
                 </div>
             </div>

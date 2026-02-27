@@ -5,7 +5,7 @@ title: MEd (Digital Technologies)
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb bg-transparent px-0 mb-1">
     <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
-    <li class="breadcrumb-item active" aria-current="page">MEd (Digital Technologies)</li>
+    <li class="breadcrumb-item active text-dark" aria-current="page">MEd (Digital Technologies)</li>
   </ol>
 </nav>
 

@@ -6,7 +6,7 @@ title: The Design of the MEd:DT
   <ol class="breadcrumb bg-transparent px-0 mb-1">
     <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
     <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/med-dt-usyd" class="site-link">MEd (Digital Technologies)</a></li>
-    <li class="breadcrumb-item active" aria-current="page">The Design of the MEd:DT</li>
+    <li class="breadcrumb-item active text-dark" aria-current="page">The Design of the MEd:DT</li>
   </ol>
 </nav>
 
@@ -217,7 +217,7 @@ title: The Design of the MEd:DT
     <div class="col-md-4 offset-md-4 px-0">
         <figure class="figure">
             <img src="images/tpack-model.jpg" class="img-fluid my-3">
-            <figcaption class="figure-caption">Figure 1: The TPACK model (Source: <a href="http://tpack.org/" class="site-link">tpack.org</a>)</figcaption>
+            <figcaption class="figure-caption text-dark">Figure 1: The TPACK model (Source: <a href="http://tpack.org/" class="site-link">tpack.org</a>)</figcaption>
         </figure>
     </div>
     <p>

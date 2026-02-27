@@ -5,7 +5,7 @@ title: Dashboard Study
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb bg-transparent px-0 mb-1">
     <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Dashboard Study</li>
+    <li class="breadcrumb-item active text-dark" aria-current="page">Dashboard Study</li>
   </ol>
 </nav>
 
@@ -55,9 +55,9 @@ title: Dashboard Study
                         <figure class="figure">
                             <img 
                                 class="figure-img img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/lads/dashboard-study-simple-lad.png' }}"
-                                alt="An image of a simple learning analytics dashboard, which has charts with a student's assignment scores, a predicted score and recommendations to improve their learning"
+                                alt="A simple learning analytics dashboard, which has charts with a student's assignment scores, a predicted score and recommendations to improve their learning"
                             >
-                            <figcaption class="figure-caption text-center">An example of a simple LAD, which has charts with a student's assignment scores, a predicted score and recommendations to improve their learning</figcaption>
+                            <figcaption class="figure-caption text-center text-dark">An example of a simple LAD, which has charts with a student's assignment scores, a predicted score and recommendations to improve their learning</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -115,9 +115,9 @@ title: Dashboard Study
             <figure class="figure">
                 <img 
                     class="figure-img img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/lads/dashboard-study-medium-fidelity.png' }}"
-                    alt="An example of a medium fidelity prototype of the student-facing agentic dashboard, created in Balsamiq"
+                    alt="A medium fidelity prototype of the student-facing agentic dashboard, created with Balsamiq software"
                 >
-                <figcaption class="figure-caption text-center">An example of a medium fidelity prototype of the student-facing agentic dashboard, created in Balsamiq</figcaption>
+                <figcaption class="figure-caption text-center text-dark">An example of a medium fidelity prototype of the student-facing agentic dashboard, created in Balsamiq</figcaption>
             </figure>
         </div>
     </div>
@@ -149,9 +149,9 @@ title: Dashboard Study
             <figure class="figure">
                 <img 
                     class="figure-img img-fluid highlight-img border border-secondary" src ="{{ site.baseurl | append: '/projects/images/lads/dashboard-study-interactions.gif' }}"
-                    alt="An animation showing one component on the dashboard, a chart with scores that a user can hover over with their mouse to see more information about it"
+                    alt="An animation showing a chart that a user can hover over to see underlying data"
                 >
-                <figcaption class="figure-caption text-center">An example of interactions on one of the LAD components, a chart that shows how a student's assignment score compares to their peers</figcaption>
+                <figcaption class="figure-caption text-center text-dark">An example of interactions on one of the LAD components, a chart that shows how a student's assignment score compares to their peers</figcaption>
             </figure>
         </div>
     </div>
@@ -179,9 +179,9 @@ title: Dashboard Study
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <th>Event time</th>
-                <th>Event</th>
-                <th>Data</th>
+                <th scope="col">Event time</th>
+                <th scope="col">Event</th>
+                <th scope="col">Data</th>
             </tr>
         </thead>
         <tbody>
