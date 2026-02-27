@@ -3,8 +3,17 @@ layout: default
 title: Exploring Play-Learners' Analytics in a Serious Game for Literacy Improvement
 ---
 
+{% assign pub = site.data.publications.conference.co-author | where:"id", "serious-games-analytics" | first %}
+
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent px-0 mb-1">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/publications/" class="site-link">Publications</a></li>
+    <li class="breadcrumb-item active text-dark" aria-current="page">{{ pub.shortTitle }}</li>
+  </ol>
+</nav>
+
 <div class="project-description">
-    {% assign pub = site.data.publications.conference.co-author | where:"id", "serious-games-analytics" | first %}
     <h1>{{ pub.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
