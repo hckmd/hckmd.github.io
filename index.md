@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Home
 ---
 
 <div class="row">

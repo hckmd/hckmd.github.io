@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Literacy Apps
 ---
 
 <div class="project-description">

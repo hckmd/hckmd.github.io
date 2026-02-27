@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Coding and STEM 4 Schools
 ---
 
 <div class="project-description">

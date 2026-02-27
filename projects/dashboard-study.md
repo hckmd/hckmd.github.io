@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Dashboard Study
 ---
 
 <div class="project-description">

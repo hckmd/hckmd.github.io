@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: The Design of the MEd:DT
 ---
 
 <div class="showcase">

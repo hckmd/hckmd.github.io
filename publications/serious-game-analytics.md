@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Exploring Play-Learners' Analytics in a Serious Game for Literacy Improvement
 ---
 
 <div class="project-description">

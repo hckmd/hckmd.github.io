@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Inhibitors and Enablers
 ---
 
 <div class="project-description">

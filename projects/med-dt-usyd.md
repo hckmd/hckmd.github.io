@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: MEd (Digital Technologies)
 ---
 
 <div class="project-description">

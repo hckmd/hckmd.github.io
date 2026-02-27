@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Coding in Stage 3
 ---
 
 <div class="project-description">

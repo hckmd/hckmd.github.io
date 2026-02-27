@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Projects
 ---
 
 <div class="showcase">

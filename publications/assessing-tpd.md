@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: To Assess or Not to Assess
 ---
 
 <div class="project-description">

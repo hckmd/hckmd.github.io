@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Media
 ---
 
 <div class="showcase">
