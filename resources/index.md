@@ -19,15 +19,13 @@ title: Resources
                 </div>
                 <div class ="col-md-8">
                     <div class="card-body">
-                        <h4>{{ resource.title }}</h4>
+                        <h2>
+                            <a class="site-link" href="{{ resource.pageName }}">
+                                {{ resource.title }}
+                            </a>
+                        </h2>
                         <strong>{{ resource.type }}</strong>
                         <p class="card-text">{{ resource.description }}</p>
-                        <div class="list-item-buttons">
-                            <a href="{{ resource.pageName }}" class="btn btn-sm btn-info float-right">
-                                View Resource
-                                <i class="fa fa-eye resource-icon"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>                  

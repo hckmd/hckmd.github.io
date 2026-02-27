@@ -12,14 +12,14 @@ title: Literacy Apps
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "literacy-apps" | first %}
-    <h2>{{ project.title }}</h2>
+    <h1>{{ project.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
             <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
         </div>
     </div>
-    <h3>About</h3>
-    <h4>Apostrophe Power and Sentence Hero</h4>
+    <h2>About</h2>
+    <h3>Apostrophe Power and Sentence Hero</h3>
     <p>
         In 2015, I worked with a team of educators and software engineers to develop two mobile learning apps, one titled <em>Apostrophe Power</em> and the other titled <em>Sentence Hero</em>.
         These apps are games that can be used by students to improve their literacy skills.
@@ -31,7 +31,7 @@ title: Literacy Apps
         <li><a href="http://hckmd.com/AP" class="site-link">Apostrophe Power</a></li>
         <li><a href="http://hckmd.com/SH" class="site-link">Sentence Hero</a></li>
     </ul>
-    <h4>Serious Game Analytics</h4>
+    <h3>Serious Game Analytics</h3>
     <div class="row">
         <div class="col-md-4 offset-md-4 my-3">
             <img class = "img-fluid project-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/serious_games_analytics.png' }}">
@@ -48,7 +48,7 @@ title: Literacy Apps
     <p>
         You can read more about the processing of the game logs and the methods of visualising these data in <a href="{{ site.baseurl | append: '/publications/serious-game-analytics.png' }}" class="site-link">this conference article</a>, which was presented at the Joint International Conference for Serious Games in 2016.
     </p>
-    <h3>Links</h3>
+    <h2>Links</h2>
     <ul>
         <li>
             <a href="https://www.ncsehe.edu.au/project/literacy-app-m-learning-tool-low-ses-undergraduate-students/" class="site-link">Article about the Literacy Apps project on National Centre for Student Equity in Higher Education (NCSEHE) website</a>

@@ -4,9 +4,9 @@ title: Media
 ---
 
 <div class="showcase">
-    <h2>Media</h2>
+    <h1>Media</h1>
     <p>On this page, I have uploaded copies of presentations from talks that I have given at conferences and have linked to videos of 'elevator pitches' that I have been a part of.</p>
-    <h3>Presentations</h3>         
+    <h2>Presentations</h2>         
     {% for presentation in site.data.media.presentations %}
     <div class="row">
         <div class="card box-shadow py-3 my-2 mx-2">
@@ -16,7 +16,7 @@ title: Media
                 </div>
                 <div class ="col-md-8">
                     <div class="card-body">
-                        <h4>{{ presentation.title }}</h4>
+                        <h3>{{ presentation.title }}</h3>
                         <p class="context-text">Presented at {{ presentation.venue }}</p>
                         <p class="card-text">{{ presentation.description }}</p>
                         <div class="list-item-buttons">
@@ -32,7 +32,7 @@ title: Media
         </div>
     </div>
     {% endfor %}
-    <h3>Videos</h3>
+    <h2>Videos</h2>
     {% for video in site.data.media.videos %}
     <div class="row">
         <div class="card box-shadow py-3 my-2 mx-2">
@@ -42,7 +42,7 @@ title: Media
                 </div>
                 <div class ="col-md-8">
                     <div class="card-body">
-                        <h4>{{ video.title }}</h4>
+                        <h3>{{ video.title }}</h3>
                         <p class="context-text">{{ video.context }}</p>
                         <p class="card-text">{{ video.description }}</p>
                         <div class="list-item-buttons">

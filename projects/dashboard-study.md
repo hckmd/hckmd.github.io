@@ -12,8 +12,8 @@ title: Dashboard Study
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "dashboard-study" | first %}
-    <h2>{{ project.title }}</h2>
-    <h3>About</h3>
+    <h1>{{ project.title }}</h1>
+    <h2>About</h2>
     <p>
         During March 2025 to March 2026, I worked as a Postdoctoral Research Fellow on a project focused on the design of fair and equitable Learning Analytics Dashboards (or LADs for short).
         The project is being led by <a href="https://ericasouthgateonline.wordpress.com/" class="site-link">Associate Professor Erica Southgate</a>, who I worked with on the <a href="literacy-apps" class="site-link">Literacy Apps project</a> during 2016. 
@@ -75,7 +75,7 @@ title: Dashboard Study
             </div>
         </div>
     </div>
-    <h3>My work on the project</h3>
+    <h2>My work on the project</h2>
     <p>On this page, I explain three parts of the project that I worked on:</p>
     <ul>
         <li>
@@ -95,7 +95,7 @@ title: Dashboard Study
         <li>Conducted interviews with several students and staff, and provided technical assistance during all the interviews.</li>
         <li>Managed the data collected through recruitment and interviews accurately, securely and safely.</li>
     </ul>
-    <h3 id="design">Design of the LADs</h3>
+    <h2 id="design">Design of the LADs</h2>
     <p>
         One of the main tasks that I started work on when I began the fellowship was designing the LADs. 
         I designed these in consultation with the research team, who have a wealth of experience teaching, in universities and schools, in online and in-person teaching modes, and coordinating classes that have cohorts of 500+ students each year.
@@ -127,7 +127,7 @@ title: Dashboard Study
     <p>
         I wrote a short conference paper about the experience of designing the LAD, with a focus on the student-facing agentic dashboard, which Erica presented at the ASCILITE conference in December 2025. You can access the paper, <em>"Exploring inclusivity, transparency, explainability and agency in learning analytics dashboard design"</em> <a href="https://open-publishing.org/publications/index.php/APUB/article/view/2669" class="site-link">from the Open-Publishing website</a>.
     </p>
-    <h3 id="development">Development of high-fidelity prototypes</h3>
+    <h2 id="development">Development of high-fidelity prototypes</h2>
     <p>
         After we reached a consensus about the design of the LADs, I began developing prototypes that the students and university teachers would be able to use and interact with in the interviews.
         These were high-fidelity prototypes, which means that they looked like what a LAD used in the real world would, but all of the data was simulated and they were not connected to a real system.
@@ -165,7 +165,7 @@ title: Dashboard Study
         By getting the participants to compare the two versions, we prompted the participants to share their perspectives on the features of the dashboards they liked and didn’t like, as well as what they thought was missing from them. 
         We will share what we found from analysing the participants’ perspectives in the final project report, as well as in research articles in the future.
     </p>
-    <h3 id="analysis">Analysis of student logs</h3>
+    <h2 id="analysis">Analysis of student logs</h2>
     <p>
         I included code in the high-fidelity prototypes that logged events during the interviews. 
         There was a large variety of different events that were logged, including when a participant: clicked buttons in the LAD, moved their mouse cursor in and out of different sections of the LAD, and when they hovered over charts in the LAD. 

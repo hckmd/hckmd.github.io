@@ -11,13 +11,13 @@ title: Coding in Stage 3
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "coding-in-stage-3" | first %}
-    <h2>{{ project.title }}</h2>
+    <h1>{{ project.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
             <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
         </div>
     </div>
-    <h3>About</h3>
+    <h2>About</h2>
     <p>
         The Coding in Stage 3 program was a professional learning program for Stage 3 (Years 5 and 6) teachers that I developed in collaboration with researchers at the School of Education at the University of Newcastle, Australia. 
         The program was part of my PhD project, which investigated how Stage 3 teachers in New South Wales learned and taught coding and computational thinking. 

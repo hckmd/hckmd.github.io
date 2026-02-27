@@ -12,13 +12,13 @@ title: Coding and STEM 4 Schools
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "cs4s" | first %}
-    <h2>{{ project.title }}</h2>
+    <h1>{{ project.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
             <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
         </div>
     </div>
-    <h3>About</h3>
+    <h2>About</h2>
     <p>
         From 2013 to 2019, I collaborated with academics from the <em>School of Education</em> and the <em>School of Electrical Engineering and Computing</em> to organise and run professional learning programs for teachers, titled <em>Coding &amp; STEM 4 Schools</em>. 
         The purpose of these programs, which are developed in partnership with Google and continue to run annually, is to help prepare teachers for the Digital Technologies Curriculum.
@@ -37,7 +37,7 @@ title: Coding and STEM 4 Schools
         For example, <a href="https://cs4s.github.io/intro-2017/day1/coding/Coding%20in%20Scratch%20Activity%20-%20Fundamental%20Coding%20Concepts.docx" class="site-link">this activity introduces fundamental Coding concepts in Scratch</a>.
         You can access all of the resources I have created for the recent workshops from the <a href="https://cs4s.github.io/resources" class="site-link">Newcastle CS4S website&#39;s Resource page</a>.
     </p>
-    <h3>Links</h3>
+    <h2>Links</h2>
     <ul>
         <li>
             <a href="https://cs4s.github.io/" class="site-link">Newcastle Coding &amp; STEM 4 Schools Website</a>
