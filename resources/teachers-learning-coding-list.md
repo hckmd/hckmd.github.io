@@ -2,6 +2,13 @@
 layout: default
 title: Learning to Teach Coding Resources
 ---
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent px-0 mb-1">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/resources/" class="site-link">Resources</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Learning to Teach Coding Resources</li>
+  </ol>
+</nav>
+
 
 <div class="showcase">
     <h2>{{ site.data.resources[0].title }}</h2>

@@ -2,6 +2,14 @@
 layout: default
 title: The Design of the MEd:DT
 ---
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent px-0 mb-1">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/med-dt-usyd" class="site-link">MEd (Digital Technologies)</a></li>
+    <li class="breadcrumb-item active" aria-current="page">The Design of the MEd:DT</li>
+  </ol>
+</nav>
+
 
 <div class="showcase">
     <h1 class="my-3">The Design of the MEd:DT</h1>

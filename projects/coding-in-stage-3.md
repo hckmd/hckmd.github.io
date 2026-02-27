@@ -2,6 +2,12 @@
 layout: default
 title: Coding in Stage 3
 ---
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent px-0">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Coding in Stage 3</li>
+  </ol>
+</nav>
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "coding-in-stage-3" | first %}

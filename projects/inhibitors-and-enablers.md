@@ -2,6 +2,13 @@
 layout: default
 title: Inhibitors and Enablers
 ---
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent px-0 mb-1">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Inhibitors and Enablers</li>
+  </ol>
+</nav>
+
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "inhibitors-and-enablers" | first %}

@@ -2,6 +2,13 @@
 layout: default
 title: Memory Trick Widget
 ---
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent px-0 mb-1">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Memory Trick Widget</li>
+  </ol>
+</nav>
+
 
 <style>
     [data-bs-toggle="collapse"].collapsed .if-not-collapsed {
