@@ -178,6 +178,7 @@ ul.ul-edu li .description p {
 
 a.site-page-link {
     color: #29537c;
+    text-decoration: underline;
 }
 
 .profile-heading {
