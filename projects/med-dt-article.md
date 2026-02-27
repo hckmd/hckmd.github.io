@@ -209,7 +209,7 @@ title: The Design of the MEd:DT
     <div class="col-md-4 offset-md-4 px-0">
         <figure class="figure">
             <img src="images/tpack-model.jpg" class="img-fluid my-3">
-            <figcaption class="figure-caption">Figure 1: The TPACK model (Source: <a href="http://tpack.org/" target="_blank" class="site-link">tpack.org</a>)</figcaption>
+            <figcaption class="figure-caption">Figure 1: The TPACK model (Source: <a href="http://tpack.org/" class="site-link">tpack.org</a>)</figcaption>
         </figure>
     </div>
     <p>
@@ -402,11 +402,11 @@ title: The Design of the MEd:DT
     </p>
     <h2 id="acknowledgements" class="my-3">Acknowledgements</h2>
     <p>
-        We would like to acknowledge our colleagues at the Australian Computing Academy (now part of <a href="https://grokacademy.org" class="site-link" target="_blank">Grok Academy</a>) for their work in planning and developing learning activities for the units, and staff in the School of Social Work and Education at the University of Sydney for their coordination of the program and administrative support.
+        We would like to acknowledge our colleagues at the Australian Computing Academy (now part of <a href="https://grokacademy.org" class="site-link">Grok Academy</a>) for their work in planning and developing learning activities for the units, and staff in the School of Social Work and Education at the University of Sydney for their coordination of the program and administrative support.
     </p>
     <h2 id="references" class="my-3">References</h2>
     <div id="ref-acara" class="my-2">
-        [1]: Australian Curriculum Assessment and Reporting Authority. 2015. Australian Curriculum: Digital Technologies. (2015) <a href="https://www.australiancurriculum.edu.au/f-10-curriculum/technologies/digital-technologies/" class="site-link" target="_blank">https://www.australiancurriculum.edu.au/f-10-curriculum/technologies/digital-technologies/</a>
+        [1]: Australian Curriculum Assessment and Reporting Authority. 2015. Australian Curriculum: Digital Technologies. (2015) <a href="https://www.australiancurriculum.edu.au/f-10-curriculum/technologies/digital-technologies/" class="site-link">https://www.australiancurriculum.edu.au/f-10-curriculum/technologies/digital-technologies/</a>
     </div>
     <div id="ref-bell" class="my-2">
         [2]: Tim Bell. 2021. CS unplugged or coding classes? <i>Commun. ACM</i> 64, 5 (2021), 25–27.
@@ -415,7 +415,7 @@ title: The Design of the MEd:DT
         [3]: Matt Bower, Leigh N Wood, Jennifer WM Lai, Kate Highfield, Jennifer Veal, Cathie Howe, Raymond Lister, and Raina Mason. 2017. Improving the computational thinking pedagogical capabilities of school teachers. <i>Australian Journal of Teacher Education</i> 42, 3 (2017), 53–72.
     </div>
     <div id="ref-brown-wilson" class="my-2">
-        [4]: Neil C.C.Brown and Greg Wilson. 2018. Ten quick tips for teaching programming. <i>PLOS Computational Biology</i> 14, 4 (2018), <a href="https://doi.org/10.1371/journal.pcbi.1006023" class="site-link" target="_blank">https://doi.org/10.1371/journal.pcbi.1006023</a>
+        [4]: Neil C.C.Brown and Greg Wilson. 2018. Ten quick tips for teaching programming. <i>PLOS Computational Biology</i> 14, 4 (2018), <a href="https://doi.org/10.1371/journal.pcbi.1006023" class="site-link">https://doi.org/10.1371/journal.pcbi.1006023</a>
     </div>
     <div id="ref-darling-hammond" class="my-2">
         [5]: Linda Darling-Hammond and Jon Snyder. 2000. Authentic assessment of teaching in context. <i>Teaching and teacher education</i> 16, 5-6 (2000), 523–545.
@@ -427,34 +427,34 @@ title: The Design of the MEd:DT
         [7]: Marcia D Dixson. 2010. Creating Effective Student Engagement in Online Courses: What Do Students Find Engaging? <i>Journal of the Scholarship of Teaching and Learning</i> 10, 2 (2010), 1–13.
     </div>
     <div id="ref-duncan" class="my-2">
-        [8]: Caitlin Duncan and Tim Bell. 2015. A Pilot Computer Science and Programming Course for Primary School Students. In <i>Proceedings of the Workshop in Primary and Secondary Computing Education</i> (London, United Kingdom) (WiPSCE ’15). Association for Computing Machinery, New York, NY, USA, 39–48. <a href="https://doi.org/10.1145/2818314.2818328" class="site-link" target="_blank">https://doi.org/10.1145/2818314.2818328</a>
+        [8]: Caitlin Duncan and Tim Bell. 2015. A Pilot Computer Science and Programming Course for Primary School Students. In <i>Proceedings of the Workshop in Primary and Secondary Computing Education</i> (London, United Kingdom) (WiPSCE ’15). Association for Computing Machinery, New York, NY, USA, 39–48. <a href="https://doi.org/10.1145/2818314.2818328" class="site-link">https://doi.org/10.1145/2818314.2818328</a>
     </div>
     <div id="ref-falkner-2014" class="my-2">
         [9]: Katrina Falkner, Rebecca Vivian, and Nickolas Falkner. 2014. The Australian digital technologies curriculum: challenge and opportunity. In <i>Proceedings of the Sixteenth Australasian Computing Education Conference-Volume 148</i>. 3–12.
     </div>
     <div id="ref-falkner-2017" class="my-2">
-        [10]: Katrina Falkner, Rebecca Vivian, Nickolas Falkner, and Sally-Ann Williams. 2017. Reflecting on Three Offerings of a Community-Centric MOOC for K-6 Computer Science Teachers. In <i>Proceedings of the 2017 ACM SIGCSE Technical Symposium on Computer Science Education</i> (Seattle, Washington, USA) (<i>SIGCSE '17</i>). Association for Computing Machinery, New York, NY, USA, 195–200. <a href="https://doi.org/10.1145/3017680.3017712" class="site-link" target="_blank">https://doi.org/10.1145/3017680.3017712</a>
+        [10]: Katrina Falkner, Rebecca Vivian, Nickolas Falkner, and Sally-Ann Williams. 2017. Reflecting on Three Offerings of a Community-Centric MOOC for K-6 Computer Science Teachers. In <i>Proceedings of the 2017 ACM SIGCSE Technical Symposium on Computer Science Education</i> (Seattle, Washington, USA) (<i>SIGCSE '17</i>). Association for Computing Machinery, New York, NY, USA, 195–200. <a href="https://doi.org/10.1145/3017680.3017712" class="site-link">https://doi.org/10.1145/3017680.3017712</a>
     </div>
     <div id="ref-garrison" class="my-2">
         [11]: D Randy Garrison and Zehra Akyol. 2015. <i>Thinking collaboratively in educational environments: Shared metacognition and co-regulation in communities of inquiry</i>. Springer, 39–52.
     </div>
     <div id="ref-hickmott-2018" class="my-2">
-        [12]: Daniel Hickmott and Elena Prieto-Rodriguez. 2018. To Assess or Not to Assess: Tensions Negotiated in Six Years of Teaching Teachers about Computational Thinking. <i>Informatics in Education</i> 17, 2 (2018), 229–244. <a href="https://doi.org/10.15388/infedu.2018.12" class="site-link" target="_blank">https://doi.org/10.15388/infedu.2018.12</a>
+        [12]: Daniel Hickmott and Elena Prieto-Rodriguez. 2018. To Assess or Not to Assess: Tensions Negotiated in Six Years of Teaching Teachers about Computational Thinking. <i>Informatics in Education</i> 17, 2 (2018), 229–244. <a href="https://doi.org/10.15388/infedu.2018.12" class="site-link">https://doi.org/10.15388/infedu.2018.12</a>
     </div>
     <div id="ref-hickmott-2020" class="my-2">
-        [13]: Daniel Hickmott. 2020. <i>A Study of a Professional Learning Program for Primary School Teachers Implementing the New South Wales Science and Technology Syllabus</i>. Ph.D. Dissertation. University of Newcastle, NSW, Australia. <a href="http://hdl.handle.net/1959.13/1417667" class="site-link" target="_blank">http://hdl.handle.net/1959.13/1417667</a>
+        [13]: Daniel Hickmott. 2020. <i>A Study of a Professional Learning Program for Primary School Teachers Implementing the New South Wales Science and Technology Syllabus</i>. Ph.D. Dissertation. University of Newcastle, NSW, Australia. <a href="http://hdl.handle.net/1959.13/1417667" class="site-link">http://hdl.handle.net/1959.13/1417667</a>
     </div>
     <div id="ref-koehler" class="my-2">
-        [14]: Matthew J. Koehler, Punya Mishra, and William Cain. 2013. What is Technological Pedagogical Content Knowledge (TPACK)? <i>Journal of Education</i> 193, 3 (2013), 13–19. <a href="https://doi.org/10.1177/002205741319300303" class="site-link" target="_blank">https://doi.org/10.1177/002205741319300303</a>
+        [14]: Matthew J. Koehler, Punya Mishra, and William Cain. 2013. What is Technological Pedagogical Content Knowledge (TPACK)? <i>Journal of Education</i> 193, 3 (2013), 13–19. <a href="https://doi.org/10.1177/002205741319300303" class="site-link">https://doi.org/10.1177/002205741319300303</a>
     </div>
     <div id="ref-mason" class="my-2">
         [15]: Stacie L. Mason and Peter J. Rich. 2019. Preparing Elementary School Teachers to Teach Computing, Coding, and Computational Thinking. <i>Contemporary Issues in Technology and Teacher Education</i> 19, 4 (2019), 790–824.
     </div>
     <div id="ref-mcgill" class="my-2">
-        [16]: Monica M. McGill, Leigh Ann DeLyser, Karen Brennan, Baker Franke, Errol Kaylor, Eric Mayhew, Kelly Mills, and Aman Yadav. 2020. Evaluation and assessment for improving CS teacher effectiveness. ACM Inroads 11, 4 (2020), 35–41. <a href="https://doi.org/10.1145/3410478" class="site-link" target="_blank">https://doi.org/10.1145/3410478</a> 
+        [16]: Monica M. McGill, Leigh Ann DeLyser, Karen Brennan, Baker Franke, Errol Kaylor, Eric Mayhew, Kelly Mills, and Aman Yadav. 2020. Evaluation and assessment for improving CS teacher effectiveness. ACM Inroads 11, 4 (2020), 35–41. <a href="https://doi.org/10.1145/3410478" class="site-link">https://doi.org/10.1145/3410478</a> 
     </div>
     <div id="ref-menekse" class="my-2">
-        [17]: Muhsin Menekse. 2015. Computer science teacher professional development in the United States: a review of studies published between 2004 and 2014. <i>Computer Science Education</i> 25, 4 (2015), 325–350. <a href="https://doi.org/10.1080/08993408.2015.1111645" class="site-link" target="_blank">https://doi.org/10.1080/08993408.2015.1111645</a>
+        [17]: Muhsin Menekse. 2015. Computer science teacher professional development in the United States: a review of studies published between 2004 and 2014. <i>Computer Science Education</i> 25, 4 (2015), 325–350. <a href="https://doi.org/10.1080/08993408.2015.1111645" class="site-link">https://doi.org/10.1080/08993408.2015.1111645</a>
     </div>
     <div id="ref-parsons" class="my-2">
         [18]: Dale Parsons and Patricia Haden. 2006. Parson’s Programming Puzzles: A Fun and Effective Learning Tool for First Programming Courses. In <i>Proceedings of the 8th Australasian Conference on Computing Education - Volume 52</i> (Hobart, Australia) (<i>ACE ’06</i>). Australian Computer Society, Inc., AUS, 157–163.
@@ -466,12 +466,12 @@ title: The Design of the MEd:DT
         [20]: Lev Semenovich Vygotsky. 1980. <i>Mind in society: The development of higher psychological processes</i>. Harvard university press.
     </div>
     <div id="ref-webb" class="my-2">
-        [21]: Mary Webb, Niki Davis, Tim Bell, Yaacov J. Katz, Nicholas Reynolds, Dianne P. Chambers, and Maciej M. Sysło. 2017. Computer science in K-12 school curricula of the 2lst century: Why, what and when? <i>Education and Information Technologies</i> 22, 2 (2017), 445–468. <a href="https://doi.org/10.1007/s10639-016-9493-x" class="site-link" target="_blank">https://doi.org/10.1007/s10639-016-9493-x</a>
+        [21]: Mary Webb, Niki Davis, Tim Bell, Yaacov J. Katz, Nicholas Reynolds, Dianne P. Chambers, and Maciej M. Sysło. 2017. Computer science in K-12 school curricula of the 2lst century: Why, what and when? <i>Education and Information Technologies</i> 22, 2 (2017), 445–468. <a href="https://doi.org/10.1007/s10639-016-9493-x" class="site-link">https://doi.org/10.1007/s10639-016-9493-x</a>
     </div>
     <div id="ref-wing" class="my-2">
         [22]: Jeannette M Wing. 2008. Computational thinking and thinking about computing. <i>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</i> 366, 1881 (2008), 3717–3725.
     </div>
     <div id="ref-yadav" class="my-2">
-        [23]: Aman Yadav, Phil Sands, Jon Good, and Alex Lishinki. 2018. <i>Computer Science and Computational Thinking in the Curriculum: Research and Practice</i>. Springer International Publishing, Cham, 1–18. <a href="https://doi.org/10.1007/978-3-319-53803-7_6-1" class="site-link" target="_blank">https://doi.org/10.1007/978-3-319-53803-7_6-1</a> 
+        [23]: Aman Yadav, Phil Sands, Jon Good, and Alex Lishinki. 2018. <i>Computer Science and Computational Thinking in the Curriculum: Research and Practice</i>. Springer International Publishing, Cham, 1–18. <a href="https://doi.org/10.1007/978-3-319-53803-7_6-1" class="site-link">https://doi.org/10.1007/978-3-319-53803-7_6-1</a> 
 
 </div>

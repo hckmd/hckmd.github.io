@@ -12,10 +12,10 @@ title: Home
             </div>
             <ul class="network-icon" aria-hidden="true">
                 <li>
-                    <a href="mailto:daniel.hickmott@gmail.com" target="_blank" rel="noopener"> <i class="fa fa-envelope big-icon"></i> </a>
+                    <a href="mailto:daniel.hickmott@gmail.com"> <i class="fa fa-envelope big-icon"></i> </a>
                 </li>
                 <li>
-                    <a href="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ" target="_blank" rel="noopener"> <i class="ai ai-google-scholar big-icon"> </i></a>
+                    <a href="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ"> <i class="ai ai-google-scholar big-icon"> </i></a>
                 </li>
             </ul>
         </div>
@@ -27,7 +27,7 @@ title: Home
         </p>
         <p>
             I completed my PhD in Education at the University of Newcastle, Australia in 2020.
-            The focus of my PhD research was on the design and evaluation of a professional learning program for K-6 school teachers learning and teaching computer coding. You can read more about the program I ran on <a href="{{ site.baseurl | append: '/projects/coding-in-stage-3' }}" class="site-link">this page</a> and you can also download my thesis <a class="site-link" href="https://hdl.handle.net/1959.13/1417667" target="_blank"> from the university's OpenResearch website.</a>
+            The focus of my PhD research was on the design and evaluation of a professional learning program for K-6 school teachers learning and teaching computer coding. You can read more about the program I ran on <a href="{{ site.baseurl | append: '/projects/coding-in-stage-3' }}" class="site-link">this page</a> and you can also download my thesis <a class="site-link" href="https://hdl.handle.net/1959.13/1417667"> from the university's OpenResearch website.</a>
         </p>
         <div class="row">
             <div class="col-md-5">
@@ -142,14 +142,14 @@ title: Home
                     src="{{ site.baseurl | append: resource.imageFilePath }}">
                 <div class="card-body">
                     <h4>
-                        <a href="{{ resource.linkLocation }}" {% if resource.newTab == 'true' %} target="_blank" {% endif %}
+                        <a href="{{ resource.linkLocation }}" {% if resource.newTab == 'true' %} {% endif %}
                             class="site-page-link">
                             {{ resource.title }}
                         </a>
                     </h4>
                     <p><b>{{ resource.type }}</b></p>
                     <p class="card-text">{{ resource.description }}</p>
-                    <a href="{{ resource.linkLocation }}" {% if resource.newTab == 'true' %} target="_blank" {% endif %}
+                    <a href="{{ resource.linkLocation }}" {% if resource.newTab == 'true' %} {% endif %}
                         class="btn btn-sm btn-info float-right">
                         {{ resource.linkLabel }}
                         <i class="fa {{ resource.linkIcon }} media-icon"></i>

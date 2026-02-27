@@ -26,14 +26,14 @@ title: Coding and STEM 4 Schools
         The work in this project was so important to me that I decided to complete a PhD that involved investigating the impact of professional learning programs on teachers&#39; understanding of coding, their confidence about teaching coding and their plans for teaching coding in different subjects.
     </p>
     <p>
-        Most of the activities that I developed for these workshops are licenced under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="site-link">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence</a>.
-        For example, <a href="https://cs4s.github.io/intro-2017/day1/coding/Coding%20in%20Scratch%20Activity%20-%20Fundamental%20Coding%20Concepts.docx" target="_blank" class="site-link">this activity introduces fundamental Coding concepts in Scratch</a>.
-        You can access all of the resources I have created for the recent workshops from the <a href="https://cs4s.github.io/resources" target="_blank" class="site-link">Newcastle CS4S website&#39;s Resource page</a>.
+        Most of the activities that I developed for these workshops are licenced under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="site-link">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence</a>.
+        For example, <a href="https://cs4s.github.io/intro-2017/day1/coding/Coding%20in%20Scratch%20Activity%20-%20Fundamental%20Coding%20Concepts.docx" class="site-link">this activity introduces fundamental Coding concepts in Scratch</a>.
+        You can access all of the resources I have created for the recent workshops from the <a href="https://cs4s.github.io/resources" class="site-link">Newcastle CS4S website&#39;s Resource page</a>.
     </p>
     <h3>Links</h3>
     <ul>
         <li>
-            <a href="https://cs4s.github.io/" target="_blank" class="site-link">Newcastle Coding &amp; STEM 4 Schools Website</a>
+            <a href="https://cs4s.github.io/" class="site-link">Newcastle Coding &amp; STEM 4 Schools Website</a>
         </li>
     </ul>
     <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">

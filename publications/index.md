@@ -6,7 +6,7 @@ title: Publications
 <div class="showcase">
     <h1>Publications</h1>
     <p>
-        For the most up-to-date list of my publications, please see my <a href ="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ&hl=en" class="site-link" target="_blank">Google Scholar page</a>.
+        For the most up-to-date list of my publications, please see my <a href ="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ&hl=en" class="site-link">Google Scholar page</a>.
     </p>
     <p>
      If you would like to read one or more of these publications but cannot get access to them, please <a href="mailto:daniel.hickmott@gmail.com" class="site-link">email me</a> and I will let you know if I can send you an author copy of the relevant publication/s.
@@ -26,8 +26,7 @@ title: Publications
                         </p>
                     </div>
                     <div class="list-item-buttons">
-                        <a href="https://hdl.handle.net/1959.13/1417667" class="btn btn-sm btn-info float-right"
-                            target="_blank">
+                        <a href="https://hdl.handle.net/1959.13/1417667" class="btn btn-sm btn-info float-right">
                             View on NOVA
                             <i class="fa fa-external-link publication-icon"></i>
                         </a>
@@ -65,8 +64,7 @@ title: Publications
                         <p class="publication-dates">Published {{ pub.publicationDate }}</p>
                     </div>
                     <div class="list-item-buttons">
-                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right"
-                            target="_blank">
+                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right">
                             View at {{ pub.locationLabel }}
                             <i class="fa fa-external-link publication-icon"></i>
                         </a>
@@ -104,8 +102,7 @@ title: Publications
                         <p class="publication-dates">In {{ pub.location }} during {{ pub.conferenceDate }}</p>
                     </div>
                     <div class="list-item-buttons">
-                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right"
-                            target="_blank">
+                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right">
                             View at {{ pub.locationLabel }}
                             <i class="fa fa-external-link publication-icon"></i>
                         </a>
@@ -144,8 +141,7 @@ title: Publications
                         <p class="publication-dates">In {{ pub.location }} during {{ pub.conferenceDate }}</p>
                     </div>
                     <div class="list-item-buttons">
-                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right"
-                            target="_blank">
+                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right">
                             View at {{ pub.locationLabel }}
                             <i class="fa fa-external-link publication-icon"></i>
                         </a>

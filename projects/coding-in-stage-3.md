@@ -35,10 +35,10 @@ title: Coding in Stage 3
     <h3>Links</h3>
     <ul>
         <li>
-            <a href="https://cs4s.github.io/2018/maths" target="_blank" class="site-link">Coding in Stage 3: ScratchMaths stream website</a>
+            <a href="https://cs4s.github.io/2018/maths" class="site-link">Coding in Stage 3: ScratchMaths stream website</a>
         </li>
         <li>
-            <a href="https://cs4s.github.io/2018/steam" target="_blank" class="site-link">Coding in Stage 3: Coding &amp; STEAM stream website</a>
+            <a href="https://cs4s.github.io/2018/steam" class="site-link">Coding in Stage 3: Coding &amp; STEAM stream website</a>
         </li>
     </ul>
     <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">

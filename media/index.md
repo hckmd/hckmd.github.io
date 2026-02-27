@@ -21,8 +21,7 @@ title: Media
                         <p class="card-text">{{ presentation.description }}</p>
                         <div class="list-item-buttons">
                             <a href="{{ site.baseurl | append: '/media/files/' | append: presentation.filePath }}"
-                                class="btn btn-sm btn-info float-right"
-                                target="_blank">
+                                class="btn btn-sm btn-info float-right">
                                 Open PDF
                                 <i class="fa fa-file-pdf-o media-icon"></i>
                             </a>
@@ -48,8 +47,7 @@ title: Media
                         <p class="card-text">{{ video.description }}</p>
                         <div class="list-item-buttons">
                             <a href="{{ video.videoLink }}"
-                                class="btn btn-sm btn-info float-right"
-                                target="_blank">
+                                class="btn btn-sm btn-info float-right">
                                 Watch Video on YouTube
                                 <i class="fa fa-youtube media-icon"></i>
                             </a>

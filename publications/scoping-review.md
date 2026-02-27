@@ -24,8 +24,7 @@ title: A Scoping Review of Studies on Computational Thinking in K–12 Mathemati
         View My Other Publications
         <i class="fa fa-list project-icon"></i>
     </a>
-    <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2"
-        target="_blank">
+    <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2">
         View at {{ pub.locationLabel }}
         <i class="fa fa-external-link publication-icon"></i>
     </a>

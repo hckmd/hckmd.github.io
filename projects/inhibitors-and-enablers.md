@@ -80,16 +80,16 @@ title: Inhibitors and Enablers
     <h3>Links</h3>
     <ul>
         <li>
-            <a href="ies3" class="site-link" target="_blank">The interactive Inhibitors and Enablers project (desktop and laptop only)</a>
+            <a href="ies3" class="site-link">The interactive Inhibitors and Enablers project (desktop and laptop only)</a>
         </li>
         <li>
-            <a href="https://youtu.be/Oi897X_Y9CI" class="site-link" target="_blank">Video explaining the project background</a>
+            <a href="https://youtu.be/Oi897X_Y9CI" class="site-link">Video explaining the project background</a>
         </li>
         <li>
-            <a href="https://hdl.handle.net/1959.13/1417667" class="site-link" target="_blank">My PhD thesis on the NOVA repository</a>
+            <a href="https://hdl.handle.net/1959.13/1417667" class="site-link">My PhD thesis on the NOVA repository</a>
         </li>
         <li>
-            <a href="coding-in-stage-3" class="site-link" target="_blank">More details about the Coding in Stage 3 Program</a>
+            <a href="coding-in-stage-3" class="site-link">More details about the Coding in Stage 3 Program</a>
         </li>
     </ul>
     <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
