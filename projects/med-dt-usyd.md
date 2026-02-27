@@ -23,7 +23,7 @@ title: MEd (Digital Technologies)
     </p>
     <h4 class="my-3">The background and design of the MEd (DT)</h4>
     <p>
-        Sujatha and I wrote a report about the background of the MEd (DT) program and the design of the assessment and learning activities, which you can read on <a href="{{ site.baseurl | append: '/projects/med-dt-article' }}" class="text-info">this page</a>. This program was unfortunately not offered to new applicants after 2020 and has been discontinued at the University of Sydney, with the last student expected to finish in mid-2023. Since 2022, I have worked as a Casual Academic in the School of Education and Social Work, supervising MEd (DT) students who started their degree in 2020 and are completing their capstone projects.
+        Sujatha and I wrote a report about the background of the MEd (DT) program and the design of the assessment and learning activities, which you can read on <a href="{{ site.baseurl | append: '/projects/med-dt-article' }}" class="site-link">this page</a>. This program was unfortunately not offered to new applicants after 2020 and has been discontinued at the University of Sydney, with the last student expected to finish in mid-2023. Since 2022, I have worked as a Casual Academic in the School of Education and Social Work, supervising MEd (DT) students who started their degree in 2020 and are completing their capstone projects.
     <p>
         MEd (DT) students generally had to complete eight different units in their degree, with four of those being focussed on DT content.
         We were responsible for lecturing those four units and supervising students in their capstone project unit.
@@ -37,7 +37,7 @@ title: MEd (Digital Technologies)
     </p>
     <p>
         I was very fortunate to teach alongside, and learn from, my colleague Sujatha Gunja, as well as colleagues from the ACA and the School of Education and Social Work at the University of Sydney.  
-        The report that Sujatha and I wrote about the program after the first year it ran is available from <a href="{{ site.baseurl | append: '/projects/med-dt-article' }}" class="text-info">this page</a>.
+        The report that Sujatha and I wrote about the program after the first year it ran is available from <a href="{{ site.baseurl | append: '/projects/med-dt-article' }}" class="site-link">this page</a>.
         If you would like to learn more about the program and/or are working on similar programs, I recommend reading that report.
         I'm also happy to chat about the MEd (DT) program and share our experiences running it, so feel free to get in touch about it.
     </p>

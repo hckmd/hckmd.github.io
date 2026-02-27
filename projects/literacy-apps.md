@@ -21,8 +21,8 @@ title: Literacy Apps
     </p>
     <p>The iOS versions of these apps are available as free downloads on the App Store:</p>
     <ul>
-        <li><a href="http://hckmd.com/AP" target="_blank" class="text-info">Apostrophe Power</a></li>
-        <li><a href="http://hckmd.com/SH" target="_blank" class="text-info">Sentence Hero</a></li>
+        <li><a href="http://hckmd.com/AP" target="_blank" class="site-link">Apostrophe Power</a></li>
+        <li><a href="http://hckmd.com/SH" target="_blank" class="site-link">Sentence Hero</a></li>
     </ul>
     <h4>Serious Game Analytics</h4>
     <div class="row">
@@ -39,15 +39,15 @@ title: Literacy Apps
         The thicker that the arrow is, the more common that navigation was.
     </p>
     <p>
-        You can read more about the processing of the game logs and the methods of visualising these data in <a href="{{ site.baseurl | append: '/publications/serious-game-analytics.png' }}" target="_blank" class="text-info">this conference article</a>, which was presented at the Joint International Conference for Serious Games in 2016.
+        You can read more about the processing of the game logs and the methods of visualising these data in <a href="{{ site.baseurl | append: '/publications/serious-game-analytics.png' }}" target="_blank" class="site-link">this conference article</a>, which was presented at the Joint International Conference for Serious Games in 2016.
     </p>
     <h3>Links</h3>
     <ul>
         <li>
-            <a href="https://www.ncsehe.edu.au/project/literacy-app-m-learning-tool-low-ses-undergraduate-students/" class="text-info" target="_blank">Article about the Literacy Apps project on National Centre for Student Equity in Higher Education (NCSEHE) website</a>
+            <a href="https://www.ncsehe.edu.au/project/literacy-app-m-learning-tool-low-ses-undergraduate-students/" class="site-link" target="_blank">Article about the Literacy Apps project on National Centre for Student Equity in Higher Education (NCSEHE) website</a>
         </li>
         <li>
-            <a href="https://www.newcastle.edu.au/newsroom/faculty-of-education-and-arts/literacy-apps-win-innovation-award" class="text-info" target="_blank">&#39;Literacy Apps Win Innovation Award&#39; article on University of Newcastle website</a>
+            <a href="https://www.newcastle.edu.au/newsroom/faculty-of-education-and-arts/literacy-apps-win-innovation-award" class="site-link" target="_blank">&#39;Literacy Apps Win Innovation Award&#39; article on University of Newcastle website</a>
         </li>
     </ul>
     <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">

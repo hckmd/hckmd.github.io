@@ -18,13 +18,13 @@ title: Inhibitors and Enablers
         If you only have a mobile device, there is information below about the project and you can also watch a video (linked below) about it.
     </div>
     <ul>
-        <li><a href="ies3" class="text-info">Access the interactive project here</a> (Only for desktop and laptop devices)</li>
-        <li><a href="https://youtu.be/Oi897X_Y9CI" class="text-info">Watch a video on YouTube that includes the project background and a demonstration.</a></li>
+        <li><a href="ies3" class="site-link">Access the interactive project here</a> (Only for desktop and laptop devices)</li>
+        <li><a href="https://youtu.be/Oi897X_Y9CI" class="site-link">Watch a video on YouTube that includes the project background and a demonstration.</a></li>
     </ul>
     <h4>Project Background</h4>
     <p>
         This project presents my results from an analysis of interviews I conducted with 15 Australian primary school (K-6) teachers in 2018. 
-        The interviews took place after the teachers completed a 10 week professional learning program I ran, called <a class="text-info" href="coding-in-stage-3">Coding in Stage 3</a>. 
+        The interviews took place after the teachers completed a 10 week professional learning program I ran, called <a class="site-link" href="coding-in-stage-3">Coding in Stage 3</a>. 
         That program and these interviews were both part of my PhD project.
     </p>
     <p>
@@ -48,7 +48,7 @@ title: Inhibitors and Enablers
     <p>
         The project has been implemented using TypeScript and PhaserJS, which are two technologies that I have been wanting to learn for a while. 
         The project is set up as a fixed size canvas that will not work well on mobile devices and should only be viewed on a desktop or laptop.
-        If you would like to see what the project looks like and can only use a mobile device, you can watch <a href="https://youtu.be/Oi897X_Y9CI" class="text-info">a video about it on YouTube here</a>.
+        If you would like to see what the project looks like and can only use a mobile device, you can watch <a href="https://youtu.be/Oi897X_Y9CI" class="site-link">a video about it on YouTube here</a>.
     </p>
     <h4>How to Use It</h4>
     <p>
@@ -80,16 +80,16 @@ title: Inhibitors and Enablers
     <h3>Links</h3>
     <ul>
         <li>
-            <a href="ies3" class="text-info" target="_blank">The interactive Inhibitors and Enablers project (desktop and laptop only)</a>
+            <a href="ies3" class="site-link" target="_blank">The interactive Inhibitors and Enablers project (desktop and laptop only)</a>
         </li>
         <li>
-            <a href="https://youtu.be/Oi897X_Y9CI" class="text-info" target="_blank">Video explaining the project background</a>
+            <a href="https://youtu.be/Oi897X_Y9CI" class="site-link" target="_blank">Video explaining the project background</a>
         </li>
         <li>
-            <a href="https://hdl.handle.net/1959.13/1417667" class="text-info" target="_blank">My PhD thesis on the NOVA repository</a>
+            <a href="https://hdl.handle.net/1959.13/1417667" class="site-link" target="_blank">My PhD thesis on the NOVA repository</a>
         </li>
         <li>
-            <a href="coding-in-stage-3" class="text-info" target="_blank">More details about the Coding in Stage 3 Program</a>
+            <a href="coding-in-stage-3" class="site-link" target="_blank">More details about the Coding in Stage 3 Program</a>
         </li>
     </ul>
     <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">

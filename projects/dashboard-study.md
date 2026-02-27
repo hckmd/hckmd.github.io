@@ -9,11 +9,11 @@ title: Dashboard Study
     <h3>About</h3>
     <p>
         During March 2025 to March 2026, I worked as a Postdoctoral Research Fellow on a project focused on the design of fair and equitable Learning Analytics Dashboards (or LADs for short).
-        The project is being led by <a href="https://ericasouthgateonline.wordpress.com/" class="text-info" target="_blank">Associate Professor Erica Southgate</a>, who I worked with on the <a href="literacy-apps" class="text-info" target="_blank">Literacy Apps project</a> during 2016. 
+        The project is being led by <a href="https://ericasouthgateonline.wordpress.com/" class="site-link" target="_blank">Associate Professor Erica Southgate</a>, who I worked with on the <a href="literacy-apps" class="site-link" target="_blank">Literacy Apps project</a> during 2016. 
         The project team consists of researchers from Education and Law from the University of Newcastle, with expertise in a diverse range of fields (including Educational Psychology, Inclusive Education and Finance Law).
     </p>
     <p>
-        The project has been funded through the <a href="https://www.acses.edu.au/" class="text-info" target="_blank">Australian Centre for Student Equity and Success' (ACSES)</a> Large grants program. 
+        The project has been funded through the <a href="https://www.acses.edu.au/" class="site-link" target="_blank">Australian Centre for Student Equity and Success' (ACSES)</a> Large grants program. 
         The title of the project is <em>"Fair, Inclusive Learning Dashboards: Student, educator, industry, and legal perspectives"</em>.
     </p>
     <p>
@@ -72,13 +72,13 @@ title: Dashboard Study
     <p>On this page, I explain three parts of the project that I worked on:</p>
     <ul>
         <li>
-            <a href="#design" class="text-info">Design:</a> I designed LADs, which incorporated common features of LADs from research and practice, in consultation with the rest of the team.
+            <a href="#design" class="site-link">Design:</a> I designed LADs, which incorporated common features of LADs from research and practice, in consultation with the rest of the team.
         </li>
         <li>
-            <a href="#development" class="text-info">Development:</a> I developed four high-fidelity prototype LADs using web technologies (including HTML, CSS, JavaScript, Vue).
+            <a href="#development" class="site-link">Development:</a> I developed four high-fidelity prototype LADs using web technologies (including HTML, CSS, JavaScript, Vue).
         </li>
         <li>
-            <a href="#analysis" class="text-info">Analysis:</a> I wrote Python code to analyse logs that were collected during the interviews to understand how students spent their time exploring different parts of the dashboard and which features they used the most.
+            <a href="#analysis" class="site-link">Analysis:</a> I wrote Python code to analyse logs that were collected during the interviews to understand how students spent their time exploring different parts of the dashboard and which features they used the most.
         </li>
     </ul>
     <p>In addition to these parts of the project, I also</p>
@@ -118,7 +118,7 @@ title: Dashboard Study
         I used the feedback from the team to make improvements to the LAD designs, such as including more inclusive features and making them reflect real LADs more accurately.   
     </p>
     <p>
-        I wrote a short conference paper about the experience of designing the LAD, with a focus on the student-facing agentic dashboard, which Erica presented at the ASCILITE conference in December 2025. You can access the paper, <em>"Exploring inclusivity, transparency, explainability and agency in learning analytics dashboard design"</em> <a href="https://open-publishing.org/publications/index.php/APUB/article/view/2669" class="text-info" target="_blank">from the Open-Publishing website</a>.
+        I wrote a short conference paper about the experience of designing the LAD, with a focus on the student-facing agentic dashboard, which Erica presented at the ASCILITE conference in December 2025. You can access the paper, <em>"Exploring inclusivity, transparency, explainability and agency in learning analytics dashboard design"</em> <a href="https://open-publishing.org/publications/index.php/APUB/article/view/2669" class="site-link" target="_blank">from the Open-Publishing website</a>.
     </p>
     <h3 id="development">Development of high-fidelity prototypes</h3>
     <p>
@@ -133,7 +133,7 @@ title: Dashboard Study
     </ul>
     <p>
         Like the medium-fidelity prototypes I created in Balsamiq, I was able to share the high-fidelity prototypes I created with my teammates as a single file.
-        I used the <a href="https://www.npmjs.com/package/vite-plugin-singlefile" class="text-info">vite-plugin-singlefile plugin</a> to create a HTML file that contained the four prototypes, which they could open up and interact with from any web browser (without installing anything) and give their feedback on.
+        I used the <a href="https://www.npmjs.com/package/vite-plugin-singlefile" class="site-link">vite-plugin-singlefile plugin</a> to create a HTML file that contained the four prototypes, which they could open up and interact with from any web browser (without installing anything) and give their feedback on.
         There will be screenshots and more details of the dashboards in the report that is published by ACSES later this year. 
         However, I’ve included an example of one of the dashboard components in the animation below, which demonstrates some of the interactivity in the high-fidelity prototypes.
     </p>

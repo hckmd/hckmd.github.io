@@ -6,10 +6,10 @@ title: Publications
 <div class="showcase">
     <h1>Publications</h1>
     <p>
-        For the most up-to-date list of my publications, please see my <a href ="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ&hl=en" class="text-info" target="_blank">Google Scholar page</a>.
+        For the most up-to-date list of my publications, please see my <a href ="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ&hl=en" class="site-link" target="_blank">Google Scholar page</a>.
     </p>
     <p>
-     If you would like to read one or more of these publications but cannot get access to them, please <a href="mailto:daniel.hickmott@gmail.com" class="text-info">email me</a> and I will let you know if I can send you an author copy of the relevant publication/s.
+     If you would like to read one or more of these publications but cannot get access to them, please <a href="mailto:daniel.hickmott@gmail.com" class="site-link">email me</a> and I will let you know if I can send you an author copy of the relevant publication/s.
     </p>
     <h2>Thesis</h2>
     My thesis, or <i>doctoral dissertation</i> as they are often referred to outside of Australia, was accepted during September 2020.

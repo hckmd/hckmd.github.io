@@ -27,7 +27,7 @@ title: Home
         </p>
         <p>
             I completed my PhD in Education at the University of Newcastle, Australia in 2020.
-            The focus of my PhD research was on the design and evaluation of a professional learning program for K-6 school teachers learning and teaching computer coding. You can read more about the program I ran on <a href="{{ site.baseurl | append: '/projects/coding-in-stage-3' }}" class="text-info">this page</a> and you can also download my thesis <a class="text-info" href="https://hdl.handle.net/1959.13/1417667" target="_blank"> from the university's OpenResearch website.</a>
+            The focus of my PhD research was on the design and evaluation of a professional learning program for K-6 school teachers learning and teaching computer coding. You can read more about the program I ran on <a href="{{ site.baseurl | append: '/projects/coding-in-stage-3' }}" class="site-link">this page</a> and you can also download my thesis <a class="site-link" href="https://hdl.handle.net/1959.13/1417667" target="_blank"> from the university's OpenResearch website.</a>
         </p>
         <div class="row">
             <div class="col-md-5">
@@ -103,7 +103,7 @@ title: Home
 </div>
 <div class="showcase">
     <h2>Selected Publications</h2>
-    <p>I have highlighted three of my favourite publications below but you can see the rest of my publications from the <a href="{{ site.baseurl | append: '/publications/' }}" class="text-info">Publications page</a>.</p>
+    <p>I have highlighted three of my favourite publications below but you can see the rest of my publications from the <a href="{{ site.baseurl | append: '/publications/' }}" class="site-link">Publications page</a>.</p>
     <div class="row">
         {% for publication in site.data.publications.selected %}
         <div class="col-md-4">
@@ -132,7 +132,7 @@ title: Home
     <h2>Resources and Media</h2>
     <p>
         I have included some different resources and media (videos and presentations) on this website.
-        I have highlighted my favourite resources and media below but you can see more on the <a href="{{ site.baseurl | append: '/media' }}" class="text-info">Media page</a> and the <a href="{{ site.baseurl | append: '/resources' }}" class="text-info">Resources page</a>.
+        I have highlighted my favourite resources and media below but you can see more on the <a href="{{ site.baseurl | append: '/media' }}" class="site-link">Media page</a> and the <a href="{{ site.baseurl | append: '/resources' }}" class="site-link">Resources page</a>.
     </p>
     <div class="row">
         {% for resource in site.data.highlights %}
