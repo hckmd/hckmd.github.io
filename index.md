@@ -7,9 +7,6 @@ title: Home
     <div class="col-xs-12 col-md-4">
         <div id="profile">
             <div class="portrait" style="background-image: url('me.jpg');"></div>
-            <div class="portrait-title">
-                <h2>Daniel Hickmott</h2>
-            </div>
             <ul class="network-icon" aria-hidden="true">
                 <li>
                     <a href="mailto:daniel.hickmott@gmail.com"> <i class="fa fa-envelope big-icon"></i> </a>
@@ -21,7 +18,7 @@ title: Home
         </div>
     </div>
     <div class="col-xs-12 col-md-8">
-        <h3 class="profile-heading">About Me</h3> 
+        <h1 class="profile-heading">Daniel (Dan) Hickmott</h1> 
         <p>
             I am an educator with experience in digital technologies education, research and software engineering. I am a versatile and adaptive problem solver who enjoys working with technology and people on projects that aim to have a positive impact.
         </p>
@@ -31,7 +28,7 @@ title: Home
         </p>
         <div class="row">
             <div class="col-md-5">
-                <h3 class="profile-heading">Research Interests</h3> 
+                <h2 class="profile-heading">Research Interests</h2> 
                 <ul class="ul-interests">
                     <li>Computing Education</li>
                     <li>Teacher Professional Learning</li>
@@ -41,7 +38,7 @@ title: Home
                 </ul>
             </div>
             <div class="col-md-7">
-                <h3 class="profile-heading">Education</h3> 
+                <h2 class="profile-heading">Education</h2> 
                 <ul class="ul-edu fa-ul">
                     <li>
                         <i class="fa-li fa fa-graduation-cap"></i>
@@ -75,7 +72,7 @@ title: Home
 <div class="showcase my-2"> 
     <h2>Projects</h2>
     <p>
-        You can find out more about some projects I've worked on by clicking the <b>Project Details</b> buttons below.
+        These are some of the projects I've worked on over the last decade or so:
     </p>
         {% for project in site.data.projects %}
         {% cycle '<div class="row justify-content-md-center">', '', '' %}
@@ -83,18 +80,13 @@ title: Home
                 <div class="card mb-4 box-shadow">
                     <img class="card-img-top" src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
                     <div class="card-body">
-                        <h4>
+                        <h3>
                             <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" class="site-page-link">
                                 {{ project.title }}
                             </a>
-                        </h4>
+                        </h3>
                         <strong>{{project.period }}</strong>
                         <p class="card-text">{{ project.description }}</p>
-                        <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" 
-                            class="btn btn-sm btn-info float-right">
-                            Project Details
-                            <i class="fa fa-info project-icon"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -103,7 +95,7 @@ title: Home
 </div>
 <div class="showcase">
     <h2>Selected Publications</h2>
-    <p>I have highlighted three of my favourite publications below but you can see the rest of my publications from the <a href="{{ site.baseurl | append: '/publications/' }}" class="site-link">Publications page</a>.</p>
+    <p>I have highlighted three of my favourite publications below but the the rest of my publications are on the <a href="{{ site.baseurl | append: '/publications/' }}" class="site-link">Publications page</a>.</p>
     <div class="row">
         {% for publication in site.data.publications.selected %}
         <div class="col-md-4">
@@ -117,11 +109,6 @@ title: Home
                         </a>
                     </h4>
                     <p class="card-text">{{ publication.venue }}</p>
-                    <a href="{{ site.baseurl | append: '/publications/' | append: publication.pageName }}" 
-                        class="btn btn-sm btn-info float-right">
-                        More details
-                        <i class="fa fa-chevron-circle-right publication-icon"></i>
-                    </a>
                 </div>
             </div>
         </div>
