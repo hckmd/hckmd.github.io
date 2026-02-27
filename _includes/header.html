@@ -1,27 +1,35 @@
 {% assign current = page.url | split: '/' %}
+<a href="#main" class="skip-link site-link">Skip to main content</a>
 <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
     <div class="container">
         <a class="navbar-brand researcher-name">Daniel Hickmott</a>
-        <button class="menu-item-link navbar-toggler navbar-toggler-right btn btn-info" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="menu-item-link navbar-toggler navbar-toggler-right btn btn-info" type="button"
+            data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars menu-icon"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-0 mx-lg-1 {% if page.url == '/'' %} active {% endif %}">
-                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/' }}">Home</a>
+                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3"
+                        href="{{ site.baseurl | append: '/' }}">Home</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1 {% if page.url contains 'projects' %} active {% endif %}">
-                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/projects/' }}">Projects</a>
+                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3"
+                        href="{{ site.baseurl | append: '/projects/' }}">Projects</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1 {% if page.url contains 'publications' %} active {% endif %}">
-                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/publications/' }}">Publications</a>
+                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3"
+                        href="{{ site.baseurl | append: '/publications/' }}">Publications</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1 {% if page.url contains 'media' %} active {% endif %}">
-                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/media/' }}">Media</a>
+                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3"
+                        href="{{ site.baseurl | append: '/media/' }}">Media</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1 {% if page.url contains 'resources' %} active {% endif %}">
-                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/resources/' }}">Resources</a>
+                    <a class="nav-link menu-item-link py-3 px-0 px-lg-3"
+                        href="{{ site.baseurl | append: '/resources/' }}">Resources</a>
                 </li>
             </ul>
         </div>

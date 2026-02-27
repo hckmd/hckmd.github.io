@@ -47,11 +47,16 @@ footer p {
 #profile .portrait-title h3 {
     font-size: 1rem;
     font-weight: 300;
-    color: rgba(0,0,0, 0.54);
+    color: rgba(0, 0, 0, 0.54);
     margin: 0px 0 10px 0;
 }
 
-.h1, .h2, .h3, h1, h2, h3 {
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
     margin-top: 20px;
 }
 
@@ -70,7 +75,9 @@ footer p {
     font-size: 1.5rem;
 }
 
-ul, ol, dl {
+ul,
+ol,
+dl {
     margin-top: 0;
     margin-bottom: 1rem;
 }
@@ -85,12 +92,12 @@ ul.ul-edu li .description p.course {
 
 ul.ul-edu li .description p.dates {
     font-size: 0.8rem;
-    color: rgba(0,0,0,0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 ul.ul-edu li .description p.institution {
     font-size: 0.75rem;
-    color: rgba(0,0,0,0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 ul.ul-edu li .description p {
@@ -124,10 +131,14 @@ ul.ul-edu li .description p {
 
 .context-text {
     font-size: 1.05rem;
-    color: rgba(0,0,0,0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
-.media-icon, .project-icon, .publication-icon, .resource-icon, .menu-icon {
+.media-icon,
+.project-icon,
+.publication-icon,
+.resource-icon,
+.menu-icon {
     margin: 5px;
 }
 
@@ -165,10 +176,11 @@ ul.ul-edu li .description p {
 
 [data-toggle="collapse"].collapsed .if-not-collapsed {
     display: none;
-  }
-  [data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+}
+
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
     display: none;
-  }
+}
 
 @media (max-width: 600px) {
     .list-item-buttons a {
@@ -191,4 +203,23 @@ a.site-page-link {
 
 .table-caption {
     text-align: center;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    padding: 8px;
+    z-index: 10000;
+    background-color: #fff;
+    transition: top 0.2s ease-in-out;
+}
+
+a.site-link {
+    color: #38699b;
+    text-decoration: underline;
+}
+
+.skip-link:focus {
+    top: 0;
 }
