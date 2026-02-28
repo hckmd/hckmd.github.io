@@ -15,11 +15,16 @@ title: Inhibitors and Enablers
     <h1>{{ project.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
+            <figure>
+                <img class="img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+                alt="{{ project.imageAltText }}"
+                >
+                <figcaption class="figure-caption text-center text-dark">A screenshot of the Inhibitors and Enablers interactive tool that I developed.</figcaption>
+            </figure>
         </div>
     </div>
     <h2>About</h2>
-    <div id="mobile-alert-box" class="alert alert-info my-3" style="display: none">
+    <div id="mobile-alert-box" class="alert alert-info my-3" style="display: none" role="alert">
         It looks likes you have tried to access the Inhibitors and Enablers project on a mobile device. 
         The project can only be viewed on a desktop or laptop.
         If you only have a mobile device, there is information below about the project and you can also watch a video (linked below) about it.

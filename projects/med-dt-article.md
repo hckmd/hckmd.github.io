@@ -163,7 +163,7 @@ title: The Design of the MEd:DT
         The table also includes the elective unit (EDPF5023), which we have not described in detail in this article because it was not a core DT unit and was only run once.
     </p>
     <table id="table-dt-units" class="table table-striped table-bordered my-4">
-        <caption class="table-caption">Table 1: The units in the MEd:DT program focussed on DT</caption>
+        <caption class="table-caption text-dark">Table 1: The units in the MEd:DT program focussed on DT</caption>
         <thead>
             <tr>
                 <th>Code</th>

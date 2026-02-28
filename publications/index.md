@@ -25,20 +25,20 @@ title: Publications
                             Supervised by Elena Prieto-Rodriguez and John Fischetti
                         </p>
                     </div>
-                    <div class="list-item-buttons">
-                        <a href="https://hdl.handle.net/1959.13/1417667" class="btn btn-sm btn-info float-right">
-                            View on NOVA
-                            <i class="fa fa-external-link publication-icon"></i>
-                        </a>
-                        <button type="button" class="btn btn-sm btn-info float-right collapsed"
-                            data-toggle="collapse" data-target="#collapse-abstract-thesis" aria-expanded="false" aria-controls="collapse-abstract-thesis">
-                            <span class="if-collapsed">
+                    <div class="list-item-buttons d-flex justify-content-end">
+                        <button type="button" class="btn btn-sm btn-info collapsed"
+                            data-toggle="collapse" data-target="#collapse-abstract-thesis" aria-expanded="false" aria-controls="collapse-abstract-thesis" aria-label="Thesis abstract">
+                            <span class="if-collapsed" aria-hidden="true">
                                 Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
                             </span>
-                            <span class="if-not-collapsed">
+                            <span class="if-not-collapsed" aria-hidden="true">
                                 Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
                             </span>
                         </button>
+                        <a href="https://hdl.handle.net/1959.13/1417667" class="btn btn-sm btn-info ml-2">
+                            View on NOVA
+                            <i class="fa fa-external-link publication-icon" aria-hidden="true"></i>
+                        </a>
                     </div>
                     <div class="collapse my-2 py-2" id="collapse-abstract-thesis">
                         <div class="pub-abstract">
@@ -63,20 +63,20 @@ title: Publications
                         <p class="publication-journal">In {{ pub.journal }}, Volume {{ pub.volume }}, Issue {{ pub.issue }}</p>
                         <p class="publication-dates">Published {{ pub.publicationDate }}</p>
                     </div>
-                    <div class="list-item-buttons">
-                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right">
-                            View at {{ pub.locationLabel }}
-                            <i class="fa fa-external-link publication-icon"></i>
-                        </a>
-                        <button type="button" class="btn btn-sm btn-info float-right collapsed"
-                            data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}">
-                            <span class="if-collapsed">
+                    <div class="list-item-buttons d-flex justify-content-end">
+                        <button type="button" class="btn btn-sm btn-info collapsed"
+                            data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}" aria-label="Abstract: {{ pub.title }}">
+                            <span class="if-collapsed" aria-hidden="true">
                                 Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
                             </span>
-                            <span class="if-not-collapsed">
+                            <span class="if-not-collapsed" aria-hidden="true">
                                 Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
                             </span>
                         </button>
+                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info ml-2">
+                            View at {{ pub.locationLabel }}
+                            <i class="fa fa-external-link publication-icon" aria-hidden="true"></i>
+                        </a>
                     </div>
                     <div class="collapse my-2 py-2" id="collapse-abstract-{{ pub.id }}">
                         <div class="pub-abstract">
@@ -101,20 +101,20 @@ title: Publications
                         <p class="publication-conference">Presented at the {{ pub.conference }} conference</p>
                         <p class="publication-dates">In {{ pub.location }} during {{ pub.conferenceDate }}</p>
                     </div>
-                    <div class="list-item-buttons">
-                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right">
-                            View at {{ pub.locationLabel }}
-                            <i class="fa fa-external-link publication-icon"></i>
-                        </a>
-                        <button type="button" class="btn btn-sm btn-info float-right collapsed"
-                            data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}">
-                            <span class="if-collapsed">
+                    <div class="list-item-buttons d-flex justify-content-end">
+                        <button type="button" class="btn btn-sm btn-info collapsed"
+                            data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}" aria-label="Abstract: {{ pub.title }}">
+                            <span class="if-collapsed" aria-hidden="true">
                                 Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
                             </span>
-                            <span class="if-not-collapsed">
+                            <span class="if-not-collapsed" aria-hidden="true">
                                 Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
                             </span>
                         </button>
+                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info ml-2">
+                            View at {{ pub.locationLabel }}
+                            <i class="fa fa-external-link publication-icon" aria-hidden="true"></i>
+                        </a>
                     </div>
                     <div class="collapse my-2 py-2" id="collapse-abstract-{{ pub.id }}">
                         <div class="pub-abstract">
@@ -143,14 +143,14 @@ title: Publications
                     <div class="list-item-buttons">
                         <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right">
                             View at {{ pub.locationLabel }}
-                            <i class="fa fa-external-link publication-icon"></i>
+                            <i class="fa fa-external-link publication-icon" aria-hidden="true"></i>
                         </a>
                         <button type="button" class="btn btn-sm btn-info float-right collapsed"
-                            data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}">
-                            <span class="if-collapsed">
+                            data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}" aria-label="Abstract: {{ pub.title }}">
+                            <span class="if-collapsed" aria-hidden="true">
                                 Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
                             </span>
-                            <span class="if-not-collapsed">
+                            <span class="if-not-collapsed" aria-hidden="true">
                                 Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
                             </span>
                         </button>

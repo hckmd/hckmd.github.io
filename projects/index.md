@@ -14,7 +14,9 @@ title: Projects
             <div class="row">
                 <div class ="col-md-4">
                     <img class="card-img-top list-img border border-secondary" 
-                        src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
+                        src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+                        alt="{{ project.imageAltText }}"
+                    >
                 </div>
                 <div class ="col-md-8">
                     <div class="card-body">
