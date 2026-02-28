@@ -57,8 +57,4 @@ title: Literacy Apps
             <a href="https://www.newcastle.edu.au/newsroom/faculty-of-education-and-arts/literacy-apps-win-innovation-award" class="site-link">&#39;Literacy Apps Win Innovation Award&#39; article on University of Newcastle website</a>
         </li>
     </ul>
-    <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
-        View My Other Projects
-        <i class="fa fa-list project-icon"></i>
-    </a>
 </div>

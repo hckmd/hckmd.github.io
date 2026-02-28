@@ -271,8 +271,4 @@ title: Dashboard Study
         The team is currently working on a report that will be published later in 2026 and will also present a series of webinars about the project in 2026 as well.
         If you are interested in the report, webinars or any other aspect of the project, feel free to email me and I will keep you updated or answer any questions you have.
     </p>
-    <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
-        View My Other Projects
-        <i class="fa fa-list project-icon"></i>
-    </a>
 </div>

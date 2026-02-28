@@ -99,10 +99,6 @@ title: Inhibitors and Enablers
             <a href="coding-in-stage-3" class="site-link">More details about the Coding in Stage 3 Program</a>
         </li>
     </ul>
-    <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
-        View My Other Projects
-        <i class="fa fa-list project-icon"></i>
-    </a>
 </div>
 <script>
     // Check if the user has been redirected here due to them being on a mobile

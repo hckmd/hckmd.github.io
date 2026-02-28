@@ -47,8 +47,4 @@ title: Coding in Stage 3
             <a href="https://cs4s.github.io/2018/steam" class="site-link">Coding in Stage 3: Coding &amp; STEAM stream website</a>
         </li>
     </ul>
-    <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
-        View My Other Projects
-        <i class="fa fa-list project-icon"></i>
-    </a>
 </div>

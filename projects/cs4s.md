@@ -43,8 +43,4 @@ title: Coding and STEM 4 Schools
             <a href="https://cs4s.github.io/" class="site-link">Newcastle Coding &amp; STEM 4 Schools Website</a>
         </li>
     </ul>
-    <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
-        View My Other Projects
-        <i class="fa fa-list project-icon"></i>
-    </a>
 </div>

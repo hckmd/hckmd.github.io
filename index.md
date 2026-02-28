@@ -6,15 +6,14 @@ title: Home
 <div class="row">
     <div class="col-xs-12 col-md-4">
         <div id="profile">
-            <div class="portrait" style="background-image: url('me.jpg');"></div>
-            <ul class="network-icon" aria-hidden="true">
-                <li>
-                    <a href="mailto:daniel.hickmott@gmail.com"> <i class="fa fa-envelope big-icon"></i> </a>
-                </li>
-                <li>
-                    <a href="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ"> <i class="ai ai-google-scholar big-icon"> </i></a>
-                </li>
-            </ul>
+            <img class="portrait" src="me.jpg" alt="Portrait photo of Daniel Hickmott">
+            <a class="btn btn-info mt-2 mb-1" href="mailto:daniel.hickmott@gmail.com">
+                <i class="fa fa-envelope mx-2"></i>Email me
+            </a>
+            <br>
+            <a class="btn btn-info my-1" href="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ">
+                <i class="ai ai-google-scholar mx-1"></i>My Google Scholar Page
+            </a>
         </div>
     </div>
     <div class="col-xs-12 col-md-8">
@@ -78,7 +77,10 @@ title: Home
         {% cycle '<div class="row justify-content-md-center">', '', '' %}
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
+                    <img class="card-img-top" 
+                        src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+                        alt="{{ project.imageAltText }}"
+                    >
                     <div class="card-body">
                         <h3>
                             <a href="{{ site.baseurl | append: '/projects/' | append: project.pageName }}" class="site-page-link">

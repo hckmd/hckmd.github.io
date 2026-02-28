@@ -18,12 +18,12 @@ footer p {
 }
 
 #profile .portrait {
-    background-image: url('http://hckmd.com/me.jpeg');
     width: 200px;
     height: 200px;
     margin: 0 auto;
     border-radius: 50%;
-    background-size: cover;
+    object-fit: cover;
+    display: block;
 }
 
 #profile ul.network-icon {
