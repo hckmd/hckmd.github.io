@@ -14,7 +14,12 @@ title: Coding in Stage 3
     <h1>{{ project.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
+            <figure>
+                <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+                alt="{{ project.imageAltText }}"
+                >
+                <figcaption class="figure-caption text-center text-dark">A screenshot from the ScratchMaths resources, from a lesson that involves teaching coding alongside coordinate geometry</figcaption>
+            </figure>
         </div>
     </div>
     <h2>About</h2>
@@ -22,7 +27,7 @@ title: Coding in Stage 3
         The Coding in Stage 3 program was a professional learning program for Stage 3 (Years 5 and 6) teachers that I developed in collaboration with researchers at the School of Education at the University of Newcastle, Australia. 
         The program was part of my PhD project, which investigated how Stage 3 teachers in New South Wales learned and taught coding and computational thinking. 
         One of the main aims of the project was to understand teachers' plans for integrating those skills in different subjects (such as Mathematics and English) and how these plans for integration were impacted by participation in the program.
-        My thesis, which has the results and analysis from my PhD project, is available to view and download from the University of Newcastle's <a class="site-link" href="https://hdl.handle.net/1959.13/1417667">NOVA repository</a>.
+        You can <a class="site-link" href="https://hdl.handle.net/1959.13/1417667">view and download my thesis from the University of Newcastle's OpenResearch website</a>.
     </p>
     <p>
         The program involved running two different streams, which the participating teachers could choose from: <i>ScratchMaths</i> and <i>Coding &amp; STEAM</i>.
@@ -36,7 +41,7 @@ title: Coding in Stage 3
     </p>
     <p>
         The Coding &amp; STEAM stream of the program used resources that have been adapted from activities within the <a class="site-link" href="http://scratched.gse.harvard.edu/guide/">Creative Computing Curriculum Guide</a>, which was created by researchers at the Harvard Graduate School of Education.
-        The main aim of the Coding & STEAM stream was to demonstrate how the teaching of coding and computational thinking could be integrated into a variety of Key Learning Areas, as is encouraged by the <a href="https://educationstandards.nsw.edu.au/wps/portal/nesa/k-10/learning-areas/technologies/coding-across-the-curriculum" class="site-link">NSW Education Standards Authority</a>. 
+        The main aim of the Coding & STEAM stream was to demonstrate how the teaching of coding and computational thinking could be integrated into a variety of Key Learning Areas, as was encouraged by the NSW Education Standards Authority at that time.
     </p>
     <h3>Links</h3>
     <ul>

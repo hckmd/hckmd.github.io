@@ -15,7 +15,9 @@ title: Coding and STEM 4 Schools
     <h1>{{ project.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
+            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+            alt="{{ project.imageAltText }}"
+            >
         </div>
     </div>
     <h2>About</h2>

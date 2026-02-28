@@ -56,14 +56,12 @@ title: The Design of the MEd:DT
         </ul>
     </div>
     <h2 id="abstract" class="my-4">Abstract</h2>
-
     <p>
         In Australia, the introduction of Digital Technologies curriculum means that every student must learn computing concepts from their first year of schooling to Year 8. 
         There are concerns about teachers' preparedness for teaching the Digital Technologies as computing topics, such as programming and computer networks, are not typically part of teachers' initial teacher education and there is a need to upskill in-service teachers for computing in K-12. 
         We have designed and lectured in a postgraduate coursework degree for in-service teachers who are aiming to upskill, and become leaders, in the teaching of computing in K-12.
         In this report, we share the design of the core units that we taught in this degree, briefly describe the content in the units, discuss some of the challenges we have encountered and suggest some future topics for exploration and research that could improve similar programs for in-service teachers upskilling in computing.
     </p>
-
     <h2 id="introduction" class="my-3">Introduction</h2>
     <p>
         There have been recent changes in curricula in many countries, with a focus on coding and computational thinking instead of general ICT skills. 
@@ -216,7 +214,9 @@ title: The Design of the MEd:DT
     </p>
     <div class="col-md-4 offset-md-4 px-0">
         <figure class="figure">
-            <img src="images/tpack-model.jpg" class="img-fluid my-3">
+            <img src="images/tpack-model.jpg" class="img-fluid my-3"
+                alt="A diagram showing the TPACK model, which is a venn diagram. There are three circles that overlap, lablled 'Technological Knowledge', 'Pedagogical Knowledge' and 'Content Knowledge'. The intersections between the three circles are labelled with the text 'Technological Content Knowledge', 'Technological Pedagogical Knowledge' and 'Pedagogical Content Knowledge'."
+            >
             <figcaption class="figure-caption text-dark">Figure 1: The TPACK model (Source: <a href="http://tpack.org/" class="site-link">tpack.org</a>)</figcaption>
         </figure>
     </div>
@@ -295,50 +295,53 @@ title: The Design of the MEd:DT
     </p>
     <h3 id="learning-activities" class="my-3">Learning activities</h3>
     <p>
-        The learning activities we refer to in this subsection are the activities in the online synchronous sessions, which included live coding activities and collaborative breakout activities. 
-        <a href="#table-learning-activities" class="site-link">Table 2</a> shows a summary of these synchronous learning activities.
+        The learning activities we refer to in this subsection are the activities in the online synchronous sessions, which included live coding activities and collaborative breakout activities.
+        A summary of these activities is provided below.
     </p>
-    <table id="table-learning-activities" class="table table-striped table-bordered">
-        <caption class="table-caption">Table 2: The different learning activities in the three core units in the MEd:DT</caption>
-        <tr>
-            <td><b>Assessments (Asynchronous)</b></td>
-        </tr>
-        <tr>
-            <td>
-                Discussions:
-                <ul>
-                    <li>Response to reading</li>
-                    <li>Activity design and critiques</li>
-                </ul>
-                Assignments:
-                <ul>
-                    <li>Development of teaching resources</li>
-                    <li>Situational analysis</li>
-                </ul>
-                Programming exercises on the Grok Learning platform
-            </td>
-        </tr>
-        <tr>
-            <td><b>Learning Activities (Synchronous)</b></td>
-        </tr>
-        <tr>
-            <td>
-                Two hour content lectures:
-                <ul>
-                    <li>Live coding</li>
-                    <li>Breakout activities</li>
-                    <li>Active learning through polls, Google Docs</li>
-                </ul>
-                One hour collaborative sessions:
-                <ul>
-                    <li>Code tracing activities</li>
-                    <li>Programming exercises (including Parson’s problems)</li>
-                    <li>Learning design and critiques</li>
-                    <li>Survey and database design</li>
-                </ul>
-            </td>
-        </tr> 
-    </table>
+    <ul>
+        <li>
+            <b>Assessments (Asynchronous)</b>
+            <ul>
+                <li>
+                    Discussions:
+                    <ul>
+                        <li>Response to reading</li>
+                        <li>Activity design and critiques</li>
+                    </ul>
+                </li>
+                <li>
+                    Assignments:
+                    <ul>
+                        <li>Development of teaching resources</li>
+                        <li>Situational analysis</li>
+                    </ul>
+                </li>
+                <li>Programming exercises on the Grok Learning platform</li>
+            </ul>
+        </li>
+        <li>
+            <b>Learning Activities (Synchronous)</b>
+            <ul>
+                <li>
+                    Two hour content lectures:
+                    <ul>
+                        <li>Live coding</li>
+                        <li>Breakout activities</li>
+                        <li>Active learning through polls, Google Docs</li>
+                    </ul>
+                </li>
+                <li>
+                    One hour collaborative sessions:
+                    <ul>
+                        <li>Code tracing activities</li>
+                        <li>Programming exercises (including Parson's problems)</li>
+                        <li>Learning design and critiques</li>
+                        <li>Survey and database design</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
     <p>
         Each of the units had a teaching period of 13 weeks. 
         In each unit, there were was an online session every week of the teaching period, which were the primary mode of contact between the instructors and teachers. 
