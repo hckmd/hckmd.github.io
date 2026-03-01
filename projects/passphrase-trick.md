@@ -11,11 +11,11 @@ title: Memory Trick Widget
 
 
 <style>
-    [data-bs-toggle="collapse"].collapsed .if-not-collapsed {
+    [data-toggle="collapse"].collapsed .if-not-collapsed {
         display: none;
     }
 
-    [data-bs-toggle="collapse"]:not(.collapsed) .if-collapsed {
+    [data-toggle="collapse"]:not(.collapsed) .if-collapsed {
         display: none;
     }
 </style>
@@ -24,11 +24,11 @@ title: Memory Trick Widget
     <h1>{{ project.title }}</h1>
     <p>Sometimes recalling passwords can be tricky, given the mix of symbols, letters, and numbers involved.</p>
     <div class="my-3">
-        <button class="btn btn-info collapsed mb-2" role="button" data-toggle="collapse" href="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background">
-            <span class="if-not-collapsed">
+        <button class="btn btn-info collapsed mb-2" data-toggle="collapse" data-target="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background" aria-label="Project Background">
+            <span class="if-not-collapsed" aria-hidden="true">
                 Hide Project Background <i class="fa fa-toggle-up mx-2"></i>
             </span>
-            <span class="if-collapsed">
+            <span class="if-collapsed" aria-hidden="true">
                 Project Background <i class="fa fa-toggle-down mx-2"></i>
             </span>
         </button>
@@ -44,7 +44,7 @@ title: Memory Trick Widget
                 <div class="row justify-content-center">
                     <div class="col-md-10 my-2">
                         <figure id="example-widget">
-                            <img src="images/memory-trick-widget-example.png" class="img-fluid" alt="An example of an image generated with the prompt 'Draw a moose and rabbit ice skating'">
+                            <img src="images/memory-trick-widget-example.png" class="img-fluid" alt="A mouse and rabbit ice skating together, in cartoon style.">
                             <figcaption class="figure-caption text-center text-dark">An example of an image generated with the prompt 'Draw a moose and rabbit ice skating'</figcaption>
                         </figure>
                     </div>
@@ -57,6 +57,7 @@ title: Memory Trick Widget
                 <div class="row justify-content-center my-2">
                     <div class="col-auto">
                         <table class="table table-bordered table-striped text-center">
+                            <caption class="text-dark">Word options for the passphrase widget</caption>
                             <thead>
                                 <tr>
                                     <th>Word 1</th>
@@ -119,26 +120,30 @@ title: Memory Trick Widget
         <p>A fun approach to create a memorable password is to use a memory trick where you combine 4 random words into a passphrase. If you visualise four things connected together in an unusual way, it stands out and stays in your memory.</p>
         <p>Choose four words from the dropdowns below or click the <strong>Random phrase</strong> button to create a passphrase.</p>
         <p>Click the <strong>Visualise</strong> button to see a generated image that visualises the passphrase.</p>
-        <div class="col-6 mt-2">     
-            <form class="form-inline">
+        <div class="col-6 mt-2">
+            <form class="form-inline" aria-label="Choose passphrase words">
+                <label for="word1" class="sr-only">Word 1</label>
                 <select id="word1" class="selection form-control mb-2 mr-sm-2">
                     <option>orange</option>
                     <option>yellow</option>
                     <option>cloud</option>
                     <option>red</option>
                 </select>
+                <label for="word2" class="sr-only">Word 2</label>
                 <select id="word2" class="selection form-control mb-2 mr-sm-2">
                     <option>house</option>
                     <option>tiger</option>
                     <option>duck</option>
                     <option>apple</option>
                 </select>
+                <label for="word3" class="sr-only">Word 3</label>
                 <select id="word3" class="selection form-control mb-2 mr-sm-2">
                     <option>sky</option>
                     <option>mirror</option>
                     <option>mountain</option>
                     <option>corn</option>
                 </select>
+                <label for="word4" class="sr-only">Word 4</label>
                 <select id="word4" class="selection form-control mb-2 mr-sm-2">
                     <option>tram</option>
                     <option>boat</option>
@@ -146,18 +151,21 @@ title: Memory Trick Widget
                     <option>cup</option>
                 </select>
             </form>
-            <p>
-                <strong>Passphrase:</strong><br/>
-                <div class="alert alert-secondary">
+            <div>
+                <strong>Passphrase:</strong>
+                <div class="alert alert-secondary mt-1">
                     <strong><span id="phrase"></span></strong>
                 </div>
-            </p>
-            <button class="btn btn-lg btn-light" id="randomise">Random phrase</button>
-            <button class="btn btn-lg btn-info" id="visualise">Visualise</button>
+            </div>
+            <button type="button" class="btn btn-lg btn-light" id="randomise">Random phrase</button>
+            <button type="button" class="btn btn-lg btn-info" id="visualise">Visualise</button>
         </div>
         <div class="col-6">
-            <img class="img-fluid border border-secondary" id="placeholder" src="images/passphrase_image_placeholder.jpg">
-            <img class="img-fluid border border-secondary" id="output" src="https://hckmd.pythonanywhere.com/static/memory-trick-images/placeholder.jpg">
+            <img class="img-fluid border border-secondary" id="placeholder" 
+                src="images/passphrase_image_placeholder.jpg"
+                alt="Plain gray background with the text 'The image for the passphrase is loading... The first time the image loads may take a while but each time after will be much quicker!'."
+            >
+            <img class="img-fluid border border-secondary" id="output" src="https://hckmd.pythonanywhere.com/static/memory-trick-images/placeholder.jpg" alt="">
         </div>
     </div>
     <div class="row card border-secondary my-3">

@@ -138,11 +138,6 @@ title: Home
                     </h4>
                     <p><b>{{ resource.type }}</b></p>
                     <p class="card-text">{{ resource.description }}</p>
-                    <a href="{{ resource.linkLocation }}" {% if resource.newTab == 'true' %} {% endif %}
-                        class="btn btn-sm btn-info float-right">
-                        {{ resource.linkLabel }}
-                        <i class="fa {{ resource.linkIcon }} media-icon"></i>
-                    </a>
                 </div>
             </div>
         </div>

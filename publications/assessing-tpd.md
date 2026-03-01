@@ -16,8 +16,13 @@ title: To Assess or Not to Assess
     <h1>{{ pub.title}}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary my-3" 
-                src = "{{ site.baseurl | append: '/publications/images/' | append: pub.imageFilePath }}">
+            <figure>
+                <img class = "img-fluid highlight-img border border-secondary my-3" 
+                    src = "{{ site.baseurl | append: '/publications/images/' | append: pub.imageFilePath }}"
+                    alt="{{ pub.imageAltText }}"
+                >
+                <figcaption class="figure-caption text-center text-dark">{{ pub.imageCaption }}</figcaption>
+            </figure>
         </div>
     </div>
     <div class="publication-details">

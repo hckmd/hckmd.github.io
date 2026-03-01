@@ -41,6 +41,9 @@ function visualisePhrase() {
 
     const imageDir = "https://hckmd.pythonanywhere.com/static/memory-trick-images";
     const imageSource = `${imageDir}/${word1}_${word2}_${word3}_${word4}.jpg`;
+    const outputElement = document.getElementById('output');
+    outputElement.src = imageSource;
+    outputElement.alt = `Image for phrase: '${word1} ${word2} ${word3} ${word4}', generated with AI.`;
     document.getElementById('output').src = imageSource;
 }
 

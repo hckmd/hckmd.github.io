@@ -30,8 +30,8 @@ title: Literacy Apps
     </p>
     <p>The iOS versions of these apps are available as free downloads on the App Store:</p>
     <ul>
-        <li><a href="http://hckmd.com/AP" class="site-link">Apostrophe Power</a></li>
-        <li><a href="http://hckmd.com/SH" class="site-link">Sentence Hero</a></li>
+        <li><a href="http://hckmd.com/AP" class="site-link">Apostrophe Power on the App Store</a></li>
+        <li><a href="http://hckmd.com/SH" class="site-link">Sentence Hero on the App Store</a></li>
     </ul>
     <h3>Serious Game Analytics</h3>
     <div class="row">
@@ -48,15 +48,6 @@ title: Literacy Apps
         The thicker that the arrow is, the more common that navigation was.
     </p>
     <p>
-        You can read more about the processing of the game logs and the methods of visualising these data in <a href="{{ site.baseurl | append: '/publications/serious-game-analytics.png' }}" class="site-link">this conference article</a>, which was presented at the Joint International Conference for Serious Games in 2016.
+        You can read more about the processing of the game logs and the methods of visualising these data in a <a href="{{ site.baseurl | append: '/publications/serious-game-analytics' }}" class="site-link">conference article titled Exploring Play-Learners' Analytics in a Serious Game for Literacy Improvement</a>, which was presented at the Joint International Conference for Serious Games in 2016.
     </p>
-    <h2>Links</h2>
-    <ul>
-        <li>
-            <a href="https://www.ncsehe.edu.au/project/literacy-app-m-learning-tool-low-ses-undergraduate-students/" class="site-link">Article about the Literacy Apps project on National Centre for Student Equity in Higher Education (NCSEHE) website</a>
-        </li>
-        <li>
-            <a href="https://www.newcastle.edu.au/newsroom/faculty-of-education-and-arts/literacy-apps-win-innovation-award" class="site-link">&#39;Literacy Apps Win Innovation Award&#39; article on University of Newcastle website</a>
-        </li>
-    </ul>
 </div>
