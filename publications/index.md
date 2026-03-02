@@ -6,10 +6,10 @@ title: Publications
 <div class="showcase">
     <h1>Publications</h1>
     <p>
-        For the most up-to-date list of my publications, please see my <a href ="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ&hl=en" class="site-link">Google Scholar page</a>.
+        For the most up-to-date list of my publications, please see <a href ="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ&hl=en" class="site-link">my Google Scholar page</a>.
     </p>
     <p>
-     If you would like to read one or more of these publications but cannot get access to them, please <a href="mailto:daniel.hickmott@gmail.com" class="site-link">email me</a> and I will let you know if I can send you an author copy of the relevant publication/s.
+     If you would like to read one or more of these publications but cannot get access to them, please <a href="mailto:daniel.hickmott@gmail.com" class="site-link">email me about access to the specific publication/s</a> and I will let you know if I can send you an author copy of the relevant publication/s.
     </p>
     <h2>Thesis</h2>
     My thesis, or <i>doctoral dissertation</i> as they are often referred to outside of Australia, was accepted during September 2020.
@@ -36,7 +36,7 @@ title: Publications
                             </span>
                         </button>
                         <a href="https://hdl.handle.net/1959.13/1417667" class="btn btn-sm btn-info ml-2">
-                            View on NOVA
+                            View at OpenResearch Website
                             <i class="fa fa-external-link publication-icon" aria-hidden="true"></i>
                         </a>
                     </div>

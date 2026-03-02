@@ -33,10 +33,6 @@ title: A Scoping Review of Studies on Computational Thinking in K–12 Mathemati
     </div>
     <h2>Abstract</h2>
     <p>{{ pub.abstract }}</p>
-    <a href="{{ site.baseurl | append: '/publications/' }}" class="btn btn-sm btn-info float-right">
-        View My Other Publications
-        <i class="fa fa-list project-icon"></i>
-    </a>
     <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right mx-2">
         View at {{ pub.locationLabel }}
         <i class="fa fa-external-link publication-icon"></i>

@@ -15,9 +15,12 @@ title: MEd (Digital Technologies)
     <h1>{{ project.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
-            alt="{{ project.imageAltText }}"
-            >
+            <figure>
+                <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+                alt="{{ project.imageAltText }}"
+                >
+                <figcaption class="figure-caption text-dark text-center">The MEd (Technologies) program was online, so we got used to seeing our students through our computer screens</figcaption>
+            </figure>
         </div>
     </div>
     <h2>About</h2>

@@ -12,20 +12,14 @@ title: Media
         <div class="card box-shadow py-3 my-2 mx-2">
             <div class="row">
                 <div class ="col-md-4">
-                    <img class="card-img-top list-img border border-secondary" src="{{ site.baseurl | append: '/media/images/' | append: presentation.imagePath }}">
+                    <img class="card-img-top list-img border border-secondary" src="{{ site.baseurl | append: '/media/images/' | append: presentation.imagePath }}"
+                    alt="{{ presentation.imageAltText }}">
                 </div>
                 <div class ="col-md-8">
                     <div class="card-body">
-                        <h3>{{ presentation.title }}</h3>
+                        <h3><a class="site-link" href="{{ site.baseurl | append: '/media/files/' | append: presentation.filePath }}">{{ presentation.title }} (Open PDF)</a></h3>
                         <p class="context-text">Presented at {{ presentation.venue }}</p>
                         <p class="card-text">{{ presentation.description }}</p>
-                        <div class="list-item-buttons">
-                            <a href="{{ site.baseurl | append: '/media/files/' | append: presentation.filePath }}"
-                                class="btn btn-sm btn-info float-right">
-                                Open PDF
-                                <i class="fa fa-file-pdf-o media-icon"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>                  
@@ -38,20 +32,15 @@ title: Media
         <div class="card box-shadow py-3 my-2 mx-2">
             <div class="row">
                 <div class ="col-md-4">
-                    <img class="card-img-top list-img border border-secondary" src="{{ site.baseurl | append: '/media/images/' | append: video.imagePath }}">
+                        <img class="card-img-top list-img border border-secondary" src="{{ site.baseurl | append: '/media/images/' | append: video.imagePath }}"
+                        alt="{{ video.imageAltText }}"
+                        >
                 </div>
-                <div class ="col-md-8">
+                <div class="col-md-8">
                     <div class="card-body">
-                        <h3>{{ video.title }}</h3>
+                        <h3><a class="site-link" href="{{ video.videoLink }}">{{ video.title }} (Watch on YouTube)</a></h3>
                         <p class="context-text">{{ video.context }}</p>
                         <p class="card-text">{{ video.description }}</p>
-                        <div class="list-item-buttons">
-                            <a href="{{ video.videoLink }}"
-                                class="btn btn-sm btn-info float-right">
-                                Watch Video on YouTube
-                                <i class="fa fa-youtube media-icon"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>                  

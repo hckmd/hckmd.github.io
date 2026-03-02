@@ -30,13 +30,11 @@ title: Coding and STEM 4 Schools
     </p>
     <p>
         My PhD supervisor and I conducted various research studies within these programs.
-        This research helped us understand how we could improve the design and implementation of the programs and we published peer-reviewed articles about our experiences in the program and what we learned running them.
-        <a href="{{ site.baseurl | append: '/publications/assessing-tpd' }}" class="site-link">This journal article</a>, which was published in the <em>Informatics in Education</em> journal, involves an analysis of data that we collected over the first six years that we ran the programs and a reflection on the &#39;tensions&#39; we have negotiated with when planning and running the programs.
+        This research helped us understand how we could improve the design and implementation of the programs and we published peer-reviewed articles about our experiences in the program and what we learned running them. One of these articles is <a href="{{ site.baseurl | append: '/publications/assessing-tpd' }}" class="site-link">an article titled 'To Assess or Not To Assess: Tensions Negotiated in Six Years of Teaching Teachers about Computational Thinking'</a>, which was published in the <em>Informatics in Education</em> journal in 2018. This article reports on our analysis of data that we collected over the first six years that we ran the programs and a reflection on the &#39;tensions&#39; we have negotiated with when planning and running the programs.
         The work in this project was so important to me that I decided to complete a PhD that involved investigating the impact of professional learning programs on teachers&#39; understanding of coding, their confidence about teaching coding and their plans for teaching coding in different subjects.
     </p>
     <p>
         Most of the activities that I developed for these workshops are licenced under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="site-link">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence</a>.
-        For example, <a href="https://cs4s.github.io/intro-2017/day1/coding/Coding%20in%20Scratch%20Activity%20-%20Fundamental%20Coding%20Concepts.docx" class="site-link">this activity introduces fundamental Coding concepts in Scratch</a>.
         You can access all of the resources I have created for the recent workshops from the <a href="https://cs4s.github.io/resources" class="site-link">Newcastle CS4S website&#39;s Resource page</a>.
     </p>
     <h2>Links</h2>

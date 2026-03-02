@@ -171,7 +171,7 @@ title: Memory Trick Widget
     <div class="row card border-secondary my-3">
         <div class="card-header">How are the images created?</div>
         <div class="card-body">
-            <p class="card-text">We have used generative AI to create images for the passphrases that can be created from the dropdowns above - the choices in the tool above gives us 256 (4 times 4 times 4 times 4) combinations and there is a different image for each. The specific model used for generating these images was the <code class="text-dark">segmind/SSD-1B</code> model (see more info about the model from the <a class="site-link" href="https://huggingface.co/segmind/SSD-1B">Hugging Face site here</a>).</p>
+            <p class="card-text">We have used generative AI to create images for the passphrases that can be created from the dropdowns above - the choices in the tool above gives us 256 (4 times 4 times 4 times 4) combinations and there is a different image for each. The specific model used for generating these images was the <code class="text-dark">segmind/SSD-1B</code> model (you can learn more about the model on the <a class="site-link" href="https://huggingface.co/segmind/SSD-1B">segmind/SSD-1B model page on the Hugging Face site</a>).</p>
             <p class="card-text">When you use a passphrase, you may like to use generative AI to create a visual version of the passphrase to help you remember it.</p>
         </div>
     </div>

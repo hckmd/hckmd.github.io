@@ -38,7 +38,8 @@ title: Learning to Teach Coding Resources
             </tr>
             <tr>
                 <td><a href="http://csfieldguide.org.nz/" class="site-link">Computer Science Field Guide</a></td>
-                <td>An online, free and interactive textbook to help high school students learn about the different fields within the Computer Science discipline. For example, there are chapters on <a href="http://csfieldguide.org.nz/en/chapters/artificial-intelligence.html" class="site-link">Artificial Intelligence</a> and <a href="http://csfieldguide.org.nz/en/chapters/network-communication-protocols.html" class="site-link">Network Communication Protocols</a>. There is also a teachers' version of the Guide available, which is targeted towards New Zealand teachers but may also be useful for Australian teachers. You can find out more about the teachers' version of the guide <a href="http://csfieldguide.org.nz/en/about.html" class="site-link">here</a>.</td>
+                <td>An online, free and interactive textbook to help high school students learn about the different fields within the Computer Science discipline. For example, there are chapters on <a href="http://csfieldguide.org.nz/en/chapters/artificial-intelligence.html" class="site-link">Artificial Intelligence</a> and <a href="http://csfieldguide.org.nz/en/chapters/network-communication-protocols.html" class="site-link">Network Communication Protocols</a>. There is also a teachers' version of the Guide available, which is targeted towards New Zealand teachers but may also be useful for Australian teachers.
+                </td>
             </tr>
             <tr>
                 <td><a href="http://www.cs4fn.org/" class="site-link">CS4FN - Computer Science 4 Fun</a></td>
