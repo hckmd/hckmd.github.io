@@ -39,7 +39,7 @@ function visualisePhrase() {
     const word3 = document.getElementById('word3').value;
     const word4 = document.getElementById('word4').value;
 
-    const imageDir = "https://hckmd.pythonanywhere.com/static/memory-trick-images";
+    const imageDir = "https://hckmd-site-memory-widget-generated-images.s3.ap-southeast-2.amazonaws.com";
     const imageSource = `${imageDir}/${word1}_${word2}_${word3}_${word4}.jpg`;
     document.getElementById('output').src = imageSource;
 }
