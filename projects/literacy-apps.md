@@ -13,11 +13,15 @@ title: Literacy Apps
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "literacy-apps" | first %}
     <h1>{{ project.title }}</h1>
-    <div class="row">
-        <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
-            alt="{{ project.imageAltText }}"
-            >
+    <div class="row my-2">
+        <div class="col-md-5 offset-md-4">
+            <figure>
+                <img 
+                    class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+                    alt="{{ project.imageAltText }}"
+                >
+                <figcaption class="figure-caption text-center text-dark">A screenshot from the Sentence Hero iOS game. Players have to fix sentences by inserting different punctuation marks (like semicolons and commas).</figcaption>
+            </figure>
         </div>
     </div>
     <h2>About</h2>
@@ -35,8 +39,14 @@ title: Literacy Apps
     </ul>
     <h3>Serious Game Analytics</h3>
     <div class="row">
-        <div class="col-md-4 offset-md-4 my-3">
-            <img class = "img-fluid project-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/serious_games_analytics.png' }}">
+        <div class="col-md-5 offset-md-4 my-3">
+            <figure>
+                <img 
+                    class = "img-fluid project-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/serious_games_analytics.png' }}"
+                    alt="A diagram with four boxes, labelled with categories: Ownership, Contractions, Misfits and Combination, which have different icons representing levels within the categories. There are arrows between the different levels, indicating how common game players took that path."    
+                >
+                <figcaption class="figure-caption text-dark text-center">A visualisation from data collected through the Apostrophe Power app, showing a summary of how players navigated through the app.</figcaption>
+            </figure>
         </div>
     </div>
     <p>

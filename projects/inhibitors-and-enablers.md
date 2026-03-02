@@ -68,7 +68,12 @@ title: Inhibitors and Enablers
     </p>
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/ies3-click-category.gif' }}">
+            <figure>
+                <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/ies3-click-category.gif' }}"
+                alt="An animation showing the interactive tool, where a box titled 'External' is clicked, the box moves near the centre of the screen and text fades in."
+                >
+                <figcaption class="figure-caption text-center text-dark">Clicking the 'External' category reveals one inhibitor and three enablers.</figcaption>
+            </figure>
         </div>
     </div>
     <p>
@@ -78,7 +83,13 @@ title: Inhibitors and Enablers
     </p>
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/ies3-click-enabler.gif' }}">
+            <figure>
+                <img 
+                    class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/ies3-click-enabler.gif' }}"
+                    alt="An animation showing the interactive tool, where an enabler titled 'Teachers supported by external resources' is clicked and details about it and a quote appears."
+                >
+                <figcaption class="figure-caption text-center text-dark">Clicking the enabler titled 'Teachers supported by external resources' makes more details about the enabler and quote appear.</figcaption>
+            </figure>
         </div>
     </div>
     <p>

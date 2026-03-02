@@ -13,7 +13,7 @@ title: Coding in Stage 3
     {% assign project = site.data.projects | where:"pageName", "coding-in-stage-3" | first %}
     <h1>{{ project.title }}</h1>
     <div class="row">
-        <div class="col-md-4 offset-md-4">
+        <div class="col-md-5 offset-md-4">
             <figure>
                 <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
                 alt="{{ project.imageAltText }}"

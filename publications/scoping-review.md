@@ -15,7 +15,7 @@ title: A Scoping Review of Studies on Computational Thinking in K–12 Mathemati
 <div class="project-description">
     <h1>{{ pub.title }}</h1>
     <div class="row">
-        <div class="col-md-4 offset-md-4">
+        <div class="col-md-5 offset-md-4">
             <figure>
                 <img class = "img-fluid highlight-img border border-secondary my-3" 
                     src = "{{ site.baseurl | append: '/publications/images/' | append: pub.imageFilePath }}"
