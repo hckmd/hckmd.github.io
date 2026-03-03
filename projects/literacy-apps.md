@@ -1,18 +1,31 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Literacy Apps
 ---
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent px-0 mb-1">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
+    <li class="breadcrumb-item active text-dark" aria-current="page">Literacy Apps</li>
+  </ol>
+</nav>
+
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "literacy-apps" | first %}
-    <h2>{{ project.title }}</h2>
-    <div class="row">
-        <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
+    <h1>{{ project.title }}</h1>
+    <div class="row my-2">
+        <div class="col-md-5 offset-md-4">
+            <figure>
+                <img 
+                    class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+                    alt="{{ project.imageAltText }}"
+                >
+                <figcaption class="figure-caption text-center text-dark">A screenshot from the Sentence Hero iOS game. Players have to fix sentences by inserting different punctuation marks (like semicolons and commas).</figcaption>
+            </figure>
         </div>
     </div>
-    <h3>About</h3>
-    <h4>Apostrophe Power and Sentence Hero</h4>
+    <h2>About</h2>
+    <h3>Apostrophe Power and Sentence Hero</h3>
     <p>
         In 2015, I worked with a team of educators and software engineers to develop two mobile learning apps, one titled <em>Apostrophe Power</em> and the other titled <em>Sentence Hero</em>.
         These apps are games that can be used by students to improve their literacy skills.
@@ -21,13 +34,19 @@ title: Daniel Hickmott
     </p>
     <p>The iOS versions of these apps are available as free downloads on the App Store:</p>
     <ul>
-        <li><a href="http://hckmd.com/AP" target="_blank" class="text-info">Apostrophe Power</a></li>
-        <li><a href="http://hckmd.com/SH" target="_blank" class="text-info">Sentence Hero</a></li>
+        <li><a href="http://hckmd.com/AP" class="site-link">Apostrophe Power on the App Store</a></li>
+        <li><a href="http://hckmd.com/SH" class="site-link">Sentence Hero on the App Store</a></li>
     </ul>
-    <h4>Serious Game Analytics</h4>
+    <h3>Serious Game Analytics</h3>
     <div class="row">
-        <div class="col-md-4 offset-md-4 my-3">
-            <img class = "img-fluid project-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/serious_games_analytics.png' }}">
+        <div class="col-md-5 offset-md-4 my-3">
+            <figure>
+                <img 
+                    class = "img-fluid project-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/serious_games_analytics.png' }}"
+                    alt="A diagram with four boxes, labelled with categories: Ownership, Contractions, Misfits and Combination, which have different icons representing levels within the categories. There are arrows between the different levels, indicating how common game players took that path."    
+                >
+                <figcaption class="figure-caption text-dark text-center">A visualisation from data collected through the Apostrophe Power app, showing a summary of how players navigated through the app.</figcaption>
+            </figure>
         </div>
     </div>
     <p>
@@ -39,19 +58,6 @@ title: Daniel Hickmott
         The thicker that the arrow is, the more common that navigation was.
     </p>
     <p>
-        You can read more about the processing of the game logs and the methods of visualising these data in <a href="{{ site.baseurl | append: '/publications/serious-game-analytics.png' }}" target="_blank" class="text-info">this conference article</a>, which was presented at the Joint International Conference for Serious Games in 2016.
+        You can read more about the processing of the game logs and the methods of visualising these data in a <a href="{{ site.baseurl | append: '/publications/serious-game-analytics' }}" class="site-link">conference article titled Exploring Play-Learners' Analytics in a Serious Game for Literacy Improvement</a>, which was presented at the Joint International Conference for Serious Games in 2016.
     </p>
-    <h3>Links</h3>
-    <ul>
-        <li>
-            <a href="https://www.ncsehe.edu.au/project/literacy-app-m-learning-tool-low-ses-undergraduate-students/" class="text-info" target="_blank">Article about the Literacy Apps project on National Centre for Student Equity in Higher Education (NCSEHE) website</a>
-        </li>
-        <li>
-            <a href="https://www.newcastle.edu.au/newsroom/faculty-of-education-and-arts/literacy-apps-win-innovation-award" class="text-info" target="_blank">&#39;Literacy Apps Win Innovation Award&#39; article on University of Newcastle website</a>
-        </li>
-    </ul>
-    <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
-        View My Other Projects
-        <i class="fa fa-list project-icon"></i>
-    </a>
 </div>

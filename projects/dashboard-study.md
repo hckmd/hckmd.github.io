@@ -1,30 +1,37 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Dashboard Study
 ---
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent px-0 mb-1">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
+    <li class="breadcrumb-item active text-dark" aria-current="page">Dashboard Study</li>
+  </ol>
+</nav>
+
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "dashboard-study" | first %}
-    <h2>{{ project.title }}</h2>
-    <h3>About</h3>
+    <h1>{{ project.title }}</h1>
+    <h2>About</h2>
     <p>
         During March 2025 to March 2026, I worked as a Postdoctoral Research Fellow on a project focused on the design of fair and equitable Learning Analytics Dashboards (or LADs for short).
-        The project is being led by <a href="https://ericasouthgateonline.wordpress.com/" class="text-info" target="_blank">Associate Professor Erica Southgate</a>, who I worked with on the <a href="literacy-apps" class="text-info" target="_blank">Literacy Apps project</a> during 2016. 
+        The project is being led by <a href="https://ericasouthgateonline.wordpress.com/" class="site-link">Associate Professor Erica Southgate</a>, who I worked with on the <a href="literacy-apps" class="site-link">Literacy Apps project</a> during 2016. 
         The project team consists of researchers from Education and Law from the University of Newcastle, with expertise in a diverse range of fields (including Educational Psychology, Inclusive Education and Finance Law).
     </p>
     <p>
-        The project has been funded through the <a href="https://www.acses.edu.au/" class="text-info" target="_blank">Australian Centre for Student Equity and Success' (ACSES)</a> Large grants program. 
+        The project has been funded through the <a href="https://www.acses.edu.au/" class="site-link">Australian Centre for Student Equity and Success' (ACSES)</a> Large grants program. 
         The title of the project is <em>"Fair, Inclusive Learning Dashboards: Student, educator, industry, and legal perspectives"</em>.
     </p>
     <p>
         On this page I share some of the work that I completed during my year-long research fellowship on the project. There will be a report made available later in 2026 that explains the background of the project in detail and reports on its findings. The team will also share the findings from the project in webinars during 2026 and research articles in the future.
     </p>
     <div class="my-3">
-        <button class="btn btn-info collapsed mb-2" role="button" data-toggle="collapse" href="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background">
-            <span class="if-not-collapsed">
+        <button class="btn btn-info collapsed mb-2" data-toggle="collapse" data-target="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background" aria-label="What are LADs?">
+            <span class="if-not-collapsed" aria-hidden="true">
                 Hide this section <i class="fa fa-toggle-up mx-2"></i>
             </span>
-            <span class="if-collapsed">
+            <span class="if-collapsed" aria-hidden="true">
                 What are LADs?<i class="fa fa-toggle-down mx-2"></i>
             </span>
         </button>
@@ -48,9 +55,9 @@ title: Daniel Hickmott
                         <figure class="figure">
                             <img 
                                 class="figure-img img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/lads/dashboard-study-simple-lad.png' }}"
-                                alt="An image of a simple learning analytics dashboard, which has charts with a student's assignment scores, a predicted score and recommendations to improve their learning"
+                                alt="A simple learning analytics dashboard, which has charts with a student's assignment scores, a predicted score and recommendations to improve their learning"
                             >
-                            <figcaption class="figure-caption text-center">An example of a simple LAD, which has charts with a student's assignment scores, a predicted score and recommendations to improve their learning</figcaption>
+                            <figcaption class="figure-caption text-center text-dark">An example of a simple LAD, which has charts with a student's assignment scores, a predicted score and recommendations to improve their learning</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -68,17 +75,17 @@ title: Daniel Hickmott
             </div>
         </div>
     </div>
-    <h3>My work on the project</h3>
+    <h2>My work on the project</h2>
     <p>On this page, I explain three parts of the project that I worked on:</p>
     <ul>
         <li>
-            <a href="#design" class="text-info">Design:</a> I designed LADs, which incorporated common features of LADs from research and practice, in consultation with the rest of the team.
+            <a href="#design" class="site-link">Design:</a> I designed LADs, which incorporated common features of LADs from research and practice, in consultation with the rest of the team.
         </li>
         <li>
-            <a href="#development" class="text-info">Development:</a> I developed four high-fidelity prototype LADs using web technologies (including HTML, CSS, JavaScript, Vue).
+            <a href="#development" class="site-link">Development:</a> I developed four high-fidelity prototype LADs using web technologies (including HTML, CSS, JavaScript, Vue).
         </li>
         <li>
-            <a href="#analysis" class="text-info">Analysis:</a> I wrote Python code to analyse logs that were collected during the interviews to understand how students spent their time exploring different parts of the dashboard and which features they used the most.
+            <a href="#analysis" class="site-link">Analysis:</a> I wrote Python code to analyse logs that were collected during the interviews to understand how students spent their time exploring different parts of the dashboard and which features they used the most.
         </li>
     </ul>
     <p>In addition to these parts of the project, I also</p>
@@ -88,7 +95,7 @@ title: Daniel Hickmott
         <li>Conducted interviews with several students and staff, and provided technical assistance during all the interviews.</li>
         <li>Managed the data collected through recruitment and interviews accurately, securely and safely.</li>
     </ul>
-    <h3 id="design">Design of the LADs</h3>
+    <h2 id="design">Design of the LADs</h2>
     <p>
         One of the main tasks that I started work on when I began the fellowship was designing the LADs. 
         I designed these in consultation with the research team, who have a wealth of experience teaching, in universities and schools, in online and in-person teaching modes, and coordinating classes that have cohorts of 500+ students each year.
@@ -108,9 +115,9 @@ title: Daniel Hickmott
             <figure class="figure">
                 <img 
                     class="figure-img img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/lads/dashboard-study-medium-fidelity.png' }}"
-                    alt="An example of a medium fidelity prototype of the student-facing agentic dashboard, created in Balsamiq"
+                    alt="A medium fidelity prototype of the student-facing agentic dashboard, created with Balsamiq software"
                 >
-                <figcaption class="figure-caption text-center">An example of a medium fidelity prototype of the student-facing agentic dashboard, created in Balsamiq</figcaption>
+                <figcaption class="figure-caption text-center text-dark">An example of a medium fidelity prototype of the student-facing agentic dashboard, created in Balsamiq</figcaption>
             </figure>
         </div>
     </div>
@@ -118,9 +125,9 @@ title: Daniel Hickmott
         I used the feedback from the team to make improvements to the LAD designs, such as including more inclusive features and making them reflect real LADs more accurately.   
     </p>
     <p>
-        I wrote a short conference paper about the experience of designing the LAD, with a focus on the student-facing agentic dashboard, which Erica presented at the ASCILITE conference in December 2025. You can access the paper, <em>"Exploring inclusivity, transparency, explainability and agency in learning analytics dashboard design"</em> <a href="https://open-publishing.org/publications/index.php/APUB/article/view/2669" class="text-info" target="_blank">from the Open-Publishing website</a>.
+        I wrote a short conference paper about the experience of designing the LAD, with a focus on the student-facing agentic dashboard, which Erica presented at the ASCILITE conference in December 2025. You can access the paper, <em>"Exploring inclusivity, transparency, explainability and agency in learning analytics dashboard design"</em> <a href="https://open-publishing.org/publications/index.php/APUB/article/view/2669" class="site-link">from the Open-Publishing website</a>.
     </p>
-    <h3 id="development">Development of high-fidelity prototypes</h3>
+    <h2 id="development">Development of high-fidelity prototypes</h2>
     <p>
         After we reached a consensus about the design of the LADs, I began developing prototypes that the students and university teachers would be able to use and interact with in the interviews.
         These were high-fidelity prototypes, which means that they looked like what a LAD used in the real world would, but all of the data was simulated and they were not connected to a real system.
@@ -133,7 +140,7 @@ title: Daniel Hickmott
     </ul>
     <p>
         Like the medium-fidelity prototypes I created in Balsamiq, I was able to share the high-fidelity prototypes I created with my teammates as a single file.
-        I used the <a href="https://www.npmjs.com/package/vite-plugin-singlefile" class="text-info">vite-plugin-singlefile plugin</a> to create a HTML file that contained the four prototypes, which they could open up and interact with from any web browser (without installing anything) and give their feedback on.
+        I used the <a href="https://www.npmjs.com/package/vite-plugin-singlefile" class="site-link">vite-plugin-singlefile plugin</a> to create a HTML file that contained the four prototypes, which they could open up and interact with from any web browser (without installing anything) and give their feedback on.
         There will be screenshots and more details of the dashboards in the report that is published by ACSES later this year. 
         However, I’ve included an example of one of the dashboard components in the animation below, which demonstrates some of the interactivity in the high-fidelity prototypes.
     </p>
@@ -142,9 +149,9 @@ title: Daniel Hickmott
             <figure class="figure">
                 <img 
                     class="figure-img img-fluid highlight-img border border-secondary" src ="{{ site.baseurl | append: '/projects/images/lads/dashboard-study-interactions.gif' }}"
-                    alt="An animation showing one component on the dashboard, a chart with scores that a user can hover over with their mouse to see more information about it"
+                    alt="An animation showing a chart that a user can hover over to see underlying data"
                 >
-                <figcaption class="figure-caption text-center">An example of interactions on one of the LAD components, a chart that shows how a student's assignment score compares to their peers</figcaption>
+                <figcaption class="figure-caption text-center text-dark">An example of interactions on one of the LAD components, a chart that shows how a student's assignment score compares to their peers</figcaption>
             </figure>
         </div>
     </div>
@@ -158,7 +165,7 @@ title: Daniel Hickmott
         By getting the participants to compare the two versions, we prompted the participants to share their perspectives on the features of the dashboards they liked and didn’t like, as well as what they thought was missing from them. 
         We will share what we found from analysing the participants’ perspectives in the final project report, as well as in research articles in the future.
     </p>
-    <h3 id="analysis">Analysis of student logs</h3>
+    <h2 id="analysis">Analysis of student logs</h2>
     <p>
         I included code in the high-fidelity prototypes that logged events during the interviews. 
         There was a large variety of different events that were logged, including when a participant: clicked buttons in the LAD, moved their mouse cursor in and out of different sections of the LAD, and when they hovered over charts in the LAD. 
@@ -172,9 +179,9 @@ title: Daniel Hickmott
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <th>Event time</th>
-                <th>Event</th>
-                <th>Data</th>
+                <th scope="col">Event time</th>
+                <th scope="col">Event</th>
+                <th scope="col">Data</th>
             </tr>
         </thead>
         <tbody>
@@ -264,8 +271,4 @@ title: Daniel Hickmott
         The team is currently working on a report that will be published later in 2026 and will also present a series of webinars about the project in 2026 as well.
         If you are interested in the report, webinars or any other aspect of the project, feel free to email me and I will keep you updated or answer any questions you have.
     </p>
-    <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
-        View My Other Projects
-        <i class="fa fa-list project-icon"></i>
-    </a>
 </div>

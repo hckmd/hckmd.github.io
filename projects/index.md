@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Projects
 ---
 
 <div class="showcase">
-    <h2>Projects</h2>
+    <h1>Projects</h1>
     <p>
         Some projects I've worked on include:
     </p>         
@@ -14,23 +14,19 @@ title: Daniel Hickmott
             <div class="row">
                 <div class ="col-md-4">
                     <img class="card-img-top list-img border border-secondary" 
-                        src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
+                        src="{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+                        alt="{{ project.imageAltText }}"
+                    >
                 </div>
                 <div class ="col-md-8">
                     <div class="card-body">
-                        <h4>
+                        <h2>
                             <a href="{{ project.pageName }}" class="site-page-link">
                                 {{ project.title }}
                             </a>
-                        </h4>
+                        </h2>
                         <strong>{{project.period }}</strong>
                         <p class="card-text">{{ project.description }}</p>
-                        <div class="list-item-buttons">
-                            <a href="{{ project.pageName }}" class="btn btn-sm btn-info float-right">
-                                Project Details
-                                <i class="fa fa-info-circle project-icon"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>                  

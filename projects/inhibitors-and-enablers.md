@@ -1,30 +1,42 @@
 ---
 layout: default
-title: Daniel Hickmott
+title: Inhibitors and Enablers
 ---
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent px-0 mb-1">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/projects/" class="site-link">Projects</a></li>
+    <li class="breadcrumb-item active text-dark" aria-current="page">Inhibitors and Enablers</li>
+  </ol>
+</nav>
+
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "inhibitors-and-enablers" | first %}
-    <h2>{{ project.title }}</h2>
+    <h1>{{ project.title }}</h1>
     <div class="row">
         <div class="col-md-4 offset-md-4">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}">
+            <figure>
+                <img class="img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/' | append: project.imageFilePath }}"
+                alt="{{ project.imageAltText }}"
+                >
+                <figcaption class="figure-caption text-center text-dark">A screenshot of the Inhibitors and Enablers interactive tool that I developed.</figcaption>
+            </figure>
         </div>
     </div>
-    <h3>About</h3>
-    <div id="mobile-alert-box" class="alert alert-info my-3" style="display: none">
+    <h2>About</h2>
+    <div id="mobile-alert-box" class="alert alert-info my-3" style="display: none" role="alert">
         It looks likes you have tried to access the Inhibitors and Enablers project on a mobile device. 
         The project can only be viewed on a desktop or laptop.
         If you only have a mobile device, there is information below about the project and you can also watch a video (linked below) about it.
     </div>
     <ul>
-        <li><a href="ies3" class="text-info">Access the interactive project here</a> (Only for desktop and laptop devices)</li>
-        <li><a href="https://youtu.be/Oi897X_Y9CI" class="text-info">Watch a video on YouTube that includes the project background and a demonstration.</a></li>
+        <li><a href="ies3" class="site-link">Access the interactive project here</a> (Only for desktop and laptop devices)</li>
+        <li><a href="https://youtu.be/Oi897X_Y9CI" class="site-link">Watch a video on YouTube that includes the project background and a demonstration.</a></li>
     </ul>
-    <h4>Project Background</h4>
+    <h3>Project Background</h3>
     <p>
         This project presents my results from an analysis of interviews I conducted with 15 Australian primary school (K-6) teachers in 2018. 
-        The interviews took place after the teachers completed a 10 week professional learning program I ran, called <a class="text-info" href="coding-in-stage-3">Coding in Stage 3</a>. 
+        The interviews took place after the teachers completed a 10 week professional learning program I ran, called <a class="site-link" href="coding-in-stage-3">Coding in Stage 3</a>. 
         That program and these interviews were both part of my PhD project.
     </p>
     <p>
@@ -48,15 +60,20 @@ title: Daniel Hickmott
     <p>
         The project has been implemented using TypeScript and PhaserJS, which are two technologies that I have been wanting to learn for a while. 
         The project is set up as a fixed size canvas that will not work well on mobile devices and should only be viewed on a desktop or laptop.
-        If you would like to see what the project looks like and can only use a mobile device, you can watch <a href="https://youtu.be/Oi897X_Y9CI" class="text-info">a video about it on YouTube here</a>.
+        If you would like to see what the project looks like and can only use a mobile device, you can watch <a href="https://youtu.be/Oi897X_Y9CI" class="site-link">a video about it on YouTube here</a>.
     </p>
-    <h4>How to Use It</h4>
+    <h3>How to Use It</h3>
     <p>
         In the project, you can see each of the different categories up the top and down the bottom. You can click each of the categories and you will see a description of that category, like you can see below.
     </p>
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/ies3-click-category.gif' }}">
+            <figure>
+                <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/ies3-click-category.gif' }}"
+                alt="An animation showing the interactive tool, where a box titled 'External' is clicked, the box moves near the centre of the screen and text fades in."
+                >
+                <figcaption class="figure-caption text-center text-dark">Clicking the 'External' category reveals one inhibitor and three enablers.</figcaption>
+            </figure>
         </div>
     </div>
     <p>
@@ -66,7 +83,13 @@ title: Daniel Hickmott
     </p>
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <img class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/ies3-click-enabler.gif' }}">
+            <figure>
+                <img 
+                    class = "img-fluid highlight-img border border-secondary" src = "{{ site.baseurl | append: '/projects/images/ies3-click-enabler.gif' }}"
+                    alt="An animation showing the interactive tool, where an enabler titled 'Teachers supported by external resources' is clicked and details about it and a quote appears."
+                >
+                <figcaption class="figure-caption text-center text-dark">Clicking the enabler titled 'Teachers supported by external resources' makes more details about the enabler and quote appear.</figcaption>
+            </figure>
         </div>
     </div>
     <p>
@@ -80,22 +103,18 @@ title: Daniel Hickmott
     <h3>Links</h3>
     <ul>
         <li>
-            <a href="ies3" class="text-info" target="_blank">The interactive Inhibitors and Enablers project (desktop and laptop only)</a>
+            <a href="ies3" class="site-link">The interactive Inhibitors and Enablers project (desktop and laptop only)</a>
         </li>
         <li>
-            <a href="https://youtu.be/Oi897X_Y9CI" class="text-info" target="_blank">Video explaining the project background</a>
+            <a href="https://youtu.be/Oi897X_Y9CI" class="site-link">Video explaining the project background</a>
         </li>
         <li>
-            <a href="https://hdl.handle.net/1959.13/1417667" class="text-info" target="_blank">My PhD thesis on the NOVA repository</a>
+            <a href="https://hdl.handle.net/1959.13/1417667" class="site-link">My PhD thesis on the NOVA repository</a>
         </li>
         <li>
-            <a href="coding-in-stage-3" class="text-info" target="_blank">More details about the Coding in Stage 3 Program</a>
+            <a href="coding-in-stage-3" class="site-link">More details about the Coding in Stage 3 Program</a>
         </li>
     </ul>
-    <a href="{{ site.baseurl | append: '/projects/' }}" class="btn btn-sm btn-info float-right">
-        View My Other Projects
-        <i class="fa fa-list project-icon"></i>
-    </a>
 </div>
 <script>
     // Check if the user has been redirected here due to them being on a mobile
@@ -109,7 +128,6 @@ title: Daniel Hickmott
         if (value == "true") {
             const mobileAlertBox = document.getElementById("mobile-alert-box");
             mobileAlertBox.style.display = 'block';
-        
         }
     }
 
