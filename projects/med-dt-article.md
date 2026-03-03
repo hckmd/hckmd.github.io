@@ -65,16 +65,16 @@ title: The Design of the MEd:DT
     <h2 id="introduction" class="my-3">Introduction</h2>
     <p>
         There have been recent changes in curricula in many countries, with a focus on coding and computational thinking instead of general ICT skills. 
-        For example, Australia, UK and New Zealand have introduced computing from early years of schooling, which include coding and computational thinking [<a href="#ref-webb" class="site-link">21</a>]. 
-        In Australia, the curriculum that includes computing concepts is called Digital Technologies (DT) and this curriculum is mandatory from the first year of school to Year 8. There is a need to understand effective approaches for upskilling teachers in computing knowledge through research [<a href="#ref-yadav" class="site-link">23</a>]. 
-        Internationally, a variety of professional learning (PL) opportunities have been implemented for upskilling teachers [<a href="#ref-mason" class="site-link">15</a>, <a href="#ref-menekse" class="site-link">17</a>].
-        Some limitations of research of PL for computing that have been identified in recent studies have included the short-term nature of PL programs [<a href="#ref-mason" class="site-link">15</a>] and the need for researchers to include details about underlying theoretical frameworks and research that influenced the design of PL [<a href="#ref-menekse" class="site-link">17</a>].
+        For example, Australia, UK and New Zealand have introduced computing from early years of schooling, which include coding and computational thinking [<a href="#ref-webb" class="site-link" aria-label="Reference 21, Webb et al., 2017">21</a>]. 
+        In Australia, the curriculum that includes computing concepts is called Digital Technologies (DT) and this curriculum is mandatory from the first year of school to Year 8. There is a need to understand effective approaches for upskilling teachers in computing knowledge through research [<a href="#ref-yadav" class="site-link" aria-label="Reference 23, Yadav et al., 2018">23</a>]. 
+        Internationally, a variety of professional learning (PL) opportunities have been implemented for upskilling teachers [<a href="#ref-mason" class="site-link" aria-label="Reference 15, Mason & Rich, 2019">15</a>, <a href="#ref-menekse" class="site-link" aria-label="Reference 17, Menekse, 2015">17</a>].
+        Some limitations of research of PL for computing that have been identified in recent studies have included the short-term nature of PL programs [<a href="#ref-mason" class="site-link" aria-label="Reference 15, Mason & Rich, 2019">15</a>] and the need for researchers to include details about underlying theoretical frameworks and research that influenced the design of PL [<a href="#ref-menekse" class="site-link" aria-label="Reference 17, Menekse, 2015">17</a>].
     </p>
     <p>
-        In Australia, a variety of PL opportunities, including MOOCs [<a href="#ref-falkner-2017" class="site-link">10</a>] and face-to-face workshops [<a href="#ref-bower" class="site-link">3</a>] have been available to teachers. 
+        In Australia, a variety of PL opportunities, including MOOCs [<a href="#ref-falkner-2017" class="site-link" aria-label="Reference 10, Falkner et al., 2017">10</a>] and face-to-face workshops [<a href="#ref-bower" class="site-link" aria-label="Reference 3, Bower et al., 2017">3</a>] have been available to teachers. 
         During 2020 and 2021, we taught units as part of the Master of Education (Digital Technologies), referred to as the MEd:DT for brevity, at the University of Sydney. 
         To our knowledge, the MEd:DT was unique in Australia as the only degree program for in-service teachers that was focussed on the teaching of the DT curriculum during that time. 
-        While we are aware that degree programs for in-service teachers upskilling in computing have been developed in other countries [<a href="#ref-ragonis" class="site-link">19</a>], the MEd:DT program differed from those because it was specifically aligned with the Australian DT curriculum and context. 
+        While we are aware that degree programs for in-service teachers upskilling in computing have been developed in other countries [<a href="#ref-ragonis" class="site-link" aria-label="Reference 19, Ragonis et al., 2010">19</a>], the MEd:DT program differed from those because it was specifically aligned with the Australian DT curriculum and context. 
         As the teaching of computing in K-12 becomes more widespread, there is a need to understand how to effectively support teachers learning in this area and there are opportunities for teacher educators to collaborate on the design and implementation of PL. 
         Consequently, we argue that there is a need for further sharing of, and investigation of, the design of units in degree programs like the MEd:DT. 
         In this article, we share the learning design of three of the core units of the degree, discuss some of the challenges that we encountered teaching the units and conclude with some suggestions for future research for teacher education programs for in-service teachers upskilling to teach computing.
@@ -98,10 +98,10 @@ title: The Design of the MEd:DT
     </p>
     <h3 id="dt-curriculum" class="my-3">The Digital Technologies Curriculum</h3>
     <p>
-        The Australian Curriculum, Assessment and Reporting Authority [ACARA] explain the purpose and layout of the curriculum in the Rationale, Aims and Structure of the Digital Technologies documents, available online [<a href="#ref-acara" class="site-link">1</a>]. 
+        The Australian Curriculum, Assessment and Reporting Authority [ACARA] explain the purpose and layout of the curriculum in the Rationale, Aims and Structure of the Digital Technologies documents, available online [<a href="#ref-acara" class="site-link" aria-label="Reference 1, Australian Curriculum Assessment and Reporting Authority, 2015">1</a>]. 
         One of the main aims of the curriculum is to support students in developing the knowledge and skills required to create digital solutions. 
-        Like recent curriculum changes in several countries, the DT curriculum has an aim of shifting focus from students using software as a tool to creating their own software [<a href="#ref-falkner-2014" class="site-link">9</a>]. 
-        There are outcomes and goals of the DT curriculum in that are similar other countries’ and organisations’ computing curricula [<a href="#ref-duncan" class="site-link">8</a>].
+        Like recent curriculum changes in several countries, the DT curriculum has an aim of shifting focus from students using software as a tool to creating their own software [<a href="#ref-falkner-2014" class="site-link" aria-label="Reference 9, Falkner et al., 2014">9</a>]. 
+        There are outcomes and goals of the DT curriculum in that are similar other countries’ and organisations’ computing curricula [<a href="#ref-duncan" class="site-link" aria-label="Reference 8, Duncan & Bell, 2015">8</a>].
     </p>
     <div class="card my-3">
         <div class="card-header">
@@ -112,7 +112,7 @@ title: The Design of the MEd:DT
             At the time this page was created, the current version of the curriculum was v9 and one of the major changes to the DT content was the changing of the 10 key concepts to 9 core concepts. 
         </div>
     </div>
-    <p>There were 10 key concepts that underpinned DT in the v8.4 curriculum [<a href="#ref-acara" class="site-link">1</a>]:</p>
+    <p>There were 10 key concepts that underpinned DT in the v8.4 curriculum [<a href="#ref-acara" class="site-link" aria-label="Reference 1, Australian Curriculum Assessment and Reporting Authority, 2015">1</a>]:</p>
     <ul>
         <li><i>abstraction</i></li>
         <li><i>data collection</i>, <i>data representation</i> and <i>data interpretation</i></li>
@@ -123,7 +123,7 @@ title: The Design of the MEd:DT
     <p>
         In the list above, some of the concepts are grouped together with closely related concepts. 
         However, each of these concepts are important for students to learn and there are opportunities for teachers to teach different combinations of these concepts together. 
-        <i>Abstraction</i> refers to the hiding of irrelevant details when defining problems and designing solutions, which Wing [<a href="#ref-wing" class="site-link">22</a>] argued is an essential part of computing. 
+        <i>Abstraction</i> refers to the hiding of irrelevant details when defining problems and designing solutions, which Wing [<a href="#ref-wing" class="site-link" aria-label="Reference 22, Wing, 2008">22</a>] argued is an essential part of computing. 
         <i>Data representation</i>, <i>collection</i> and <i>interpretation</i> are often part of the process of developing and understanding digital solutions. 
         There are many opportunities for teachers to include these data concepts in their lessons, including activities teaching binary representation, the creation of surveys and analysis of data with spreadsheets and databases.
     </p>
@@ -139,17 +139,17 @@ title: The Design of the MEd:DT
     </p>
     <h3 id="dt-implementation" class="my-3">Implementation of Digital Technologies</h3>
     <p>
-        There has been concerns about how well-prepared teachers in Australia are for implementing the DT curriculum [<a href="#ref-falkner-2014" class="site-link">9</a>]. 
+        There has been concerns about how well-prepared teachers in Australia are for implementing the DT curriculum [<a href="#ref-falkner-2014" class="site-link" aria-label="Reference 9, Falkner et al., 2014">9</a>]. 
         The mandatory teaching of DT for all students from F-8 is only recent, particularly in New South Wales where the teaching of DT became mandatory in 2019. 
-        Recent studies have identified several challenges faced by teachers and other educational stakeholders in the implementation of DT [<a href="#ref-bower" class="site-link">3</a>, <a href="#ref-falkner-2017" class="site-link">10</a>, <a href="#ref-hickmott-2020" class="site-link">13</a>]. 
-        There is a lack of computing specialist teachers with training in this area [<a href="#ref-falkner-2017" class="site-link">10</a>] and teachers are likely to lack confidence in their ability to teach DT because of the new content [<a href="#ref-bower" class="site-link">3</a>]. 
-        Primary school teachers have also indicated that they feel they are lacking time to teach DT, because of a crowded curriculum and the limits of face-to-face instructional time with students [<a href="#ref-hickmott-2020" class="site-link">13</a>].
+        Recent studies have identified several challenges faced by teachers and other educational stakeholders in the implementation of DT [<a href="#ref-bower" class="site-link" aria-label="Reference 3, Bower et al., 2017">3</a>, <a href="#ref-falkner-2017" class="site-link" aria-label="Reference 10, Falkner et al., 2017">10</a>, <a href="#ref-hickmott-2020" class="site-link" aria-label="Reference 13, Hickmott, 2020">13</a>]. 
+        There is a lack of computing specialist teachers with training in this area [<a href="#ref-falkner-2017" class="site-link" aria-label="Reference 10, Falkner et al., 2017">10</a>] and teachers are likely to lack confidence in their ability to teach DT because of the new content [<a href="#ref-bower" class="site-link" aria-label="Reference 3, Bower et al., 2017">3</a>]. 
+        Primary school teachers have also indicated that they feel they are lacking time to teach DT, because of a crowded curriculum and the limits of face-to-face instructional time with students [<a href="#ref-hickmott-2020" class="site-link" aria-label="Reference 13, Hickmott, 2020">13</a>].
     </p>
     <p>
         Another concern is the equity of access to technology resources for implementing DT. 
         Australian schools have a wide range of levels of access to technology and there are schools in remote parts of the country with limited access to equipment and networks. 
-        Hickmott [<a href="#ref-hickmott-2020" class="site-link">13</a>] interviewed 15 primary school teachers and found that some of the teachers, who were teaching in schools in a metropolitan area, were concerned about their access to technology resources for teaching DT effectively. 
-        There are unplugged approaches for teaching computing [<a href="#ref-bell" class="site-link">2</a>], and these could be particularly useful for teaching concepts like algorithms, which can be taught without a computer. 
+        Hickmott [<a href="#ref-hickmott-2020" class="site-link" aria-label="Reference 13, Hickmott, 2020">13</a>] interviewed 15 primary school teachers and found that some of the teachers, who were teaching in schools in a metropolitan area, were concerned about their access to technology resources for teaching DT effectively. 
+        There are unplugged approaches for teaching computing [<a href="#ref-bell" class="site-link" aria-label="Reference 2, Bell, 2021">2</a>], and these could be particularly useful for teaching concepts like algorithms, which can be taught without a computer. 
         However, some concepts in the DT curriculum where students develop a digital solution, like implementation, will require the use of computers and, consequently, there is a need for schools to have adequate resources to cover the DT curriculum appropriately.
     </p>
     <h3 id="med-dt" class="my-3">The Master of Education (DT)</h3>
@@ -210,7 +210,7 @@ title: The Design of the MEd:DT
     </p>
     <h3 id="theoretical-frameworks" class="my-3">Theoretical frameworks</h3>
     <p>
-        TPACK is a framework that conceptualises different domains of knowledge [<a href="#ref-koehler" class="site-link">14</a>], which is illustrated in Figure 1. 
+        TPACK is a framework that conceptualises different domains of knowledge [<a href="#ref-koehler" class="site-link" aria-label="Reference 14, Koehler et al., 2013">14</a>], which is illustrated in Figure 1. 
     </p>
     <div class="col-md-4 offset-md-4 px-0">
         <figure class="figure">
@@ -230,7 +230,7 @@ title: The Design of the MEd:DT
             <b>Technological knowledge:</b> understanding the affordances of a spreadsheet tool (for example, Microsoft Excel) and knowing how to navigate menus and manage files in the tool.
         </li>
         <li>
-            <b>Pedagogical knowledge:</b> understanding of teaching generally and not specific to DT, such as theories like the Zone of Proximal Development [<a href="#ref-vygotsky" class="site-link">20</a>] and their implications for learning design.
+            <b>Pedagogical knowledge:</b> understanding of teaching generally and not specific to DT, such as theories like the Zone of Proximal Development [<a href="#ref-vygotsky" class="site-link" aria-label="Reference 20, Vygotsky, 1980">20</a>] and their implications for learning design.
         </li>
         <li>
             <b>Content knowledge:</b> understanding how to calculate and interpret averages.
@@ -239,12 +239,12 @@ title: The Design of the MEd:DT
     <p>
         Our focus in the MEd:DT units was on Content knowledge (CK) and on Pedagogical Content Knowledge (PCK) relevant to DT, although we did address the other domains in our units. 
         PCK in K-12 computing refers to understanding how students learn computing and appropriate teaching strategies to support their learning. 
-        The research of PCK for computing is relatively new when compared to other subjects in K-12, such as Mathematics, and researchers have argued that there is a need for further research in this area [<a href="#ref-yadav" class="site-link">23</a>]. 
+        The research of PCK for computing is relatively new when compared to other subjects in K-12, such as Mathematics, and researchers have argued that there is a need for further research in this area [<a href="#ref-yadav" class="site-link" aria-label="Reference 23, Yadav et al., 2018">23</a>]. 
         However, we were able to find a variety of relevant findings and best practices from computing education research that we have incorporated in our teaching, as discussed in the <a href="#learning-activities" class="site-link">Learning activities</a> subsection.
     </p>
     <p>
         Prior to teaching in the MEd:DT, we worked on a range of PL opportunities for school teachers, which were mainly run as face-to-face PL workshops. 
-        The design of those programs incorporated best practices from the wider PL literature, including the five common features of effective PL identified by Desimone [<a href="#ref-desimone" class="site-link">6</a>]: <i>content focus</i>, <i>active learning</i>, <i>duration</i>, <i>coherence</i>, and <i>collective participation</i>. 
+        The design of those programs incorporated best practices from the wider PL literature, including the five common features of effective PL identified by Desimone [<a href="#ref-desimone" class="site-link" aria-label="Reference 6, Desimone, 2011">6</a>]: <i>content focus</i>, <i>active learning</i>, <i>duration</i>, <i>coherence</i>, and <i>collective participation</i>. 
         Examples of how each of these factors of effective PL were incorporated into the core units were:
     </p>
     <ul>
@@ -267,16 +267,16 @@ title: The Design of the MEd:DT
     <p>
         One of our aims when teaching the units was to ensure there were opportunities for the teachers to engage in active learning. 
         However, we were relatively new to teaching in an online-only mode and had to develop our understanding of how to design and run learning activities that were online and could be used to engage students in active learning. 
-        Dixson [<a href="#ref-dixson" class="site-link">7</a>] advises that instructors should include multiple types of active learning activities with opportunities for interaction between the instructor and students, as well as students with students, to increase engagement in online learning. 
+        Dixson [<a href="#ref-dixson" class="site-link" aria-label="Reference 7, Dixson, 2010">7</a>] advises that instructors should include multiple types of active learning activities with opportunities for interaction between the instructor and students, as well as students with students, to increase engagement in online learning. 
         Consequently, we had a variety of learning activities that were synchronous and asynchronous, as described in the <a href="#learning-activities" class="site-link">Learning activities</a> subsection, and we designed these with the goal that all teachers could contribute and share their work with each other. 
-        One of our strategies to encourage active participation and contribution was to foster a community of inquiry [<a href="#ref-garrison" class="site-link">11</a>]. 
+        One of our strategies to encourage active participation and contribution was to foster a community of inquiry [<a href="#ref-garrison" class="site-link" aria-label="Reference 11, Garrison & Akyol, 2015">11</a>]. 
         In a community of inquiry, group members are encouraged to reflect on their learning, as both teachers and learners, and support their fellow group members through feedback and open communication.
         We aimed to encourage this community throughout all activities in the units, but this was mainly present in the assessments that included participation in online discussions, which are explained in the next subsection.
     </p>
     <h3 id="assessments" class="my-3">Assessments</h3>
     <p>
         One of our main aims when designing the assessments was for them to be relevant and useful to the teachers’ classroom practice, which we would describe as authentic assessments. 
-        Authentic assessments have been a common approach to assessment in teacher education programs [<a href="#ref-darling-hammond" class="site-link">5</a>], and these assessments can take a variety of forms, such as case studies, portfolios, and lesson observations. 
+        Authentic assessments have been a common approach to assessment in teacher education programs [<a href="#ref-darling-hammond" class="site-link" aria-label="Reference 5, Darling-Hammond & Snyder, 2000">5</a>], and these assessments can take a variety of forms, such as case studies, portfolios, and lesson observations. 
         Generally, assessments for teachers that are authentic should include opportunities for teachers to demonstrate their ability to design learning for the relevant subject matter and for teachers to connect the assessment to the context that they are teaching in.
     </p>
     <p>
@@ -357,16 +357,16 @@ title: The Design of the MEd:DT
     </p>
     <p>
         The EDPF5020 unit included the introduction of both visual and general-purpose programming, using the Python and Blockly language respectively, and general-purpose programming in Python was the focus of the EDPF5022 unit. 
-        Brown and Wilson [<a href="#ref-brown-wilson" class="site-link">4</a>] identified 10 tips for teaching programming, which we incorporated into our teaching. 
+        Brown and Wilson [<a href="#ref-brown-wilson" class="site-link" aria-label="Reference 4, Brown & Wilson, 2018">4</a>] identified 10 tips for teaching programming, which we incorporated into our teaching. 
         For example, we included live coding and asked the teachers to make predictions about outcomes of running programs in most of the two-hour sessions in the EDPF5022 unit. 
         We used these approaches to encourage teachers to be actively engaged in the lesson, as well as giving them opportunities to reflect on their understanding of the concepts in the session.
     </p>
     <p>
-        <i>Collective participation</i>, where teachers from similar contexts learn and work on tasks together, has been identified as a feature of effective PL [<a href="#ref-desimone" class="site-link">6</a>]. 
+        <i>Collective participation</i>, where teachers from similar contexts learn and work on tasks together, has been identified as a feature of effective PL [<a href="#ref-desimone" class="site-link" aria-label="Reference 6, Desimone, 2011">6</a>]. 
         The one-hour sessions in the EDPF5021 and EDPF5022 units, which were usually every second week of semester, involved teachers collaborating on a task together for most of the session time. 
         Those sessions usually included learning activities where teachers practiced their programming skills or worked together to design or critique a learning activity following the theme of that week’s learning. 
         When the sessions involved the teachers working on programming activities, we provided a range of options of activities to complete because the teachers had a wide range of programming experience. 
-        The different options including code-reading exercises, Parson’s problems [<a href="#ref-parsons" class="site-link">18</a>], programming problems with some scaffolding provided and some more complex and open-ended problems towards the end to challenge every teacher. 
+        The different options including code-reading exercises, Parson’s problems [<a href="#ref-parsons" class="site-link" aria-label="Reference 18, Parsons & Haden, 2006">18</a>], programming problems with some scaffolding provided and some more complex and open-ended problems towards the end to challenge every teacher. 
         At the start of each session, the teachers were surveyed about how confident they were about the programming constructs they learned about in the previous week and were grouped with other teachers with similar levels of confidence. 
         We observed that the groups who had self-reported lower levels typically chose the Parson’s problems to complete rather than the programming problems, but this trend would have to be investigated in future research before making any strong conclusions.
     </p>
@@ -392,7 +392,7 @@ title: The Design of the MEd:DT
     <p>
         The MEd:DT program ran during 2020 and 2021 and most of the cohort would be considered to be early adopters of teaching DT compared to the general teacher population in Australia. 
         We observed that the MEd:DT teachers were enthusiastic about learning DT and supportive of colleagues who were learning DT, through running their own PL and creating teaching resources. 
-        As the teaching of DT is compulsory from F-8 in Australia, there is a need to upskill a large number of teachers and PL providers should also aim to support teachers share their knowledge and experience with their colleagues [<a href="#ref-hickmott-2020" class="site-link">13</a>]. 
+        As the teaching of DT is compulsory from F-8 in Australia, there is a need to upskill a large number of teachers and PL providers should also aim to support teachers share their knowledge and experience with their colleagues [<a href="#ref-hickmott-2020" class="site-link" aria-label="Reference 13, Hickmott, 2020">13</a>]. 
         The MEd:DT teachers had the opportunity to choose units where they learned about leadership and change in schools systems and to develop resources for their colleagues in a capstone project. 
         We heard several anecdotes from the teachers about how they support their colleagues but future research could investigate how the teachers disseminate what they have learned in similar programs to their colleagues and wider PL networks, particularly after they have finished their whole degree.
     </p>
@@ -402,7 +402,7 @@ title: The Design of the MEd:DT
         We could investigate how design choices in the units' impact on relevant outcomes, such as teachers' CK, PCK and confidence about teaching DT, to help us improve our learning design. 
         We received unit survey results at the end of semester with the teachers' feedback about the units and these results were largely positive. 
         However, it would be beneficial to explore how specific pedagogical strategies and learning designs are perceived by, and impact, teachers. 
-        This could also help address the need for evaluation of impact of PL programs in computing [<a href="#ref-hickmott-2018" class="site-link">12</a>, <a href="#ref-mcgill" class="site-link">16</a>], and further our understanding of how to design effective teacher PL in computing.
+        This could also help address the need for evaluation of impact of PL programs in computing [<a href="#ref-hickmott-2018" class="site-link" aria-label="Reference 12, Hickmott & Prieto-Rodriguez, 2018">12</a>, <a href="#ref-mcgill" class="site-link" aria-label="Reference 16, McGill et al., 2020">16</a>], and further our understanding of how to design effective teacher PL in computing.
     </p>
     <h2 id="conclusion" class="my-3">Conclusion</h2>
     <p>
