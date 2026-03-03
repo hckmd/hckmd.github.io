@@ -19,7 +19,7 @@ title: Publications
                 <div class="card-body">
                     <div class="publication-details">
                         <h3>
-                            A study of a professional learning program for primary school teachers implementing the New South Wales science and technology syllabus
+                            A Study of a Professional Learning Program for Primary School Teachers Implementing the New South Wales Science and Technology Syllabus
                         </h3>
                         <p class="publication-authors">
                             Supervised by Elena Prieto-Rodriguez and John Fischetti
