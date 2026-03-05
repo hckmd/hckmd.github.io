@@ -15,7 +15,7 @@ title: Dashboard Study
     <h1>{{ project.title }}</h1>
     <h2>About</h2>
     <p>
-        During March 2025 to March 2026, I worked as a Postdoctoral Research Fellow on a project focused on the design of fair and equitable Learning Analytics Dashboards (or LADs for short).
+        I have been working as a Postdoctoral Research Fellow on a project focused on the design of fair and equitable Learning Analytics Dashboards (or LADs for short).
         The project is being led by <a href="https://ericasouthgateonline.wordpress.com/" class="site-link">Associate Professor Erica Southgate</a>, who I worked with on the <a href="literacy-apps" class="site-link">Literacy Apps project</a> during 2016. 
         The project team consists of researchers from Education and Law from the University of Newcastle, with expertise in a diverse range of fields (including Educational Psychology, Inclusive Education and Finance Law).
     </p>
@@ -24,7 +24,7 @@ title: Dashboard Study
         The title of the project is <em>"Fair, Inclusive Learning Dashboards: Student, educator, industry, and legal perspectives"</em>.
     </p>
     <p>
-        On this page I share some of the work that I completed during my year-long research fellowship on the project. There will be a report made available later in 2026 that explains the background of the project in detail and reports on its findings. The team will also share the findings from the project in webinars during 2026 and research articles in the future.
+        On this page I share some of the work that I've done on the project. There will be a report made available later in 2026 that explains the background of the project in detail and reports on its findings. The team will also share the findings from the project in webinars during 2026 and research articles in the future.
     </p>
     <div class="my-3">
         <button class="btn btn-info collapsed mb-2" data-toggle="collapse" data-target="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background" aria-label="What are LADs?">
