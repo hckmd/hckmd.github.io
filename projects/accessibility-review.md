@@ -11,7 +11,7 @@ title: Accessibility Review (with AI)
 
 <div class="project-description">
     {% assign project = site.data.projects | where:"pageName", "accessibility-review" | first %}
-    <h1 class="mb-3">{{ project.title }}</h1>
+    <h1 class="mb-4">{{ project.title }}</h1>
     <p>
         I recently completed the <a href="https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility" class="site-link">W3Cx: Introduction to Web Accessibility course</a> as a refresher on the WCAG (Web Content Accessibility Guidelines). It was a well-structured and informative course and I liked that there were lots of multiple choice quizzes throughout the course to check my understanding. However, there were few opportunities to apply what I was learning during the course. After I finished the course, I decided to apply what I had learned to improve this website's accessibility.
     </p>
@@ -55,7 +55,7 @@ title: Accessibility Review (with AI)
     </p>
     <h2>The process and results</h2>
     <p>
-        My process for reviewing the accessibility of this website involved identifying issues through my own manual review, using Claude (Opus 4.6) to perform a review, and combining the issues identified in both reviews. First, I checked each page using Firefox and with the help of <a href="https://wave.webaim.org/extension/" class="site-link">the WAVE web accessibility evaluation tool browser extension</a>. That browser extension, which I learned about in the W3Cx course, highlights common accessibility issues on a page and was extremely useful. Second, I used the following prompt to Claude in Google's Antigravity desktop app:
+        My process for reviewing the accessibility of this website involved identifying issues through my own manual review, then using Claude (Opus 4.6) to perform a review (the prompt I used is shared below), and combining the issues identified in both reviews. First, I checked each page using Firefox and with the help of Firefox's Web Developer Tools and <a href="https://wave.webaim.org/extension/" class="site-link">the WAVE web accessibility evaluation tool browser extension</a>. That browser extension, which I learned about in the W3Cx course, highlights common accessibility issues on a page and was extremely useful. Second, I used the following prompt to Claude in Google's Antigravity desktop app:
     </p>
     <p>
         <em>I want you to do a review of the following pages in this project and identify issues relating to accessibility (with reference to WCAG 2.2 AA) that you find. Where there is an issue related to ease of use that could impact users who use screen readers or who mainly use the keyboard, they should be included too. I want a summary that has the path of the page, followed by the issue/s identified on them. (Followed by a list of the 17 pages in the review).</em>
@@ -123,14 +123,14 @@ title: Accessibility Review (with AI)
         </div>
     </div>
     <p>
-        I also found Claude useful for making changes to multiple pages that could have taken me much longer to do myself. On <a href="{{ site.baseurl | append: '/projects/med-dt-article' }}" class="site-link">the page with a report on the Masters of Education program I lectured in</a>, I have lots of links with text that are just a number (for example, 7), that corresponds to a reference at the bottom of the page. I was able to use Claude to add an <code class="text-dark">aria-label</code> tag to each link that provides more context when a screen reader navigates to the link. For example, instead of just reading "7", the screen reader would say "Reference 7, Dixson, 2010". It took less than five minutes for Claude to change 23 of these links and around ten minutes for me to review them and verify they were correct. Although I had to spend some time reviewing the changes, the total time was much less than it would have taken to make the changes myself.
+        I also found Claude useful for making changes to multiple pages that could have taken me much longer to do myself. On <a href="{{ site.baseurl | append: '/projects/med-dt-article' }}" class="site-link">the page with a report on the Masters of Education program I lectured in</a>, I have lots of links with text that are just a number (for example, 7), which correspond to a reference at the bottom of the page. I was able to use Claude to add an <code class="text-dark">aria-label</code> tag to each link that provides more context when a screen reader navigates to the link. For example, instead of just reading "7", the screen reader would say "Reference 7, Dixson, 2010". It took less than five minutes for Claude to change 23 of these links and around ten minutes for me to review them and verify they were correct. Although I had to spend some time reviewing the changes, the total time was much less than it would have taken to make the changes myself.
     </p>
     <p>
         I manually fixed most of the issues myself, as it seemed that they were quicker to fix that way than prompting an AI, or because I thought the issue was more suited for a human fix (for example, writing the alternative text for images). However, Claude was very useful and quick for issues where I had to make lots of small updates (such as the article page above). If I did an accessibility review like this again, I would probably use the same approach of both manual and AI fixing of issues.
     </p>
     <h2>Conclusion</h2>
     <p>
-        Using an LLM to review the accessibility of a website can help you identify and resolve issues quickly. However, an LLM may miss issues that a human would pick up through a more manual review. Writing prompts that tell an LLM to look for specific issues (for example, contrast and structure) could help but I still think having a human do a review is essential.
+        Using an LLM to review the accessibility of a website can help you identify and resolve issues quickly. However, an LLM may miss issues that a human would pick up through a more manual review. Writing prompts that tell an LLM to look for specific issues (for example, contrast and heading levels) could help but I still think having a human do a review is essential.
     </p>
     <p>
         I am happy with how my website has been improved by doing this accessibility review, although I recognise that there could be issues I've missed or other improvements I could make to the website's layout and content. If I were to do an accessibility review like this again, I would likely start by using Claude (or another LLM) to identify issues. I'd also include more specific instructions in the prompt, to look for issues related to contrast, heading levels and missing figure captions. However, I would also do my own manual review, focusing on areas that an AI is likely to miss.
