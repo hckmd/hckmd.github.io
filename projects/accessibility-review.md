@@ -108,7 +108,7 @@ title: Accessibility Review (with AI)
             A "Back to Top" button that appears when a visitor scrolls down the page, which allows someone operating the website with a keyboard (or assistive device) to go back to the top of the site easily.
         </li>
         <li>
-            Breadcrumbs, where a link and text is shown on a page, which helps a visitor see their location within the site. An example of a breadcrumb on the Literacy Apps project page is shown in the image below.
+            Breadcrumbs, where a link and text is shown on a page, which helps a visitor understand their location within the site. An example of a breadcrumb on the Literacy Apps project page is shown in the image below.
         </li>
     </ul>
     <div class="row">
@@ -118,7 +118,7 @@ title: Accessibility Review (with AI)
                     class="img-fluid highlight-img border border-secondary"
                     src="{{ site.baseurl }}/projects/images/accessibility-review/accessibility-review-breadcrumb.png" alt="A screenshot of the 'Literacy Apps' project page on this website, which has a breadcrumb link with the text 'Projects / Literacy Apps' that is highlighted by an orange rectangle."
                 >
-                <figcaption class="figure-caption text-dark text-center">The breadcrumbs on the project pages help visitors see their location within the site and to navigate back to the main Projects page easily.</figcaption>
+                <figcaption class="figure-caption text-dark text-center">The breadcrumbs on the project pages help visitors understand their location within the site and to navigate back to the main Projects page easily.</figcaption>
             </figure>
         </div>
     </div>
@@ -130,9 +130,9 @@ title: Accessibility Review (with AI)
     </p>
     <h2>Conclusion</h2>
     <p>
-        Using an LLM to review the accessibility of a website can help you identify and resolve issues quickly. However, an LLM may miss issues that a human would pick up through a more manual review. Writing prompts that tell an LLM to look for specific issues (for example, contrast and heading levels) could help but I still think having a human do a review is essential.
+        Using an AI to review the accessibility of a website can help you identify and resolve issues quickly. However, an AI may miss issues that a human would pick up through a more manual review. Writing prompts that tell an AI to look for specific issues (for example, contrast and heading levels) could help but I still think having a human do a review is essential.
     </p>
     <p>
-        I am happy with how my website has been improved by doing this accessibility review, although I recognise that there could be issues I've missed or other improvements I could make to the website's layout and content. If I were to do an accessibility review like this again, I would likely start by using Claude (or another LLM) to identify issues. I'd also include more specific instructions in the prompt, to look for issues related to contrast, heading levels and missing figure captions. However, I would also do my own manual review, focusing on areas that an AI is likely to miss.
+        I am happy with how my website has been improved by doing this accessibility review, although I recognise that there could be issues I've missed or other improvements I could make to the website's layout and content. If I were to do an accessibility review like this again, I would likely start by using Claude (or another AI) to identify issues. I'd also include more specific instructions in the prompt, to look for issues related to contrast, heading levels and missing figure captions. However, I would also do my own manual review, focusing on areas that an AI is likely to miss.
     </p>
 </div>
