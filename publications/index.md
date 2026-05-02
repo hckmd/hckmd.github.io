@@ -27,7 +27,7 @@ title: Publications
                     </div>
                     <div class="list-item-buttons d-flex justify-content-end">
                         <button type="button" class="btn btn-sm btn-info collapsed"
-                            data-toggle="collapse" data-target="#collapse-abstract-thesis" aria-expanded="false" aria-controls="collapse-abstract-thesis" aria-label="Thesis abstract">
+                            data-bs-toggle="collapse" data-bs-target="#collapse-abstract-thesis" aria-expanded="false" aria-controls="collapse-abstract-thesis" aria-label="Thesis abstract">
                             <span class="if-collapsed" aria-hidden="true">
                                 Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
                             </span>
@@ -35,7 +35,7 @@ title: Publications
                                 Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
                             </span>
                         </button>
-                        <a href="https://hdl.handle.net/1959.13/1417667" class="btn btn-sm btn-info ml-2">
+                        <a href="https://hdl.handle.net/1959.13/1417667" class="btn btn-sm btn-info ms-2">
                             View at OpenResearch Website
                             <i class="fa fa-external-link publication-icon" aria-hidden="true"></i>
                         </a>
@@ -65,7 +65,7 @@ title: Publications
                     </div>
                     <div class="list-item-buttons d-flex justify-content-end">
                         <button type="button" class="btn btn-sm btn-info collapsed"
-                            data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}" aria-label="Abstract: {{ pub.title }}">
+                            data-bs-toggle="collapse" data-bs-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}" aria-label="Abstract: {{ pub.title }}">
                             <span class="if-collapsed" aria-hidden="true">
                                 Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
                             </span>
@@ -73,7 +73,7 @@ title: Publications
                                 Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
                             </span>
                         </button>
-                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info ml-2">
+                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info ms-2">
                             View at {{ pub.locationLabel }}
                             <i class="fa fa-external-link publication-icon" aria-hidden="true"></i>
                         </a>
@@ -103,7 +103,7 @@ title: Publications
                     </div>
                     <div class="list-item-buttons d-flex justify-content-end">
                         <button type="button" class="btn btn-sm btn-info collapsed"
-                            data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}" aria-label="Abstract: {{ pub.title }}">
+                            data-bs-toggle="collapse" data-bs-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}" aria-label="Abstract: {{ pub.title }}">
                             <span class="if-collapsed" aria-hidden="true">
                                 Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
                             </span>
@@ -111,7 +111,7 @@ title: Publications
                                 Hide Abstract <i class="fa fa-toggle-up publication-icon"></i>
                             </span>
                         </button>
-                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info ml-2">
+                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info ms-2">
                             View at {{ pub.locationLabel }}
                             <i class="fa fa-external-link publication-icon" aria-hidden="true"></i>
                         </a>
@@ -141,12 +141,12 @@ title: Publications
                         <p class="publication-dates">In {{ pub.location }} during {{ pub.conferenceDate }}</p>
                     </div>
                     <div class="list-item-buttons">
-                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-right">
+                        <a href="{{ pub.locationLink }}" class="btn btn-sm btn-info float-end">
                             View at {{ pub.locationLabel }}
                             <i class="fa fa-external-link publication-icon" aria-hidden="true"></i>
                         </a>
-                        <button type="button" class="btn btn-sm btn-info float-right collapsed"
-                            data-toggle="collapse" data-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}" aria-label="Abstract: {{ pub.title }}">
+                        <button type="button" class="btn btn-sm btn-info float-end collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-abstract-{{ pub.id }}" aria-expanded="false" aria-controls="collapse-abstract-{{ pub.id }}" aria-label="Abstract: {{ pub.title }}">
                             <span class="if-collapsed" aria-hidden="true">
                                 Show Abstract <i class="fa fa-toggle-down publication-icon"></i>
                             </span>

@@ -11,11 +11,11 @@ title: Memory Trick Widget
 
 
 <style>
-    [data-toggle="collapse"].collapsed .if-not-collapsed {
+    [data-bs-toggle="collapse"].collapsed .if-not-collapsed {
         display: none;
     }
 
-    [data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+    [data-bs-toggle="collapse"]:not(.collapsed) .if-collapsed {
         display: none;
     }
 </style>
@@ -24,7 +24,7 @@ title: Memory Trick Widget
     <h1>{{ project.title }}</h1>
     <p>Sometimes recalling passwords can be tricky, given the mix of symbols, letters, and numbers involved.</p>
     <div class="my-3">
-        <button class="btn btn-info collapsed mb-2" data-toggle="collapse" data-target="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background" aria-label="Project Background">
+        <button class="btn btn-info collapsed mb-2" data-bs-toggle="collapse" data-bs-target="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background" aria-label="Project Background">
             <span class="if-not-collapsed" aria-hidden="true">
                 Hide Project Background <i class="fa fa-toggle-up mx-2"></i>
             </span>
@@ -51,7 +51,7 @@ title: Memory Trick Widget
                 </div>
                 <p>I asked my colleagues their opinions of the widget and whether they thought students (particularly primary school students) could use this widget. Generally, they could see that students would use it and thought students could have fun generating images. However, they were unsure about how it could be useful for teaching purposes. One of my colleagues, Chad, came up with an interesting variation of the widget that could be used as part of teaching students about passphrases. He mentioned that one way students could use GenAI image tools would be to generate an image from a passphrase and use that memory of the image as a way of recalling the passphrase. I thought this was an interesting idea, so we worked on the implementation together.</p>
                 <div class="alert alert-info">
-                    <p><i class="fa fa-info-circle mr-2" aria-hidden="true"></i>If you are unfamiliar with passphrases, they are an approach to creating passwords that involves combining multiple random words (usually four or more) together. For example, <i>"sandwich goat yellow magic"</i> is a passphrase. Passphrases are generally easy to remember for humans but hard to guess for computers. You may have seen <a class="site-link" href="https://xkcd.com/936/">this comic from xkcd</a>, which makes this point with the example passphrase: <i>"correct horse battery staple"</i>.</p>
+                    <p><i class="fa fa-info-circle me-2" aria-hidden="true"></i>If you are unfamiliar with passphrases, they are an approach to creating passwords that involves combining multiple random words (usually four or more) together. For example, <i>"sandwich goat yellow magic"</i> is a passphrase. Passphrases are generally easy to remember for humans but hard to guess for computers. You may have seen <a class="site-link" href="https://xkcd.com/936/">this comic from xkcd</a>, which makes this point with the example passphrase: <i>"correct horse battery staple"</i>.</p>
                 </div>
                 <p>Chad came up with a list of different words for the widget that generates and visualises a four-word passphrase, shown in the table below.</p>
                 <div class="row justify-content-center my-2">
@@ -123,28 +123,28 @@ title: Memory Trick Widget
         <div class="col-6 mt-2">
             <form class="form-inline" aria-label="Choose passphrase words">
                 <label for="word1" class="sr-only">Word 1</label>
-                <select id="word1" class="selection form-control mb-2 mr-sm-2">
+                <select id="word1" class="selection form-control mb-2 me-sm-2">
                     <option>orange</option>
                     <option>yellow</option>
                     <option>cloud</option>
                     <option>red</option>
                 </select>
                 <label for="word2" class="sr-only">Word 2</label>
-                <select id="word2" class="selection form-control mb-2 mr-sm-2">
+                <select id="word2" class="selection form-control mb-2 me-sm-2">
                     <option>house</option>
                     <option>tiger</option>
                     <option>duck</option>
                     <option>apple</option>
                 </select>
                 <label for="word3" class="sr-only">Word 3</label>
-                <select id="word3" class="selection form-control mb-2 mr-sm-2">
+                <select id="word3" class="selection form-control mb-2 me-sm-2">
                     <option>sky</option>
                     <option>mirror</option>
                     <option>mountain</option>
                     <option>corn</option>
                 </select>
                 <label for="word4" class="sr-only">Word 4</label>
-                <select id="word4" class="selection form-control mb-2 mr-sm-2">
+                <select id="word4" class="selection form-control mb-2 me-sm-2">
                     <option>tram</option>
                     <option>boat</option>
                     <option>lamp</option>

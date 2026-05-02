@@ -29,7 +29,7 @@ Riding around Kyoto was a lot of fun and one of my highlights of the trip.
 We rode along a path on the side of the Kamo River, which was easy to ride along and had great views.
 We rode to the west, to the Fushimi Inari shrine and parked our bikes near there.
 
-There were a lot of shrines in this area and we walked through the [Senbon Torii](https://en.wikipedia.org/wiki/Fushimi_Inari-taisha#Senbon_Torii){:target="_blank"}, which are rows of many torii gates (there are around 800 of these gates in total).
+There were a lot of shrines in this area and we walked through the [Senbon Torii](https://en.wikipedia.org/wiki/Fushimi_Inari-taisha#Senbon_Torii){:class="text-info" target="_blank"}, which are rows of many torii gates (there are around 800 of these gates in total).
 We saw a fair few cats and birds as we walked towards the summit of Mount Inari. 
 We didn't make it all the way to the summit, as we had to get back to the shop to return the bikes we had rented.
 I wish we had had more time (maybe an extra day) to ride more around Kyoto and see more of the sights there.
@@ -49,7 +49,7 @@ I wish we had had more time (maybe an extra day) to ride more around Kyoto and s
 </div>
 
 In the evening we went to Otsu, which is a coastal city about 20 minutes train ride from Kyoto.
-Ben had found an event at a dance club called [Club Move](http://www.club-move.com/){:target="_blank"} called CLUB de JPOP, where there was a bunch of local DJs playing mostly J-Pop and J-Rock music.
+Ben had found an event at a dance club called [Club Move](http://www.club-move.com/){:class="text-info" target="_blank"} called CLUB de JPOP, where there was a bunch of local DJs playing mostly J-Pop and J-Rock music.
 There was also someone making and selling hot pot, which we were (graciously) given for free.
 
 We sat at the bar, had some drinks and watched the DJs. 
@@ -98,5 +98,5 @@ One guy was playing piano extremely well, which you can hear in the video above.
 After that store closed, we tried to find some dinner but couldn't seem to find any places open for food in that area at that time (around 9pm on a Friday!) and so we ended up settling on McDonalds for dinner.
 
 
-[< Days 9-10](kyoto-1){:class="float-start py-3 page-navigation"}
-[Days 13-15 >](tokyo-5){:class="float-end py-3 page-navigation"}
+[< Days 9-10](kyoto-1){:class="text-info float-start py-3 page-navigation"}
+[Days 13-15 >](tokyo-5){:class="text-info float-end py-3 page-navigation"}

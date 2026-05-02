@@ -49,7 +49,7 @@ We also saw a few different pagodas and temples, and then headed back towards th
 
 We were concerned that we would miss the train back to Tokyo, as Nikko was packed and we had booked one of the last trains available out of Nikko. 
 We decided to grab dinner somewhere near the station and headed back there.
-On the way, we stopped into the [Murmur Biiru Stand](https://www.google.com/maps/place/Murmur+Biiru+Stand/@36.7525861,139.6060476,15z/data=!4m2!3m1!1s0x0:0x828327f22644940f?sa=X&ved=2ahUKEwjG-qOau_eCAxWJqFYBHWX3AT8Q_BJ6BAgNEAA){:target="_blank"} and bought some takeaway beers.
+On the way, we stopped into the [Murmur Biiru Stand](https://www.google.com/maps/place/Murmur+Biiru+Stand/@36.7525861,139.6060476,15z/data=!4m2!3m1!1s0x0:0x828327f22644940f?sa=X&ved=2ahUKEwjG-qOau_eCAxWJqFYBHWX3AT8Q_BJ6BAgNEAA){:class="text-info" target="_blank"} and bought some takeaway beers.
 There were less people on the streets at this time in the evening and I found it very peaceful, compared to earlier in the day, and enjoyed the novelty of (legally) drinking beer on the street.
 We had some dinner at a Ramen place close to the station, and Ben and Tim had a browse through a vintage clothing store.
 When I was waiting outside for them, a procession of people with drums and banners walked up the road towards the shrines and temples (see video above).
@@ -83,8 +83,8 @@ There were otters, hedgehogs and a prairie dog there.
 The staff were super friendly and helpful as well.
 
 We planned to go for lunch at a shop near our AirBnB before Tim had to head off. 
-On our way to the AirBnB, we ended up looking at an "Inventor Shop", which is run by [Jun Sekiba](https://www.amazon.com/s?i=digital-text&rh=p_27%3AJun+Sekiba&_encoding=UTF8&ref=dbs_m_mng_rwt_byln){:target="_blank"}.
-Jun encouraged us to sit down and gave us a puzzle that he had created (shown in the images above) that I believe is called [Kirameki](https://hirameki.co.jp/product/kirameki/){:target="_blank"}.
+On our way to the AirBnB, we ended up looking at an "Inventor Shop", which is run by [Jun Sekiba](https://www.amazon.com/s?i=digital-text&rh=p_27%3AJun+Sekiba&_encoding=UTF8&ref=dbs_m_mng_rwt_byln){:class="text-info" target="_blank"}.
+Jun encouraged us to sit down and gave us a puzzle that he had created (shown in the images above) that I believe is called [Kirameki](https://hirameki.co.jp/product/kirameki/){:class="text-info" target="_blank"}.
 He compared the puzzle to a rubics cube - it involves folding the paper to make patterns (that increase in complexity).
 Each of us bought a copy of the puzzle, which is one of my favourite keepsakes from the trip.
 
@@ -106,7 +106,7 @@ Ben met up with Toby in Harajuku, which is a district with a lot of vintage clot
     </div>
 </div>
 
-Ben, Toby and I met up again in the evening in Chuo city, to see a gig at [Nanahari](https://www.tokyogigguide.com/en/gigs/venue/102){:target="_blank"}.
+Ben, Toby and I met up again in the evening in Chuo city, to see a gig at [Nanahari](https://www.tokyogigguide.com/en/gigs/venue/102){:class="text-info" target="_blank"}.
 Before the gig, we went to an Italian restaurant near the venue and had some pizza (which was really good!).
 
 There were three artists performing at the show:
@@ -114,15 +114,15 @@ There were three artists performing at the show:
 - Haruhisa Tanaka (musician with a focus on ambient drone)
 - TAk and Demont (a musician/visual artist duo from France)
 
-All of the artists were fantastic but seeing [TAk and Demont](https://taketdemont.com/){:target="_blank"} was one of the highlights of my trip.
+All of the artists were fantastic but seeing [TAk and Demont](https://taketdemont.com/){:class="text-info" target="_blank"} was one of the highlights of my trip.
 TAk played guitar, with backing from a recording, while Demont drew along to the music. 
 Demont drew using charcoal and his drawings were projected on a screen with blue light.
 The combination of the music and visuals was very moving and I hadn't seen a show like it ever before.
 
 After the show, I bought a TAk and Demont CD and Gargle shirt from Jun Minowa (the guitarist in Gargle). 
-I spoke a bit to Jun, who is also the founder of the [Dewfall Records](https://www.dewfallrecords.com/){:target="_blank"} label, about his past travels to Australia and he gave us some recommendations for venues to check out in Osaka (because we were heading to Kyoto two days after).
+I spoke a bit to Jun, who is also the founder of the [Dewfall Records](https://www.dewfallrecords.com/){:class="text-info" target="_blank"} label, about his past travels to Australia and he gave us some recommendations for venues to check out in Osaka (because we were heading to Kyoto two days after).
 
 We headed home, for our last night staying at the AirBnB in Sumida City.
 
-[< Days 3-4](tokyo-2){:class="float-start py-3 page-navigation"}
-[Days 7-8 >](tokyo-4){:class="float-end py-3 page-navigation"}
+[< Days 3-4](tokyo-2){:class="text-info float-start py-3 page-navigation"}
+[Days 7-8 >](tokyo-4){:class="text-info float-end py-3 page-navigation"}

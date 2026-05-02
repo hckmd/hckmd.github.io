@@ -174,11 +174,11 @@ ul.ul-edu li .description p {
     margin-left: 0.5rem;
 }
 
-[data-toggle="collapse"].collapsed .if-not-collapsed {
+[data-bs-toggle="collapse"].collapsed .if-not-collapsed {
     display: none;
 }
 
-[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+[data-bs-toggle="collapse"]:not(.collapsed) .if-collapsed {
     display: none;
 }
 

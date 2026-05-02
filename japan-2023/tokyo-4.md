@@ -25,10 +25,10 @@ Ben found a nice AirBnB in Shinagawa for this night, which was fairly close to t
 We'd go from that train station to get to Kyto the next day (via a Shinkansen bullet train).
 
 This day, we decided to have more of a look around Sumida City for our last day there, before heading to the next AirBnB in Shinagawa.
-Sumida City is where the [Ryōgoku Kokugikan](https://g.co/kgs/vZ3LAi){:target="_blank"} (a Sumo arena where national events are held) is and there is a lot of rich history in the area (especially related to Sumo wrestling).
+Sumida City is where the [Ryōgoku Kokugikan](https://g.co/kgs/vZ3LAi){:class="text-info" target="_blank"} (a Sumo arena where national events are held) is and there is a lot of rich history in the area (especially related to Sumo wrestling).
 We hadn't had the chance to see much about Sumo wrestling while in Japan and so we decided to walk towards the Sumo museum and check that out.
 
-On the way, we went to the [Japanese Sword Museum](https://maps.app.goo.gl/ijzbVoKchbEahLce8){:target="_blank"}, which had an exhibit with "Decorative sword mountings and excellent swords". 
+On the way, we went to the [Japanese Sword Museum](https://maps.app.goo.gl/ijzbVoKchbEahLce8){:class="text-info" target="_blank"}, which had an exhibit with "Decorative sword mountings and excellent swords". 
 The exhibit and museum were excellent and definitely worth checking out.
 The view from the roof, shown above, was quite nice too.
 Ben and I thought about making an offer to buy a couple of the swords - but we thought better of it and Ben bought a book on the traditional sword-making process instead.
@@ -99,7 +99,7 @@ We arrived at Kyoto in the early afternoon, where it was raining pretty heavily.
 I underestimated how long the walk from Kyoto station to our AirBnB was and with the rain and carrying bags it felt like twice as long as it really was.
 But after about 30 minutes walking through the rain, we made it our AirBnB.
 
-We had planned to go into Osaka later in the week to see some music but I liked the look of bands that were playing at the [Hakoge Bar](http://musicbarhokage.net/){:target="_blank"} in Osaka that night and Ben agreed to head in there with me.
+We had planned to go into Osaka later in the week to see some music but I liked the look of bands that were playing at the [Hakoge Bar](http://musicbarhokage.net/){:class="text-info" target="_blank"} in Osaka that night and Ben agreed to head in there with me.
 
 The show at Hakoge that night was called "KEEP ON ROTTIN'" and the lineup was four Japanese punk and metal bands. 
 Unfortunately, we missed the first band (ザ・ハンコッツ) who I looked up later and who look like they would have been a lot of fun to see.
@@ -113,5 +113,5 @@ We saw three bands that night, who were all excellent:
 The night was a lot of fun, the performances were so high energy, and I would recommend anyone interested in seeing Japanese alternative music check out Hakoge in Osaka.
 Their website is a mix of English and Japanese but is fairly straightforward to navigate and translate.
 
-[< Days 5-6](tokyo-3){:class="float-start py-3 page-navigation"}
-[Days 9-10 >](kyoto-1){:class="float-end py-3 page-navigation"}
+[< Days 5-6](tokyo-3){:class="text-info float-start py-3 page-navigation"}
+[Days 9-10 >](kyoto-1){:class="text-info float-end py-3 page-navigation"}

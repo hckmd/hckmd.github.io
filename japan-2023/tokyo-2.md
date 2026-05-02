@@ -59,15 +59,15 @@ We went into Tower Records, which is a massive music store with seven floors and
 We saw there was a floor where events were held, so we looked up what events were happening.
 With the help of Google Translate, we figured out there was a J-Pop group doing some kind of live event and, with the help of staff there, we got in to the event (and it was free entry!).
 
-The event turned out to be a live performance from [Norari Kurari](https://jpop.fandom.com/wiki/Norari_Kurari){:target="_blank"}.
+The event turned out to be a live performance from [Norari Kurari](https://jpop.fandom.com/wiki/Norari_Kurari){:class="text-info" target="_blank"}.
 We didn't know their music at all but the show was so much fun and the crowd (around 40-50 people from our guess-timate) were so enthusiastic.
 Ben bought a CD and was given a ticket, which he was told to give a staff member after the show.
 We then figured out this ticket entitled him to meet of the of the members of Norari Kurari and get a photo with them (he chose to get a picture with Hina Fujiyoshi, shown above).
 
 After the show, we wandered around Shibuya some more and ended up in Hyakkendana.
 Hyakkendana is a district that has a lot of bars, restaurants and love hotels.
-We went to an excellent [standing bar called Stand Umineko SiB100](https://g.co/kgs/rxjDN7){:target="_blank"} that had a bunch of different craft beers, before heading back towards the train station.
-On the way to the train station, we saw a bar called [The Church](https://www.google.com/maps/place/Dogenzaka+Church+-The+Church-/@35.6585972,139.6969009,15z/data=!4m6!3m5!1s0x60188d5811612fbf:0x8aa9b26f088ad26f!8m2!3d35.6585972!4d139.6969009!16s%2Fg%2F11spmnkz63?entry=ttu){:target="_blank"} and checked that out.
+We went to an excellent [standing bar called Stand Umineko SiB100](https://g.co/kgs/rxjDN7){:class="text-info" target="_blank"} that had a bunch of different craft beers, before heading back towards the train station.
+On the way to the train station, we saw a bar called [The Church](https://www.google.com/maps/place/Dogenzaka+Church+-The+Church-/@35.6585972,139.6969009,15z/data=!4m6!3m5!1s0x60188d5811612fbf:0x8aa9b26f088ad26f!8m2!3d35.6585972!4d139.6969009!16s%2Fg%2F11spmnkz63?entry=ttu){:class="text-info" target="_blank"} and checked that out.
 It was an interesting place - the staff were dressed as nuns and the seats were arranged like pews in a church, with an altar at the front (see video above).
 We had a quick drink there and headed back to our AirBnB.
 
@@ -91,7 +91,7 @@ We had a quick drink there and headed back to our AirBnB.
 </div>
 
 Ben and I woke up a bit before Tim, so we went to get a coffee and Ben went for a run.
-The coffee shop, called [COFFEESTAND kōenmae](https://www.google.com/maps/place/COFFEESTAND+k%C5%8Denmae/@35.7066087,139.8064312,18.22z/data=!4m6!3m5!1s0x60188f726591fc33:0x2edacff4fc136506!8m2!3d35.7065289!4d139.8062839!16s%2Fg%2F11qg2xk420?entry=ttu){:target="_blank"}, we went to was quite interesting - the owner roasted his own beans and we could see his roasting set up behind when we ordered.
+The coffee shop, called [COFFEESTAND kōenmae](https://www.google.com/maps/place/COFFEESTAND+k%C5%8Denmae/@35.7066087,139.8064312,18.22z/data=!4m6!3m5!1s0x60188f726591fc33:0x2edacff4fc136506!8m2!3d35.7065289!4d139.8062839!16s%2Fg%2F11qg2xk420?entry=ttu){:class="text-info" target="_blank"}, we went to was quite interesting - the owner roasted his own beans and we could see his roasting set up behind when we ordered.
 
 Later in the morning, we walked towards Sensō-ji (a temple about a 15 minute walk from our AirBnB) and we wandered into a small Buddhist temple on the way.
 A lady there let us into the temple and we got to see inside and take some photos.
@@ -117,7 +117,7 @@ After we got through the crowd in the markets and had a look around some of the 
 
 We headed to Shinjuku in the afternoon and had a small dinner and some drinks at Yona Yona Bar Works.
 Ben's friend Toby, who's studying Japanese in Tokyo, met us at the bar.
-I wanted to have a look at some MTG (Magic the Gathering) cards shops, so I left the others and headed to [MTG Salon](https://www.google.com/maps/place/MTG+SALON+TOKYO/@35.6887054,139.6947349,17z/data=!3m2!4b1!5s0x60188cd172424c6f:0xe93e8b33a1b7ce6e!4m6!3m5!1s0x60188dab5c3efa05:0xdd6c59ce5696931d!8m2!3d35.6887054!4d139.6973098!16s%2Fg%2F11s240wz1c?entry=ttu){:target="_blank"}.
+I wanted to have a look at some MTG (Magic the Gathering) cards shops, so I left the others and headed to [MTG Salon](https://www.google.com/maps/place/MTG+SALON+TOKYO/@35.6887054,139.6947349,17z/data=!3m2!4b1!5s0x60188cd172424c6f:0xe93e8b33a1b7ce6e!4m6!3m5!1s0x60188dab5c3efa05:0xdd6c59ce5696931d!8m2!3d35.6887054!4d139.6973098!16s%2Fg%2F11s240wz1c?entry=ttu){:class="text-info" target="_blank"}.
 MTG Salon was a small shop - probably the size of my games room and there were two tables of 4 player games set up - so it felt quite cosy in there.
 I asked to buy a shirt there, asking for a Large at first but then saying a Medium would be ok. 
 The owner laughed and shook his head when I suggested Medium (😲) and I got the Large.
@@ -133,12 +133,12 @@ Before going into the Don Quioxite, Toby warned us about the sensory overload th
 There were so many different things to buy, so many people and all of these was on six floors with fairly narrow aisles.
 I bought a few random items from here, including some Ghibli and Pokemon bits and pieces.
 
-We wandered around Shinjuku for a bit more and went into [Tokyo Kabukicho Tower](https://www.google.com/maps/place/Tokyu+Kabukicho+Tower/@35.6957513,139.7005894,15z/data=!4m2!3m1!1s0x0:0xd47e0ccc16555ea9?sa=X&ved=2ahUKEwiY5oeyt_eCAxUWklYBHdG7AdwQ_BJ6BAgOEAA){:target="_blank"}, because I needed to use a restroom.
+We wandered around Shinjuku for a bit more and went into [Tokyo Kabukicho Tower](https://www.google.com/maps/place/Tokyu+Kabukicho+Tower/@35.6957513,139.7005894,15z/data=!4m2!3m1!1s0x0:0xd47e0ccc16555ea9?sa=X&ved=2ahUKEwiY5oeyt_eCAxUWklYBHdG7AdwQ_BJ6BAgOEAA){:class="text-info" target="_blank"}, because I needed to use a restroom.
 There were some restaurants and a stage on the first floor and an arcade and bunch of gacha machines on the second floor.
 There was a DJ on the stage and people on the tables around the stage were singing along to the songs.
 This regular event was called the "Duke Box" and people were encouraged to come up on the stage and dance and sing along.
 We had a drink and snack, watched the "Duke Box" for a while and sang along to some of the songs we knew (there were a few Western songs played, including "I Want it that Way" by the Backstreet Boys.)
 We headed back to the AirBnB but we didn't get the timings of trains right and had to get a taxi via Uber (from a station not too far from Sumida) back because we missed the last train.
 
-[< Days 1-2](tokyo-1){:class="float-start py-3 page-navigation"}
-[Days 5-6 >](tokyo-3){:class="float-end py-3 page-navigation"}
+[< Days 1-2](tokyo-1){:class="text-info float-start py-3 page-navigation"}
+[Days 5-6 >](tokyo-3){:class="text-info float-end py-3 page-navigation"}

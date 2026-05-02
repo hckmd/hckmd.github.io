@@ -28,7 +28,7 @@ Ben hadn't been to Akihabara before, so I showed him some of the different store
 We went to the AirBnB in Shinjuku, which was a larger unit than the other places we'd stayed at.
 The AirBnB was in a great location (very close to the main part of Shinjuku) and, for the first time during the trip, Ben and I had our own rooms.
 
-After settling into the AirBnB, we headed into [Moon Romantic](https://www.moonromantic.com/){:target="_blank"} (a cool music venue in Minato city) to see the Japanese math-rock band [Paranoid Void](https://www.paranoidvoid.com/){:target="_blank"}.
+After settling into the AirBnB, we headed into [Moon Romantic](https://www.moonromantic.com/){:class="text-info" target="_blank"} (a cool music venue in Minato city) to see the Japanese math-rock band [Paranoid Void](https://www.paranoidvoid.com/){:class="text-info" target="_blank"}.
 We met up with Ben's friends Toby and Darcy at the venue.
 Darcy had been travelling around Japan for a couple of weeks, had found about the gig through Instagram and (luckily) told Ben about it.
 Paranoid Void were doing a solo show with no supports and their (excellent) set was a bit over an hour with no breaks.
@@ -73,7 +73,7 @@ The market was bustling with people and there were lots of food options at the m
 We had a walk through the markets and tried a variety of foods - including prawns, wagyu beef and egg rolls.
 
 We saw a sign for a coffee shop that made us laugh (shown in the images above, it said: "could you go to the second floor, please") and I felt like a coffee, so we headed upstairs to the coffee shop.
-The coffee shop was (unfortunately) closed but we ended up stumbling into the photo exhibition for a book by Kei Sugiyama, a designer and the Creative Director of [United Design](https://www.united-design.co.jp/en/index.html){:target="_blank"}.
+The coffee shop was (unfortunately) closed but we ended up stumbling into the photo exhibition for a book by Kei Sugiyama, a designer and the Creative Director of [United Design](https://www.united-design.co.jp/en/index.html){:class="text-info" target="_blank"}.
 Kei was at the exhibition and, with help from another person (possibly his partner? We were not sure) who knew some English, explained that the book was about the old site of the Tsukiji fish markets.
 At the old market, a large open-air warehouse, fish would be brought directly into the markets and auctioned to customers.
 The markets were accessible to everyone and the purchased fish would often be cut up in front of the customers.
@@ -124,7 +124,7 @@ There were shops that sold fake food (for restaurant displays) and one even sold
 We bought a couple of random things from a shop in Kappabashi, including some bowls and chopstick holders, but did not make any big purchases.
 
 We then went back to Shinjuku for the afternoon and did some shopping.
-I picked up some CDs for a band ([Special Others](http://www.specialothers.com/index.php){:target="_blank"}) who I had heard in a bathroom at the standing bar we had been to in the first week of our trip.
+I picked up some CDs for a band ([Special Others](http://www.specialothers.com/index.php){:class="text-info" target="_blank"}) who I had heard in a bathroom at the standing bar we had been to in the first week of our trip.
 
 After doing some shopping, we took a quick walk around the Golden Gai, as Ben hadn't been there before.
 It was quiet there and we had an early morning the next day, so we decided to not have a drink and call it a night early.
@@ -135,4 +135,4 @@ We had an early morning this day around 4:30am, as we didn't want to miss our fl
 After missing a train to the airport, we decided to get a taxi the rest of the way.
 We flew back to Sydney, I got home and Ben drove back to Maitland.
 
-[< Days 11-12](kyoto-2){:class="float-start py-3 page-navigation"}
+[< Days 11-12](kyoto-2){:class="text-info float-start py-3 page-navigation"}

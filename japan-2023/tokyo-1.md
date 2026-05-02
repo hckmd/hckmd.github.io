@@ -45,7 +45,7 @@ We had a cheap (but tasty) dinner at around 11pm at a Matsuya restaurant in Asuk
 This day was Ben's birthday (Happy birthday Ben!). 
 I had a wander around Sumida city first thing in the morning and picked up a rechargeable battery and some snacks for breakfast from a FamilyMart near the Tokyo SkyTree tower (about a 10 minute walk from our AirBnB).
 
-We headed to the [TeamLabs Planets](https://www.teamlab.art/e/planets/){:target="_blank"} museum in Koto city, which Ben had (wisely) bought tickets for about a month before our trip. 
+We headed to the [TeamLabs Planets](https://www.teamlab.art/e/planets/){:class="text-info" target="_blank"} museum in Koto city, which Ben had (wisely) bought tickets for about a month before our trip. 
 The exhibits were so unique and immersive - this was a great place to visit on our first full day in Tokyo.
 My favourite exhibit was titled "Floating in the Falling Universe of Flowers" (described in the collapsible section below and captured briefly in a video above too).
 
@@ -80,14 +80,14 @@ My favourite exhibit was titled "Floating in the Falling Universe of Flowers" (d
     </div>
 </div>
 
-There was a station right near TeamLabs Planets ([Shin-Toyosu Station](https://www.google.com/maps/place/Shin-Toyosu+Sta./@35.6488721,139.7909563,16.59z/data=!4m14!1m7!3m6!1s0x60188908e728e749:0x6de450c94bd3d622!2steamLab+Planets!8m2!3d35.6491207!4d139.7897739!16s%2Fg%2F11ghxr0p5m!3m5!1s0x601889976d9833b5:0x13a47c7d3116ff75!8m2!3d35.6487318!4d139.7901697!16s%2Fm%2F02vmjgw?entry=ttu){:target="_blank"}) and so we went via train to Shinbashi to find some food for lunch.
+There was a station right near TeamLabs Planets ([Shin-Toyosu Station](https://www.google.com/maps/place/Shin-Toyosu+Sta./@35.6488721,139.7909563,16.59z/data=!4m14!1m7!3m6!1s0x60188908e728e749:0x6de450c94bd3d622!2steamLab+Planets!8m2!3d35.6491207!4d139.7897739!16s%2Fg%2F11ghxr0p5m!3m5!1s0x601889976d9833b5:0x13a47c7d3116ff75!8m2!3d35.6487318!4d139.7901697!16s%2Fm%2F02vmjgw?entry=ttu){:class="text-info" target="_blank"}) and so we went via train to Shinbashi to find some food for lunch.
 We had our first sushi in Japan from a standing sushi bar in Shinbashi (so good!) and had a wander around the area.
 There was an area where there were lots of bars and restaraunts but it was very quiet when we went through.
 We didn't come back to this spot at night or on a weekend but I imagine it would be very busy at those times.
 
 We walked north from Shinbashi towards the Imperial Castle, through Hibiya Park.
 We hadn't researched anything about the Imperial Castle before our trip and did not realise it's only really accessible to people who have booked organised tours ahead of time 😅.
-However, the [East Gardens of the Imperial Castle](https://www.google.com/maps/place/The+East+Gardens+of+the+Imperial+Palace/@35.6867824,139.7545696,17z/data=!3m1!4b1!4m6!3m5!1s0x60188c13425af13d:0xa31b000a35db03f9!8m2!3d35.6867824!4d139.7571445!16s%2Fm%2F0nbczmq?entry=ttu){:target="_blank"} were open to the public and free to enter.
+However, the [East Gardens of the Imperial Castle](https://www.google.com/maps/place/The+East+Gardens+of+the+Imperial+Palace/@35.6867824,139.7545696,17z/data=!3m1!4b1!4m6!3m5!1s0x60188c13425af13d:0xa31b000a35db03f9!8m2!3d35.6867824!4d139.7571445!16s%2Fm%2F0nbczmq?entry=ttu){:class="text-info" target="_blank"} were open to the public and free to enter.
 There were some interesting buildings in the Gardens (including old Guardhouses) and some nice views from the base of the Edo Castle keep.
 
 We stayed at the Gardens until they closed (around 4pm).
@@ -97,4 +97,4 @@ After leaving the gardens, we headed towards Tokyo station and had some drinks a
 There was a photoshoot happening across the road from us (that included a few pairs of models dressed as brides and grooms), which was entertaining to watch as we had drinks.
 We had some Udon from a restaurant in Tokyo station and went to the Skytree Mall on the way back to the AirBnB (which was our first visit to a Pokemon center on the trip).
 
-[Days 3-4 >](tokyo-2){:class="float-end py-3 page-navigation"}
+[Days 3-4 >](tokyo-2){:class="text-info float-end py-3 page-navigation"}

@@ -27,7 +27,7 @@ title: Dashboard Study
         On this page I share some of the work that I've done on the project. There will be a report made available later in 2026 that explains the background of the project in detail and reports on its findings. The team will also share the findings from the project in webinars during 2026 and research articles in the future.
     </p>
     <div class="my-3">
-        <button class="btn btn-info collapsed mb-2" data-toggle="collapse" data-target="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background" aria-label="What are LADs?">
+        <button class="btn btn-info collapsed mb-2" data-bs-toggle="collapse" data-bs-target="#collapse-project-background" aria-expanded="false" aria-controls="collapse-project-background" aria-label="What are LADs?">
             <span class="if-not-collapsed" aria-hidden="true">
                 Hide this section <i class="fa fa-toggle-up mx-2"></i>
             </span>
