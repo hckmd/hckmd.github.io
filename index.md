@@ -117,30 +117,3 @@ title: Home
         {% endfor %}
     </div>
 </div>
-<div class="showcase">
-    <h2>Resources and Media</h2>
-    <p>
-        I have included some different resources and media (videos and presentations) on this website.
-        I have highlighted my favourite resources and media below but you can see more on the <a href="{{ site.baseurl | append: '/media' }}" class="site-link">Media page</a> and the <a href="{{ site.baseurl | append: '/resources' }}" class="site-link">Resources page</a>.
-    </p>
-    <div class="row">
-        {% for resource in site.data.highlights %}
-        <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-                <img class="card-img-top" 
-                    src="{{ site.baseurl | append: resource.imageFilePath }}">
-                <div class="card-body">
-                    <h4>
-                        <a href="{{ resource.linkLocation }}" {% if resource.newTab == 'true' %} {% endif %}
-                            class="site-page-link">
-                            {{ resource.title }}
-                        </a>
-                    </h4>
-                    <p><b>{{ resource.type }}</b></p>
-                    <p class="card-text">{{ resource.description }}</p>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div>

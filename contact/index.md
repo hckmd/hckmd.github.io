@@ -9,13 +9,13 @@ title: Contact Me
         Interested in collaborating on some research or projects? Or have any questions about my work? Feel free to
         reach out through the form below and I well get back to you as soon as possible.
     </p>
-    <div data-fs-success class="alert alert-success mt-4">
-        Thank you for your message! I will get back to you as soon as I can.
-    </div>
-    <div data-fs-error class="alert alert-danger mt-4">
-        Oops! There was a problem submitting your form. Please check your inputs and try again.
-    </div>
     <div class="col-12 col-md-6 offset-md-3">
+        <div data-fs-success class="alert alert-success mt-4">
+            Thank you for your message! I will get back to you as soon as I can.
+        </div>
+        <div data-fs-error class="alert alert-danger mt-4">
+            Oops! There was a problem submitting your form. Please check your inputs and try again.
+        </div>
         <form id="contact-form" class="mt-4 border border-secondary bg-secondary bg-opacity-10 p-3 border-opacity-25 rounded">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
@@ -44,5 +44,4 @@ title: Contact Me
             }
         });
     </script>
-    <script src="{{ site.baseurl | append: '/js/formspree.js' }}" data-turbo-eval="false"></script>
 </div>
