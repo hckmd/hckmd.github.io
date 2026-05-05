@@ -15,7 +15,7 @@ title: Contact Me
     <div data-fs-error class="alert alert-danger mt-4">
         Oops! There was a problem submitting your form. Please check your inputs and try again.
     </div>
-    <form id="contact-form" class="mt-4">
+    <form id="contact-form" class="mt-4 w-50 m-auto border border-secondary bg-secondary bg-opacity-10 p-3 border-opacity-25 rounded">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" name="name" required data-fs-field>
@@ -42,5 +42,5 @@ title: Contact Me
             }
         });
     </script>
-    <script src="{{ site.baseurl | append: '/js/formspree.js' }}" defer data-turbo-eval="false"></script>
+    <script src="{{ site.baseurl | append: '/js/formspree.js' }}" data-turbo-eval="false"></script>
 </div>
