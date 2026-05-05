@@ -7,7 +7,7 @@ title: Home
     <div class="col-xs-12 col-md-4">
         <div id="profile">
             <img class="portrait" src="{{ site.baseurl | append: '/me.jpg' }}" alt="Portrait photo of Daniel Hickmott">
-            <a class="btn btn-info mt-2 mb-1" href="mailto:daniel.hickmott@gmail.com">
+            <a class="btn btn-info mt-2 mb-1" href="{{ site.baseurl | append: '/contact/' }}">
                 <i class="fa fa-envelope mx-2"></i>Email me
             </a>
             <br>
