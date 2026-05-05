@@ -35,7 +35,7 @@ title: Contact Me
             <button type="submit" class="btn btn-info px-4" data-fs-submit-btn>Send Message</button>
         </form>
     </div>
-    <script data-turbo-eval="false">
+    <script data-turbo-eval="true">
         // Initialize formspree on turbo:load so it connects even when navigating via Turbo
         document.addEventListener("turbo:load", function() {
             if (document.getElementById("contact-form")) {
