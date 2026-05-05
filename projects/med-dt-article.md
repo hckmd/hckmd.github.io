@@ -214,7 +214,7 @@ title: The Design of the MEd:DT
     </p>
     <div class="col-md-4 offset-md-4 px-0">
         <figure class="figure">
-            <img src="images/tpack-model.jpg" class="img-fluid my-3"
+            <img src="{{ site.baseurl | append: '/projects/images/tpack-model.jpg' }}" class="img-fluid my-3"
                 alt="A diagram showing the TPACK model, which is a venn diagram. There are three circles that overlap, lablled 'Technological Knowledge', 'Pedagogical Knowledge' and 'Content Knowledge'. The intersections between the three circles are labelled with the text 'Technological Content Knowledge', 'Technological Pedagogical Knowledge' and 'Pedagogical Content Knowledge'."
             >
             <figcaption class="figure-caption text-dark">Figure 1: The TPACK model (Source: <a href="http://tpack.org/" class="site-link">tpack.org</a>)</figcaption>

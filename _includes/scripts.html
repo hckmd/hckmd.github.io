@@ -1,14 +1,11 @@
-<script src="{{ site.baseurl | append: '/js/jquery.min.js' }}"></script>
-<script src="{{ site.baseurl | append: '/js/bootstrap.bundle.min.js' }}"></script>
+<script data-turbo-eval="false" src="{{ site.baseurl | append: '/js/jquery.min.js' }}"></script>
+<script data-turbo-eval="false" src="{{ site.baseurl | append: '/js/bootstrap.bundle.min.js' }}"></script>
 
-<script>
-    let mybutton = document.getElementById("btn-back-to-top");
+<script data-turbo-eval="false">
+    window.addEventListener("scroll", function () {
+        let mybutton = document.getElementById("btn-back-to-top");
+        if (!mybutton) return;
 
-    window.onscroll = function () {
-        scrollFunction();
-    };
-
-    function scrollFunction() {
         if (
             document.body.scrollTop > 100 ||
             document.documentElement.scrollTop > 100
@@ -17,19 +14,29 @@
         } else {
             mybutton.style.display = "none";
         }
-    }
+    });
 
-    if (mybutton) {
-        mybutton.addEventListener("click", backToTop);
-    }
-
-    function backToTop() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-        // Move focus to top
-        let main = document.querySelector('main');
-        if (main) {
-            main.focus();
+    document.addEventListener("click", function (e) {
+        let mybutton = e.target.closest("#btn-back-to-top");
+        if (mybutton) {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            // Move focus to top
+            let main = document.querySelector('main');
+            if (main) {
+                main.focus();
+            }
         }
-    }
+    });
+
+    // Reset Bootstrap collapse elements before Turbo caches the page
+    document.addEventListener("turbo:before-cache", function () {
+        document.querySelectorAll('.collapse.show').forEach(function(el) {
+            el.classList.remove('show');
+        });
+        document.querySelectorAll('button[data-bs-toggle="collapse"]').forEach(function(btn) {
+            btn.classList.add('collapsed');
+            btn.setAttribute('aria-expanded', 'false');
+        });
+    });
 </script>
