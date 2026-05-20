@@ -7,7 +7,7 @@ title: Contact Me
     <h1>Contact me</h1>
     <p>
         Interested in collaborating on some research or projects? Or have any questions about my work? Feel free to
-        reach out through the form below and I well get back to you as soon as possible.
+        reach out through the form below and I will get back to you as soon as possible.
     </p>
     <div class="col-12 col-md-6 offset-md-3">
         <div data-fs-success class="alert alert-success mt-4">
