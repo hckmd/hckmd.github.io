@@ -3,67 +3,91 @@ layout: default
 title: Home
 ---
 
-<div class="row">
-    <div class="col-xs-12 col-md-4">
-        <div id="profile">
-            <img class="portrait" src="{{ site.baseurl | append: '/me.jpg' }}" alt="Portrait photo of Daniel Hickmott">
-            <a class="btn btn-info mt-2 mb-1" href="{{ site.baseurl | append: '/contact/' }}">
-                <i class="fa fa-envelope mx-2"></i>Email me
-            </a>
-            <br>
-            <a class="btn btn-info my-1" href="https://scholar.google.com.au/citations?user=zEcey6gAAAAJ">
-                <i class="ai ai-google-scholar mx-1"></i>My Google Scholar Page
-            </a>
+<div class="row align-items-center py-4 py-md-5">
+    <div class="col-xs-12 col-md-8 mb-4 mb-md-0">
+        <h1 class="profile-heading display-5 fw-bold text-dark mb-3">Daniel (Dan) Hickmott</h1>
+        <p class="lead mb-4 text-secondary" style="font-size: 1.2rem; line-height: 1.6;">
+            I design, build and evaluate inclusive learning experiences.
+            I combine learning design, tech and research to improve outcomes for learners and educators.
+        </p>
+        <a class="btn btn-info px-4 py-2 text-white shadow-sm" href="{{ site.baseurl | append: '/contact/' }}">
+            <i class="fa fa-envelope me-2"></i>Work with me
+        </a>
+    </div>
+    <div class="col-xs-12 col-md-4 text-center">
+        <div id="profile" class="py-0">
+            <img class="portrait shadow" src="{{ site.baseurl | append: '/me.jpg' }}" alt="Portrait photo of Daniel Hickmott">
         </div>
     </div>
-    <div class="col-xs-12 col-md-8">
-        <h1 class="profile-heading">Daniel (Dan) Hickmott</h1> 
-        <p>
-            I am an educator with experience in digital technologies education, research and software engineering. I am a versatile and adaptive problem solver who enjoys working with technology and people on projects that aim to have a positive impact.
-        </p>
-        <p>
-            I completed my PhD in Education at the University of Newcastle, Australia in 2020.
-            The focus of my PhD research was on the design and evaluation of a professional learning program for K-6 school teachers learning and teaching computer coding, called Coding in Stage 3. You can read more about the program on the <a href="{{ site.baseurl | append: '/projects/coding-in-stage-3' }}" class="site-link">Coding in Stage 3 program page</a>. You can also <a class="site-link" href="https://hdl.handle.net/1959.13/1417667">view my thesis on the university's OpenResearch website.</a>
-        </p>
-        <div class="row">
-            <div class="col-md-5">
-                <h2 class="profile-heading">Research Interests</h2> 
-                <ul class="ul-interests">
-                    <li>Computing Education</li>
-                    <li>Teacher Professional Learning</li>
-                    <li>Learning Analytics</li>
-                    <li>Online Learning</li>     
-                    <li>Serious Games</li>             
-                </ul>
+</div>
+<div class="showcase my-2">
+    <h2 class="mt-4">Services</h2>
+    <p>I can support your team or project with expertise across these areas:</p>
+    <div class="accordion my-4" id="servicesAccordion">
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingUX">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUX" aria-expanded="false" aria-controls="collapseUX"><i class="fa fa-desktop me-2" aria-hidden="true"></i>UX Design & Prototyping</button>
+            </h3>
+            <div id="collapseUX" class="accordion-collapse collapse" aria-labelledby="headingUX" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                    <p>Designing user-centered digital tools and creating interactive prototypes (e.g. learning dashboards and Phaser widgets) to test and iterate on concepts.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=UX+Design&tag=Prototyping" class="btn btn-sm btn-info text-white">View related projects</a>
+                </div>
             </div>
-            <div class="col-md-7">
-                <h2 class="profile-heading">Education</h2> 
-                <ul class="ul-edu fa-ul">
-                    <li>
-                        <i class="fa-li fa fa-graduation-cap"></i>
-                        <div class="description">
-                            <p class="course">Doctor of Philosophy (Education)</p>
-                            <p class="dates">2016 - 2020</p>
-                            <p class="institution">University of Newcastle, Australia</p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="fa-li fa fa-graduation-cap"></i>
-                        <div class="description">
-                            <p class="course">Bachelor of Software Engineering, Honours Class 1</p>
-                            <p class="dates">2010 - 2014</p>
-                            <p class="institution">University of Newcastle, Australia</p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="fa-li fa fa-graduation-cap"></i>
-                        <div class="description">
-                            <p class="course">Certificate IV in Training and Assessment (TAE40122)</p>
-                            <p class="dates">2024 - 2025</p>
-                            <p class="institution">Forsythes Training</p>
-                        </div>
-                    </li>
-                </ul>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingMixed">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMixed" aria-expanded="false" aria-controls="collapseMixed"><i class="fa fa-flask me-2" aria-hidden="true"></i>Mixed-Methods Evaluation</button>
+            </h3>
+            <div id="collapseMixed" class="accordion-collapse collapse" aria-labelledby="headingMixed" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                    <p>Conducting rigorous evaluation using qualitative (interviews, surveys) and quantitative research methods to measure syllabus impact and program outcomes.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Mixed-methods+evaluation" class="btn btn-sm btn-info text-white">View related projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingLearning">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLearning" aria-expanded="false" aria-controls="collapseLearning"><i class="fa fa-book me-2" aria-hidden="true"></i>Learning Design & Content Development</button>
+            </h3>
+            <div id="collapseLearning" class="accordion-collapse collapse" aria-labelledby="headingLearning" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                    <p>Creating engaging curriculum resources and designing professional learning programs to upskill K-12 teachers in digital technologies.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Learning+Design&tag=Content+Development" class="btn btn-sm btn-info text-white">View related projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingAI">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAI" aria-expanded="false" aria-controls="collapseAI"><i class="fa fa-cogs me-2" aria-hidden="true"></i>Applying AI</button>
+            </h3>
+            <div id="collapseAI" class="accordion-collapse collapse" aria-labelledby="headingAI" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                    <p>Integrating generative AI tools responsibly for educational experiences, software evaluation, and prototyping.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Applying+AI" class="btn btn-sm btn-info text-white">View related projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTeaching">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeaching" aria-expanded="false" aria-controls="collapseTeaching"><i class="fa fa-graduation-cap me-2" aria-hidden="true"></i>Teaching</button>
+            </h3>
+            <div id="collapseTeaching" class="accordion-collapse collapse" aria-labelledby="headingTeaching" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                    <p>Delivering high-quality lectures and conducting teacher training workshops to facilitate computing education.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Teaching" class="btn btn-sm btn-info text-white">View related projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingData">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseData" aria-expanded="false" aria-controls="collapseData"><i class="fa fa-bar-chart me-2" aria-hidden="true"></i>Data Analytics & Visualisation</button>
+            </h3>
+            <div id="collapseData" class="accordion-collapse collapse" aria-labelledby="headingData" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                    <p>Analyzing learning analytics data and developing custom dashboards to visualise key outcomes.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Data+Analytics+%26+Visualisation" class="btn btn-sm btn-info text-white">View related projects</a>
+                </div>
             </div>
         </div>
     </div>
@@ -71,9 +95,10 @@ title: Home
 <div class="showcase my-2"> 
     <h2>Projects</h2>
     <p>
-        These are some of the projects I've worked on over the last decade or so:
+        You can find out about a few of my projects below, or <a class="site-link" href="{{ site.baseurl | append: '/projects/' }}">you can explore all my projects on this page</a>.
     </p>
-        {% for project in site.data.projects %}
+        {% assign highlighted_projects = site.data.projects | where: "highlighted", "true" %}
+        {% for project in highlighted_projects %}
         {% cycle '<div class="row justify-content-md-center">', '', '' %}
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
@@ -89,31 +114,10 @@ title: Home
                         </h3>
                         <strong>{{project.period }}</strong>
                         <p class="card-text">{{ project.description }}</p>
+                        {% include project-badges.html project=project %}
                     </div>
                 </div>
             </div>
         {% cycle '', '', '</div><!-- /.row -->' %}
         {% endfor %}
-</div>
-<div class="showcase">
-    <h2>Selected Publications</h2>
-    <p>I have highlighted three of my favourite publications below but the the rest of my publications are on the <a href="{{ site.baseurl | append: '/publications/' }}" class="site-link">Publications page</a>.</p>
-    <div class="row">
-        {% for publication in site.data.publications.selected %}
-        <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-                <img class="card-img-top" 
-                    src="{{ site.baseurl | append: '/publications/images/' | append: publication.imageFilePath }}">
-                <div class="card-body">
-                    <h4>
-                        <a href="{{ site.baseurl | append: '/publications/' | append: publication.pageName }}" class="site-page-link">
-                            {{ publication.title }}
-                        </a>
-                    </h4>
-                    <p class="card-text">{{ publication.venue }}</p>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
 </div>

@@ -16,6 +16,11 @@
                     <a class="nav-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/' }}" {% if page.url=='/'' %} aria-current="page"{% endif %}>Home</a>
                 </li>
                 <li
+                    class="nav-item mx-0 mx-lg-1 {% if page.url contains 'about' %} active active-menu-item {% else %} inactive-menu-item {% endif %}">
+                    <a class="nav-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/about/' }}" {% if
+                        page.url contains 'about' %} aria-current="page" {% endif %}>About</a>
+                </li>
+                <li
                     class="nav-item mx-0 mx-lg-1 {% if page.url contains 'projects' %} active active-menu-item {% else
                         %} inactive-menu-item {% endif %}">
                         <a class="nav-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/projects/' }}" {% if
@@ -26,11 +31,7 @@
                     <a class="nav-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/publications/' }}" {% if
                         page.url contains 'publications' %} aria-current="page" {% endif %}>Publications</a>
                 </li>
-                <li
-                    class="nav-item mx-0 mx-lg-1 {% if page.url contains 'media' %} active active-menu-item {% else %} inactive-menu-item {% endif %}">
-                    <a class="nav-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/media/' }}" {% if page.url
-                        contains 'media' %} aria-current="page" {% endif %}>Media</a>
-                </li>
+
                 <li
                     class="nav-item mx-0 mx-lg-1 {% if page.url contains 'contact' %} active active-menu-item {% else %} inactive-menu-item {% endif %}">
                     <a class="nav-link py-3 px-0 px-lg-3" href="{{ site.baseurl | append: '/contact/' }}" {% if

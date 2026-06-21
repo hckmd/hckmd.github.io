@@ -1,0 +1,38 @@
+<div class="project-badges mt-2 mb-1">
+  {% if include.project.tag1 and include.project.tag1 != "" %}
+    {% assign tag = include.project.tag1 %}
+    {% if tag == "UX Design" %}{% assign badge_class = "badge-ux" %}
+    {% elsif tag == "Mixed-methods evaluation" %}{% assign badge_class = "badge-mixed" %}
+    {% elsif tag == "Learning Design" %}{% assign badge_class = "badge-learning" %}
+    {% elsif tag == "Prototyping" %}{% assign badge_class = "badge-prototype" %}
+    {% elsif tag == "Teaching" %}{% assign badge_class = "badge-teach" %}
+    {% elsif tag == "Applying AI" %}{% assign badge_class = "badge-ai" %}
+    {% elsif tag == "Data Analytics & Visualisation" %}{% assign badge_class = "badge-data" %}
+    {% elsif tag == "Content Development" %}{% assign badge_class = "badge-content" %}{% endif %}
+    <a href="{{ site.baseurl }}/projects/?tag={{ tag | url_encode }}" class="badge badge-service {{ badge_class }}">{{ tag }}</a>
+  {% endif %}
+  {% if include.project.tag2 and include.project.tag2 != "" %}
+    {% assign tag = include.project.tag2 %}
+    {% if tag == "UX Design" %}{% assign badge_class = "badge-ux" %}
+    {% elsif tag == "Mixed-methods evaluation" %}{% assign badge_class = "badge-mixed" %}
+    {% elsif tag == "Learning Design" %}{% assign badge_class = "badge-learning" %}
+    {% elsif tag == "Prototyping" %}{% assign badge_class = "badge-prototype" %}
+    {% elsif tag == "Teaching" %}{% assign badge_class = "badge-teach" %}
+    {% elsif tag == "Applying AI" %}{% assign badge_class = "badge-ai" %}
+    {% elsif tag == "Data Analytics & Visualisation" %}{% assign badge_class = "badge-data" %}
+    {% elsif tag == "Content Development" %}{% assign badge_class = "badge-content" %}{% endif %}
+    <a href="{{ site.baseurl }}/projects/?tag={{ tag | url_encode }}" class="badge badge-service {{ badge_class }}">{{ tag }}</a>
+  {% endif %}
+  {% if include.project.tag3 and include.project.tag3 != "" %}
+    {% assign tag = include.project.tag3 %}
+    {% if tag == "UX Design" %}{% assign badge_class = "badge-ux" %}
+    {% elsif tag == "Mixed-methods evaluation" %}{% assign badge_class = "badge-mixed" %}
+    {% elsif tag == "Learning Design" %}{% assign badge_class = "badge-learning" %}
+    {% elsif tag == "Prototyping" %}{% assign badge_class = "badge-prototype" %}
+    {% elsif tag == "Teaching" %}{% assign badge_class = "badge-teach" %}
+    {% elsif tag == "Applying AI" %}{% assign badge_class = "badge-ai" %}
+    {% elsif tag == "Data Analytics & Visualisation" %}{% assign badge_class = "badge-data" %}
+    {% elsif tag == "Content Development" %}{% assign badge_class = "badge-content" %}{% endif %}
+    <a href="{{ site.baseurl }}/projects/?tag={{ tag | url_encode }}" class="badge badge-service {{ badge_class }}">{{ tag }}</a>
+  {% endif %}
+</div>
