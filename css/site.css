@@ -310,6 +310,17 @@ a.site-link {
     margin-top: 0 !important;
 }
 
+/* Custom blue class for checkboxes */
+.form-check-blue:checked {
+    background-color: #38699b !important;
+    border-color: #38699b !important;
+}
+.form-check-blue:focus {
+    border-color: #38699b !important;
+    box-shadow: 0 0 0 0.25rem rgba(56, 105, 155, 0.25) !important;
+}
+
+
 
 
 

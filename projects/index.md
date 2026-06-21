@@ -5,51 +5,47 @@ title: Projects
 
 <div class="showcase">
     <h1>Projects</h1>
-    <p>
-        Some projects I've worked on include:
-    </p>
-
     <!-- Checkbox Filters -->
     <div class="card bg-secondary bg-opacity-10 border border-secondary border-opacity-25 p-3 mb-4 rounded">
-        <span class="fw-bold mb-2 d-block">Filter projects by service tags:</span>
+        <span class="fw-bold mb-2 d-block">Filter projects:</span>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="form-check">
-                    <input class="form-check-input filter-checkbox" type="checkbox" value="UX Design" id="check-ux">
+                    <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="UX Design" id="check-ux">
                     <label class="form-check-label text-dark" for="check-ux">UX Design</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input filter-checkbox" type="checkbox" value="Prototyping" id="check-prototype">
+                    <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="Prototyping" id="check-prototype">
                     <label class="form-check-label text-dark" for="check-prototype">Prototyping</label>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="form-check">
-                    <input class="form-check-input filter-checkbox" type="checkbox" value="Mixed-methods evaluation" id="check-mixed">
+                    <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="Mixed-methods evaluation" id="check-mixed">
                     <label class="form-check-label text-dark" for="check-mixed">Mixed-methods evaluation</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input filter-checkbox" type="checkbox" value="Teaching" id="check-teach">
+                    <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="Teaching" id="check-teach">
                     <label class="form-check-label text-dark" for="check-teach">Teaching</label>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="form-check">
-                    <input class="form-check-input filter-checkbox" type="checkbox" value="Learning Design" id="check-learning">
+                    <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="Learning Design" id="check-learning">
                     <label class="form-check-label text-dark" for="check-learning">Learning Design</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input filter-checkbox" type="checkbox" value="Content Development" id="check-content">
+                    <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="Content Development" id="check-content">
                     <label class="form-check-label text-dark" for="check-content">Content Development</label>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="form-check">
-                    <input class="form-check-input filter-checkbox" type="checkbox" value="Applying AI" id="check-ai">
+                    <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="Applying AI" id="check-ai">
                     <label class="form-check-label text-dark" for="check-ai">Applying AI</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input filter-checkbox" type="checkbox" value="Data Analytics & Visualisation" id="check-data">
+                    <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="Data Analytics & Visualisation" id="check-data">
                     <label class="form-check-label text-dark" for="check-data">Data Analytics & Visualisation</label>
                 </div>
             </div>

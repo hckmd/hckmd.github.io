@@ -3,11 +3,13 @@ layout: default
 title: Home
 ---
 
-<div class="row align-items-center py-4 py-md-5">
+<div class="row align-items-center">
     <div class="col-xs-12 col-md-8 mb-4 mb-md-0">
         <h1 class="profile-heading display-5 fw-bold text-dark mb-3">Daniel (Dan) Hickmott</h1>
-        <p class="lead mb-4 text-secondary" style="font-size: 1.2rem; line-height: 1.6;">
-            I design, build and evaluate inclusive learning experiences.
+        <p class="lead mb-4">
+            I design, build and evaluate inclusive learning experiences tailored for K-12 environments, higher education, and adult vocational training.
+        </p>
+        <p class="lead mb-4">
             I combine learning design, tech and research to improve outcomes for learners and educators.
         </p>
         <a class="btn btn-info px-4 py-2 text-white shadow-sm" href="{{ site.baseurl | append: '/contact/' }}">
@@ -20,7 +22,7 @@ title: Home
         </div>
     </div>
 </div>
-<div class="showcase my-2">
+<div class="showcase">
     <h2 class="mt-4">Services</h2>
     <p>I can support your team or project with expertise across these areas:</p>
     <div class="accordion my-4" id="servicesAccordion">
