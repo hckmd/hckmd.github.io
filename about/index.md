@@ -6,7 +6,7 @@ title: About
 <div class="showcase">
     <h1 class="mb-3">About Me</h1>
     <p>
-        I am an educator with 10+ years experience in digital technologies education, research and software engineering. I am a versatile and adaptive problem solver who enjoys working with technology and people on projects that aim to have a positive impact.
+        I am an educator with 10+ years of experience in digital technologies education, research and software engineering. I am a versatile and adaptive problem solver who enjoys working with technology and people on projects that aim to have a positive impact.
     </p>
     <p>
         I completed my PhD in Education at the University of Newcastle, Australia in 2020.

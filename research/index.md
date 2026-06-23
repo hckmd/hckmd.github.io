@@ -32,7 +32,7 @@ title: Research
             </h3>
             <div id="collapseCoding" class="accordion-collapse collapse" aria-labelledby="headingCoding" data-bs-parent="#researchAccordion">
                 <div class="accordion-body">
-                    <p>I have investigated pedagogical strategies and curriculum design for integrating computational thinking and coding concepts within subject areas, like Mathematics and Science.</p>
+                    <p>I have investigated pedagogical strategies and curriculum design for integrating computational thinking and coding concepts within subject areas, including Mathematics and Science.</p>
                     <p>Some of my publications in this area include:</p>
                     <ul class="mb-0">
                     <li class="my-2">Hickmott, D. (2020). <i>A study of a professional learning program for primary school teachers implementing the New South Wales science and technology syllabus</i> (Doctoral dissertation, University of Newcastle). (<a href="https://hdl.handle.net/1959.13/1417667" class="site-link">View on OpenResearch Website</a>)</li>
