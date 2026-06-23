@@ -5,16 +5,18 @@ title: Home
 
 <div class="row align-items-center">
     <div class="col-xs-12 col-md-8 mb-4 mb-md-0">
-        <h1 class="profile-heading display-5 fw-bold text-dark mb-3">Daniel (Dan) Hickmott</h1>
+        <h1 class="mb-3">Daniel (Dan) Hickmott</h1>
         <p class="lead mb-4">
-            I design, build and evaluate inclusive learning experiences tailored for K-12 environments, higher education, and adult vocational training.
+            I design, build and evaluate inclusive learning experiences tailored for K-12 environments, higher education, and professional learning.
         </p>
         <p class="lead mb-4">
-            I combine learning design, tech and research to improve outcomes for learners and educators.
+            EdTech Specialist based in NSW, Australia. Available for contract work and consultancy.
         </p>
-        <a class="btn btn-info px-4 py-2 text-white shadow-sm" href="{{ site.baseurl | append: '/contact/' }}">
-            <i class="fa fa-envelope me-2"></i>Work with me
-        </a>
+        <div class="d-flex justify-content-center justify-content-md-start">
+            <a class="btn btn-info px-4 py-2 text-white shadow-sm" href="{{ site.baseurl | append: '/contact/' }}">
+                <i class="fa fa-envelope me-2"></i>Work with me
+            </a>
+        </div>
     </div>
     <div class="col-xs-12 col-md-4 text-center">
         <div id="profile" class="py-0">
@@ -26,14 +28,25 @@ title: Home
     <h2 class="mt-4">Services</h2>
     <p>I can support your team or project with expertise across these areas:</p>
     <div class="accordion my-4" id="servicesAccordion">
+            <div class="accordion-item">
+            <h3 class="accordion-header" id="headingLearning">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLearning" aria-expanded="false" aria-controls="collapseLearning"><i class="fa fa-book me-2" aria-hidden="true"></i>Learning Design & Content Development</button>
+            </h3>
+            <div id="collapseLearning" class="accordion-collapse collapse" aria-labelledby="headingLearning" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                    <p>I design and create engaging and adaptable educational resources and professional learning programs for various audiences, including K-12 and higher education.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Learning+Design&tag=Content+Development" class="btn btn-sm btn-info text-white"><i class="fa fa-book me-2"></i>View Learning Design & Content Development Projects</a>
+                </div>
+            </div>
+        </div>
         <div class="accordion-item">
             <h3 class="accordion-header" id="headingUX">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUX" aria-expanded="false" aria-controls="collapseUX"><i class="fa fa-desktop me-2" aria-hidden="true"></i>UX Design & Prototyping</button>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUX" aria-expanded="false" aria-controls="collapseUX"><i class="fa fa-desktop me-2" aria-hidden="true"></i>UX Design, Prototyping & App Development</button>
             </h3>
             <div id="collapseUX" class="accordion-collapse collapse" aria-labelledby="headingUX" data-bs-parent="#servicesAccordion">
                 <div class="accordion-body">
-                    <p>Designing user-centered digital tools and creating interactive prototypes (e.g. learning dashboards and Phaser widgets) to test and iterate on concepts.</p>
-                    <a href="{{ site.baseurl }}/projects/?tag=UX+Design&tag=Prototyping" class="btn btn-sm btn-info text-white">View related projects</a>
+                    <p>I design and build prototypes, from low-fidelity prototypes (including sketches and mockups), through to interactive prototypes (using HTML, JavaScript and Python) to test ideas and get feedback from users. I create web and mobile applications, using a variety of programming languages (including Python, Swift and C#).</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=UX+Design&tag=Prototyping&tag=App+Development" class="btn btn-sm btn-info text-white"><i class="fa fa-desktop me-2"></i>View UX Design, Prototyping & App Development Projects</a>
                 </div>
             </div>
         </div>
@@ -43,19 +56,8 @@ title: Home
             </h3>
             <div id="collapseMixed" class="accordion-collapse collapse" aria-labelledby="headingMixed" data-bs-parent="#servicesAccordion">
                 <div class="accordion-body">
-                    <p>Conducting rigorous evaluation using qualitative (interviews, surveys) and quantitative research methods to measure syllabus impact and program outcomes.</p>
-                    <a href="{{ site.baseurl }}/projects/?tag=Mixed-methods+evaluation" class="btn btn-sm btn-info text-white">View related projects</a>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h3 class="accordion-header" id="headingLearning">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLearning" aria-expanded="false" aria-controls="collapseLearning"><i class="fa fa-book me-2" aria-hidden="true"></i>Learning Design & Content Development</button>
-            </h3>
-            <div id="collapseLearning" class="accordion-collapse collapse" aria-labelledby="headingLearning" data-bs-parent="#servicesAccordion">
-                <div class="accordion-body">
-                    <p>Creating engaging curriculum resources and designing professional learning programs to upskill K-12 teachers in digital technologies.</p>
-                    <a href="{{ site.baseurl }}/projects/?tag=Learning+Design&tag=Content+Development" class="btn btn-sm btn-info text-white">View related projects</a>
+                    <p>I design, lead and carry out rigorous qualitative (interviews, surveys) and quantitative research methods to evaluate the impact of programs and initiatives.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Mixed-methods+evaluation" class="btn btn-sm btn-info text-white"><i class="fa fa-flask me-2"></i>View Mixed-Methods Evaluation Projects</a>
                 </div>
             </div>
         </div>
@@ -65,8 +67,8 @@ title: Home
             </h3>
             <div id="collapseAI" class="accordion-collapse collapse" aria-labelledby="headingAI" data-bs-parent="#servicesAccordion">
                 <div class="accordion-body">
-                    <p>Integrating generative AI tools responsibly for educational experiences, software evaluation, and prototyping.</p>
-                    <a href="{{ site.baseurl }}/projects/?tag=Applying+AI" class="btn btn-sm btn-info text-white">View related projects</a>
+                    <p>I apply AI tools (including Generative AI) to enhance and streamline work in software development and learning design, and explore areas where AI can be used effectively and responsibly.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Applying+AI" class="btn btn-sm btn-info text-white"><i class="fa fa-cogs me-2"></i>View Applying AI Projects</a>
                 </div>
             </div>
         </div>
@@ -76,8 +78,8 @@ title: Home
             </h3>
             <div id="collapseTeaching" class="accordion-collapse collapse" aria-labelledby="headingTeaching" data-bs-parent="#servicesAccordion">
                 <div class="accordion-body">
-                    <p>Delivering high-quality lectures and conducting teacher training workshops to facilitate computing education.</p>
-                    <a href="{{ site.baseurl }}/projects/?tag=Teaching" class="btn btn-sm btn-info text-white">View related projects</a>
+                    <p>I teach in a variety of contexts, including hybrid delivery in higher education and conducting professional learning programs, with a focus on computing and education.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Teaching" class="btn btn-sm btn-info text-white"><i class="fa fa-graduation-cap me-2"></i>View Teaching Projects</a>
                 </div>
             </div>
         </div>
@@ -87,8 +89,8 @@ title: Home
             </h3>
             <div id="collapseData" class="accordion-collapse collapse" aria-labelledby="headingData" data-bs-parent="#servicesAccordion">
                 <div class="accordion-body">
-                    <p>Analyzing learning analytics data and developing custom dashboards to visualise key outcomes.</p>
-                    <a href="{{ site.baseurl }}/projects/?tag=Data+Analytics+%26+Visualisation" class="btn btn-sm btn-info text-white">View related projects</a>
+                    <p>I design and build data pipelines that process, clean, transform and visualise data, with a focus on learning analytics and log data.</p>
+                    <a href="{{ site.baseurl }}/projects/?tag=Data+Analytics+%26+Visualisation" class="btn btn-sm btn-info text-white"><i class="fa fa-bar-chart me-2"></i>View Data Analytics & Visualisation Projects</a>
                 </div>
             </div>
         </div>

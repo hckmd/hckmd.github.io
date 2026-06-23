@@ -41,4 +41,14 @@
             btn.setAttribute('aria-expanded', 'false');
         });
     });
+
+    // Scroll to top of accordion item when it is opened on mobile only
+    document.addEventListener("shown.bs.collapse", function (e) {
+        if (window.matchMedia("(max-width: 767.98px)").matches) {
+            const accordionItem = e.target.closest(".accordion-item");
+            if (accordionItem) {
+                accordionItem.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    });
 </script>

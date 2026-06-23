@@ -260,6 +260,11 @@ a.site-link {
     color: #92400e;
 }
 
+.badge-appdev {
+    background-color: #f0f4db;
+    color: #3f4d12;
+}
+
 .badge-teach {
     background-color: #e0e7ff;
     color: #3730a3;

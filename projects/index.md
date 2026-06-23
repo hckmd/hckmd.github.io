@@ -4,9 +4,9 @@ title: Projects
 ---
 
 <div class="showcase">
-    <h1>Projects</h1>
+    <h1 class="mb-3">Projects</h1>
     <!-- Checkbox Filters -->
-    <div class="card bg-secondary bg-opacity-10 border border-secondary border-opacity-25 p-3 mb-4 rounded">
+    <div class="card bg-secondary bg-opacity-10 border border-secondary border-opacity-25 p-3 rounded">
         <span class="fw-bold mb-2 d-block">Filter projects:</span>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-3">
@@ -17,6 +17,10 @@ title: Projects
                 <div class="form-check">
                     <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="Prototyping" id="check-prototype">
                     <label class="form-check-label text-dark" for="check-prototype">Prototyping</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input filter-checkbox form-check-blue" type="checkbox" value="App Development" id="check-appdev">
+                    <label class="form-check-label text-dark" for="check-appdev">App Development</label>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">

@@ -4,7 +4,7 @@ title: Contact Me
 ---
 
 <div class="showcase">
-    <h1>Contact me</h1>
+    <h1 class="mb-3">Contact me</h1>
     <p>
         Interested in collaborating on some research or projects? Or have any questions about my work? Feel free to
         reach out through the form below and I will get back to you as soon as possible.
