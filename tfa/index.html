@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Cipher Wheel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-container" id="app-container">
+    <section class="wheel-section" aria-label="Interactive Cipher Wheel">
+      <div class="wheel-wrapper" id="wheel-wrapper">
+        <svg
+          id="cipher-wheel"
+          class="cipher-wheel"
+          viewBox="-260 -260 520 520"
+          role="application"
+          aria-label="Caesar Cipher Wheel. Drag to rotate the inner wheel or use the key buttons."
+          tabindex="0"
+        >
+          <!-- Outer stationary wheel group -->
+          <g id="outer-wheel"></g>
+
+          <!-- Inner rotatable wheel group -->
+          <g id="inner-wheel"></g>
+
+          <!-- Center hub circle -->
+          <circle cx="0" cy="0" r="105" class="wheel-center" />
+        </svg>
+      </div>
+    </section>
+
+    <section class="controls-section" aria-label="Cipher Wheel Controls">
+      <div class="key-reset-row">
+        <div class="key-control">
+          <span class="key-label" id="key-label">Key:</span>
+          <div class="key-spinner" role="group" aria-labelledby="key-label">
+            <button
+              type="button"
+              id="key-up-btn"
+              class="spinner-btn spinner-up"
+              aria-label="Increase key"
+              title="Increase key"
+            >
+              <svg viewBox="0 0 36 26" width="36" height="26" aria-hidden="true">
+                <polygon points="18,3 33,23 3,23" />
+              </svg>
+            </button>
+            <output
+              id="key-display"
+              class="key-display"
+              aria-live="polite"
+            >0</output>
+            <button
+              type="button"
+              id="key-down-btn"
+              class="spinner-btn spinner-down"
+              aria-label="Decrease key"
+              title="Decrease key"
+            >
+              <svg viewBox="0 0 36 26" width="36" height="26" aria-hidden="true">
+                <polygon points="3,3 33,3 18,23" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <button type="button" id="reset-btn" class="action-btn reset-btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+            <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16" />
+            <path d="M21 21v-5h-5" />
+          </svg>
+          <span>Reset</span>
+        </button>
+      </div>
+
+      <button type="button" id="fullscreen-btn" class="action-btn fullscreen-btn" aria-pressed="false">
+        <svg id="fullscreen-icon" class="btn-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+          <!-- Expand (Full screen) icon -->
+          <path d="M3 3h7v2.2H6.76l4.54 4.54-1.56 1.56L5.2 6.76V10H3V3zm18 0v7h-2.2V6.76l-4.54 4.54-1.56-1.56 4.54-4.54H14V3h7zM3 21v-7h2.2v3.24l4.54-4.54 1.56 1.56-4.54 4.54H10V21H3zm18 0h-7v-2.2h3.24l-4.54-4.54 1.56-1.56 4.54 4.54V14H21v7z" fill="currentColor" />
+        </svg>
+        <svg id="minimise-icon" class="btn-icon hidden" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+          <!-- Minimise icon -->
+          <path d="M10 10H3V7.8h3.24L1.7 3.26 3.26 1.7 7.8 6.24V3H10v7zm4 0V3h2.2v3.24l4.54-4.54 1.56 1.56-4.54 4.54H21V10h-7zm-4 4v7H7.8v-3.24l-4.54 4.54-1.56-1.56 4.54-4.54H3V14h7zm4 0h7v2.2h-3.24l4.54 4.54-1.56 1.56-4.54-4.54V21H14v-7z" fill="currentColor" />
+        </svg>
+        <span id="fullscreen-text">Full screen</span>
+      </button>
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
