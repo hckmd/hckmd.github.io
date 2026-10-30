@@ -26,14 +26,14 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 10px 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 12px;
   background-color: #ffffff;
 }
 
@@ -57,8 +57,10 @@ body {
 }
 
 .wheel-wrapper {
-  width: min(88vw, 56vh, 460px);
-  height: min(88vw, 56vh, 460px);
+  width: min(95vw, 72vh, 620px);
+  height: min(95vw, 72vh, 620px);
+  width: min(95vw, 72dvh, 620px);
+  height: min(95vw, 72dvh, 620px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -172,7 +174,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 18px;
+  gap: 10px;
   width: 100%;
   flex-shrink: 0;
 }
@@ -182,7 +184,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   width: 100%;
 }
 
@@ -191,11 +193,11 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .key-label {
-  font-size: 1.35rem;
+  font-size: 1.05rem;
   font-weight: 600;
   letter-spacing: 0.01em;
 }
@@ -204,13 +206,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
+  gap: 3px;
 }
 
 .spinner-btn {
   background: transparent;
   border: none;
-  padding: 2px;
+  padding: 1px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -218,6 +220,11 @@ body {
   color: #000000;
   touch-action: manipulation;
   transition: transform 0.1s ease;
+}
+
+.spinner-btn svg {
+  width: 56px;
+  height: 40px;
 }
 
 .spinner-btn svg polygon {
@@ -246,13 +253,13 @@ body {
 }
 
 .key-display {
-  min-width: 48px;
-  height: 46px;
-  padding: 0 8px;
-  border: 2.5px solid #000000;
+  min-width: 38px;
+  height: 36px;
+  padding: 0 6px;
+  border: 2px solid #000000;
   background-color: #ffffff;
   color: #000000;
-  font-size: 1.45rem;
+  font-size: 1.15rem;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -266,13 +273,13 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 7px;
   background-color: #ffffff;
   color: #000000;
-  border: 2.5px solid #000000;
-  box-shadow: 3px 3px 0px #000000;
-  padding: 12px 22px;
-  font-size: 1.25rem;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0px #000000;
+  padding: 7px 14px;
+  font-size: 0.98rem;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
@@ -287,7 +294,7 @@ body {
 
 .action-btn:active {
   background-color: #e4e4e4;
-  transform: translate(2px, 2px);
+  transform: translate(1px, 1px);
   box-shadow: 1px 1px 0px #000000;
 }
 
@@ -297,17 +304,17 @@ body {
 }
 
 .btn-icon {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   flex-shrink: 0;
 }
 
 .reset-btn {
-  min-width: 155px;
+  min-width: 110px;
 }
 
 .fullscreen-btn {
-  min-width: 205px;
+  min-width: 145px;
 }
 
 /* Tablet and Desktop Layout (matches Tablet.png) */
@@ -316,27 +323,29 @@ body {
     flex-direction: row;
     align-items: stretch;
     justify-content: space-between;
-    padding: 32px 48px;
-    gap: 40px;
+    padding: 16px 28px;
+    gap: 24px;
   }
 
   .wheel-section {
-    flex: 1 1 62%;
+    flex: 1 1 auto;
     justify-content: center;
     align-items: center;
   }
 
   .wheel-wrapper {
-    width: min(56vw, 82vh, 560px);
-    height: min(56vw, 82vh, 560px);
+    width: min(74vw, 92vh, 860px);
+    height: min(74vw, 92vh, 860px);
+    width: min(74vw, 92dvh, 860px);
+    height: min(74vw, 92dvh, 860px);
   }
 
   .controls-section {
-    flex: 0 0 260px;
+    flex: 0 0 175px;
     flex-direction: column;
-     justify-content: space-between;
+    justify-content: space-between;
     align-items: flex-end;
-    padding: 24px 0;
+    padding: 16px 0;
   }
 
   /* Flatten key-reset-row so Full screen is at top, Key in middle, Reset at bottom */
@@ -346,55 +355,61 @@ body {
 
   .fullscreen-btn {
     order: 1;
-    width: 230px;
+    width: 160px;
   }
 
   .key-control {
     order: 2;
     align-self: center;
-    gap: 16px;
+    gap: 10px;
   }
 
   .key-label {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 
   .key-display {
-    min-width: 54px;
-    height: 54px;
-    font-size: 1.75rem;
+    min-width: 42px;
+    height: 42px;
+    font-size: 1.3rem;
   }
 
   .spinner-btn svg {
-    width: 42px;
-    height: 30px;
+    width: 64px;
+    height: 44px;
   }
 
   .reset-btn {
     order: 3;
-    width: 230px;
+    width: 160px;
+  }
+
+  .action-btn {
+    padding: 8px 14px;
+    font-size: 1.02rem;
   }
 }
 
 /* Landscape phone optimization (short viewports < 768px wide) */
 @media (max-width: 767px) and (max-height: 640px) {
   .app-container {
-    gap: 10px;
-    padding: 8px 12px;
+    gap: 8px;
+    padding: 6px 10px;
   }
 
   .wheel-wrapper {
-    width: min(76vw, 48vh, 320px);
-    height: min(76vw, 48vh, 320px);
+    width: min(84vw, 62vh, 420px);
+    height: min(84vw, 62vh, 420px);
+    width: min(84vw, 62dvh, 420px);
+    height: min(84vw, 62dvh, 420px);
   }
 
   .controls-section {
-    gap: 10px;
+    gap: 6px;
   }
 
   .action-btn {
-    padding: 8px 16px;
-    font-size: 1.05rem;
+    padding: 5px 12px;
+    font-size: 0.9rem;
   }
 }
-

@@ -248,12 +248,12 @@
       }
     }
 
-    // Fallback via radial distance in normalized viewBox coordinates (520x520)
+    // Fallback via radial distance in normalized viewBox coordinates (500x500)
     const rect = svgWheel.getBoundingClientRect();
     if (!rect.width || !rect.height) {
       return null;
     }
-    const scale = 520 / rect.width;
+    const scale = 500 / rect.width;
     const dx = (event.clientX - (rect.left + rect.width / 2)) * scale;
     const dy = (event.clientY - (rect.top + rect.height / 2)) * scale;
     const dist = Math.hypot(dx, dy);
